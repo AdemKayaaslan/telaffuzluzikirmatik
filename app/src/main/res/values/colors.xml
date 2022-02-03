@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a788c</color>
+    <color name="colorPrimaryDark">#005466</color>
+    <color name="colorAccent">#00574B</color>
+    <color name="layoutColor">#99dffede</color>
+    <color name="spinner">#dffede</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorSplash">#018091</color>
+</resources>
