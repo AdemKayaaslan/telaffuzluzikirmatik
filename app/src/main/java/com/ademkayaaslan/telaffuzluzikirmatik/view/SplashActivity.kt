@@ -1,4 +1,4 @@
-package com.ademkayaaslan.telaffuzluzikirmatik
+package com.ademkayaaslan.telaffuzluzikirmatik.view
 
 import android.content.Intent
 import android.os.Bundle

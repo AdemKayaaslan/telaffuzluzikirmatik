@@ -1,4 +1,4 @@
-package com.ademkayaaslan.telaffuzluzikirmatik
+package com.ademkayaaslan.telaffuzluzikirmatik.view
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.ademkayaaslan.telaffuzluzikirmatik.R
 import com.google.android.gms.ads.*
 import kotlinx.android.synthetic.main.activity_main.*
 
