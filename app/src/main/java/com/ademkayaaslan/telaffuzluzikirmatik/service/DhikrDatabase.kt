@@ -9,7 +9,7 @@ import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
 @Database(entities = arrayOf(Dhikr::class),version = 1)
 abstract class DhikrDatabase: RoomDatabase() {
 
-    abstract fun TaskDao():DhikrDao
+    abstract fun DhikrDao():DhikrDao
 
 
     companion object {

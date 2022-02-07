@@ -5,7 +5,6 @@ import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
 import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
-import com.mustafaademkayaaslan.planfollowchallenger.model.Task
 
 @Dao
 interface DhikrDao {
@@ -13,33 +12,36 @@ interface DhikrDao {
     @Insert
     suspend fun insertAll(vararg tasks:Dhikr):List<Long>
 
-    @Query("SELECT * FROM task")
-    suspend fun getAllTasks():List<Dhikr>
+    @Insert
+    suspend fun insert(tasks:Dhikr):Long
 
-    @Query("SELECT * FROM task WHERE week = 0")
+    @Query("SELECT * FROM dhikr")
+    suspend fun getAllDhikrs():List<Dhikr>
+
+    @Query("SELECT * FROM dhikr WHERE uuid = :taskId")
+    suspend fun getDhikr(taskId:Int):Dhikr
+
+    @Query("DELETE FROM dhikr")
+    suspend fun deleteAllDhikrs()
+
+    @Query ("DELETE FROM dhikr WHERE uuid = :taskId")
+    suspend fun deletDhikr(taskId:Int)
+
+    @Update
+    suspend fun updateDhikr(task :Dhikr)
+
+    @Update
+    suspend fun updateMultipleDhikrs(taskList: List<Dhikr>)
+/*
+    @Query("SELECT * FROM dhikr WHERE week = 0")
     suspend fun getLiveTasks():List<Dhikr>
 
-    @Query("SELECT * FROM task WHERE uuid = :taskId")
-    suspend fun getTask(taskId:Int):Dhikr
-
-    @Query("SELECT * FROM task WHERE week > 0")
-    suspend fun getStatisticsTasks():List<Dhikr>
-
-    @Query("DELETE FROM Dhikr")
-    suspend fun deleteAllTasks()
-
-    @Query("SELECT * FROM task WHERE day = :taskName AND week = 0")
+    @Query("SELECT * FROM dhikr WHERE day = :taskName AND week = 0")
     suspend fun getTasksByDay(taskName:String):List<Dhikr>
 
-    @Query ("DELETE FROM task WHERE uuid = :taskId")
-    suspend fun deleteTask(taskId:Int)
-
-    @Update
-    suspend fun updateTask(task :Dhikr)
-
-    @Update
-    suspend fun updateMultipleTasks(taskList: List<Dhikr>)
-
+    @Query("SELECT * FROM dhikr WHERE week > 0")
+    suspend fun getStatisticsTasks():List<Dhikr>
+*/
 
 
 
