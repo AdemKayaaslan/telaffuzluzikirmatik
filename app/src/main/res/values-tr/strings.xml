@@ -1,7 +1,4 @@
 <resources>
-    <string name="interstitial_admob" translatable="false">ca-app-pub-3665001246595939/6617121575</string>
-    <string name="admob_app_id" translatable="false">ca-app-pub-3665001246595939~5117457208</string>
-
     <string name="app_name">Telaffuzlu Zikirmatik</string>
     <string name="weeklyNotificationSuffix">Haftalık Burç Yorumunuz</string>
     <string name="last_ads_info">Son reklamı görüntülediniz. Bu oturumda daha fazla reklam görmeyeceksiniz.</string>

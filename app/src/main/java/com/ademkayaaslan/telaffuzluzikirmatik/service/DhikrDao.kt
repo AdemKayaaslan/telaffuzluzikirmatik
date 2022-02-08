@@ -1,6 +1,6 @@
 package com.ademkayaaslan.telaffuzluzikirmatik.service
 
-import androidx.room.Dao
+/*import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
@@ -9,7 +9,7 @@ import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
 @Dao
 interface DhikrDao {
 
-    @Insert
+   /* @Insert
     suspend fun insertAll(vararg tasks:Dhikr):List<Long>
 
     @Insert
@@ -31,7 +31,7 @@ interface DhikrDao {
     suspend fun updateDhikr(task :Dhikr)
 
     @Update
-    suspend fun updateMultipleDhikrs(taskList: List<Dhikr>)
+    suspend fun updateMultipleDhikrs(taskList: List<Dhikr>)*/
 /*
     @Query("SELECT * FROM dhikr WHERE week = 0")
     suspend fun getLiveTasks():List<Dhikr>
@@ -45,4 +45,4 @@ interface DhikrDao {
 
 
 
-}
+}*/

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "768856722765",
+    "project_id": "zikirmatik-36bb1",
+    "storage_bucket": "zikirmatik-36bb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768856722765:android:d2263dfab546f7ab257b04",
+        "android_client_info": {
+          "package_name": "com.ademkayaaslan.telaffuzluzikirmatik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768856722765-bru54mcsei74muqtovj5foq52lvq5di0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3-Hil29xpB1AyrI43lPunYHbhnIEKyzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768856722765-bru54mcsei74muqtovj5foq52lvq5di0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
