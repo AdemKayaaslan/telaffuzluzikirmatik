@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ademk/Desktop/usb/TelaffuzluZikirmatik/app/src/main/res/drawable/text_background.xml" value="0.225" />
         <entry key="..\:/Users/Ademk/Desktop/usb/TelaffuzluZikirmatik/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Ademk/Desktop/usb/TelaffuzluZikirmatik/app/src/main/res/layout/dhikr_fragment.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ademk/Desktop/usb/TelaffuzluZikirmatik/app/src/main/res/layout/home_fragment.xml" value="0.25416666666666665" />
       </map>
     </option>

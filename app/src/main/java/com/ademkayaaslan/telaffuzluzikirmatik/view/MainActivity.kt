@@ -23,7 +23,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var mAdView: AdView
+  //  lateinit var mAdView: AdView
     lateinit var mediaPlayer: MediaPlayer
     var isWorkedByOnCreate = true
     var isSoundOn = true
@@ -412,7 +412,7 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("MissingPermission")
     fun loadBanner() {
         val adRequest: AdRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
+        //mAdView.loadAd(adRequest)
     }
 
     override fun onStop() {

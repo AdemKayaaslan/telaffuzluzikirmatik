@@ -7,4 +7,10 @@
     <color name="spinner">#dffede</color>
     <color name="transparent">#00000000</color>
     <color name="colorSplash">#018091</color>
+    <color name="colorGreen">#014b3a</color>
+    <color name="colorBrown">#e0d2ac</color>
+    <color name="colorBrownTransparent">#4De0d2ac</color>
+    <color name="colorBrownDark">#d6be8a</color>
+    <color name="colorBrownDarkTransparent">#4Dd6be8a</color>
+
 </resources>
