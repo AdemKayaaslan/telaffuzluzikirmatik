@@ -31,9 +31,9 @@ class SplashActivity : AppCompatActivity() {
             MobileAds.initialize(
                 this
             ) { Utils.loadAds(this@SplashActivity) }
-            2500
+            1000
         } else {
-            1250
+            800
         }
 
         handler.postDelayed(Runnable {

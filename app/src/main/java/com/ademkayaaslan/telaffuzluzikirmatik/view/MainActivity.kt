@@ -13,10 +13,11 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
 import com.ademkayaaslan.telaffuzluzikirmatik.R
 import com.ademkayaaslan.telaffuzluzikirmatik.utils.Utils.Companion.showAds
 import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -45,15 +46,21 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+
+
         MobileAds.initialize(
             this
         ) { loadBanner() }
 
-        layout_container
 
-        val dhikrFragment = DhikrFragment()
 
-        supportFragmentManager.beginTransaction().add(dhikrFragment, "dhikr").commit()
+        val homeFragment = HomeFragment()
+        val manager: FragmentManager = supportFragmentManager
+        val transaction: FragmentTransaction = manager.beginTransaction()
+        transaction.add(R.id.layout_container, homeFragment, "homeFragment")
+        transaction.addToBackStack("homeFragment")
+        transaction.commit()
 
         sharedPreferences = this.getSharedPreferences(
             "com.ademkayaaslan.telaffuzluzikirmatik",

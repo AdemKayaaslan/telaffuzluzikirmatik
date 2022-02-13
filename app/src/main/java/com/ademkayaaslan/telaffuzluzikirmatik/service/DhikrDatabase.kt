@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
 
-@Database(entities = arrayOf(Dhikr::class),version = 1)
+@Database(entities = [Dhikr::class],version = 1)
 abstract class DhikrDatabase: RoomDatabase() {
 
     abstract fun DhikrDao():DhikrDao

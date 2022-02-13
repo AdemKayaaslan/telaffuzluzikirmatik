@@ -15,7 +15,7 @@ data class Dhikr (
     val dhikrId:Int,
 
     @ColumnInfo(name="date")
-    val dhikrDate:Date
+    val dhikrDate:String
 
 ) {
     @PrimaryKey(autoGenerate = true)

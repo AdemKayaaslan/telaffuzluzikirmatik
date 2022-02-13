@@ -12,5 +12,9 @@
     <color name="colorBrownTransparent">#4De0d2ac</color>
     <color name="colorBrownDark">#d6be8a</color>
     <color name="colorBrownDarkTransparent">#4Dd6be8a</color>
+    <color name="colorBrownlighter">#f3e9c8</color>
+    <color name="frameRed">#d93923</color>
+    <color name="black">#000000</color>
+
 
 </resources>

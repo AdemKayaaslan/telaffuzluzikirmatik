@@ -1,52 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorGreen"
+    android:background="@drawable/backgroundnew"
     tools:context=".view.HomeFragment">
 
 
-    <Spinner
-        android:id="@+id/spinner_dhikr"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minWidth="200dp"
-        android:minHeight="40dp"
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/dhikr_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/colorBrownTransparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.25"/>
+        app:layout_constraintVertical_bias="0.05"/>
 
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@drawable/text_background"
-        app:layout_constraintTop_toBottomOf="@+id/spinner_dhikr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="8dp">
+        android:gravity="center"
+        android:weightSum="1">
 
-        <TextView
-            android:layout_width="wrap_content"
+
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Bu Haftaki Zİkir :"
-            android:textColor="@color/colorBrownDark"
-            android:layout_margin="4dp"/>
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp">
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="468"
-            android:textColor="@color/colorBrownDark"
-            android:layout_margin="4dp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/text_background"
+                android:layout_weight="1"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_dhikr"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Son Zikir"
+                    android:gravity="center"
+                    android:textColor="@color/colorBrownDark"
+                    android:layout_margin="4dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="154"
+                    android:gravity="center"
+                    android:textColor="@color/colorBrownDark"
+                    android:layout_margin="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/text_background"
+                android:layout_weight="1"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_dhikr"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bu Haftaki Zİkir"
+                    android:gravity="center"
+                    android:textColor="@color/colorBrownDark"
+                    android:layout_margin="4dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="468"
+                    android:gravity="center"
+                    android:textColor="@color/colorBrownDark"
+                    android:layout_margin="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@drawable/text_background"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_dhikr"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bu Ayki Zİkir"
+                    android:gravity="center"
+                    android:textColor="@color/colorBrownDark"
+                    android:layout_margin="4dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="2433"
+                    android:textColor="@color/colorBrownDark"
+                    android:layout_margin="4dp"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
 
     </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="© 2022 Rocklion Software All Rights Reserved"/>
+
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

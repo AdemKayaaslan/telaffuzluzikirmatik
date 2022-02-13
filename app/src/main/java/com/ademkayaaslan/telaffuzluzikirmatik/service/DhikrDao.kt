@@ -8,13 +8,13 @@ import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
 
 @Dao
 interface DhikrDao {
-
+/*
     @Insert
     suspend fun insertAll(vararg tasks:Dhikr):List<Long>
 
     @Insert
-    suspend fun insert(tasks:Dhikr):Long
-
+    suspend fun insert(tasks:Dhikr):Long*/
+/*
     @Query("SELECT * FROM dhikr")
     suspend fun getAllDhikrs():List<Dhikr>
 
@@ -33,7 +33,7 @@ interface DhikrDao {
     @Update
     suspend fun updateMultipleDhikrs(taskList: List<Dhikr>)
 
-
+*/
 /*
     @Query("SELECT * FROM dhikr WHERE week = 0")
     suspend fun getLiveTasks():List<Dhikr>

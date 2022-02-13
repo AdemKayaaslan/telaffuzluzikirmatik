@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorBrownlighter"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="15dp"
+    app:cardUseCompatPadding="true"
+    card_view:CardCornerRadius="12dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:background="@drawable/frame_background">
+
+        <TextView
+            android:id="@+id/textview_header_from_quran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="سبحان الله"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/textview_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SÜBHANALLAH"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/textview_explanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allah noksanlardan münezzehtir"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/textview_body_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="4dp"
+            android:paddingStart="4dp"
+            android:text="“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
