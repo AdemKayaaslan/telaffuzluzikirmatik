@@ -14,13 +14,26 @@
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/dhikr_viewpager"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
         android:background="@color/colorBrownTransparent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.05"/>
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="120dp"
+        android:layout_height="96dp"
+        android:scaleType="fitCenter"
+
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/buttonup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
     <LinearLayout
@@ -44,35 +57,42 @@
             android:layout_marginTop="8dp">
 
 
-            <LinearLayout
+            <FrameLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/text_background"
                 android:layout_weight="1"
-                app:layout_constraintTop_toBottomOf="@+id/spinner_dhikr"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                android:padding="6dp"
+                android:background="@drawable/layout_background"
                 android:layout_margin="8dp">
-
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Son Zikir"
-                    android:gravity="center"
-                    android:textColor="@color/colorBrownDark"
-                    android:layout_margin="4dp"/>
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/frame_background"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Son Zikir"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_margin="4dp"/>
 
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="154"
-                    android:gravity="center"
-                    android:textColor="@color/colorBrownDark"
-                    android:layout_margin="4dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="154"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:layout_margin="4dp"/>
 
-            </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -90,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:text="Bu Haftaki Zİkir"
                     android:gravity="center"
-                    android:textColor="@color/colorBrownDark"
+                    android:textColor="@color/colorBrownDarker"
                     android:layout_margin="4dp"/>
 
 
@@ -99,7 +119,7 @@
                     android:layout_height="wrap_content"
                     tools:text="468"
                     android:gravity="center"
-                    android:textColor="@color/colorBrownDark"
+                    android:textColor="@color/colorBrownDarker"
                     android:layout_margin="4dp"/>
 
             </LinearLayout>
@@ -120,7 +140,8 @@
                     android:layout_height="wrap_content"
                     android:text="Bu Ayki Zİkir"
                     android:gravity="center"
-                    android:textColor="@color/colorBrownDark"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBrownDarker"
                     android:layout_margin="4dp"/>
 
 
@@ -129,7 +150,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="2433"
-                    android:textColor="@color/colorBrownDark"
+                    android:textColor="@color/colorBrownDarker"
                     android:layout_margin="4dp"/>
 
             </LinearLayout>
