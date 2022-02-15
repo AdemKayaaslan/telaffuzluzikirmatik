@@ -8,24 +8,24 @@ import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
 
 @Dao
 interface DhikrDao {
-/*
+
+    @Insert
+    suspend fun insert(tasks:Dhikr):Long
+
     @Insert
     suspend fun insertAll(vararg tasks:Dhikr):List<Long>
 
-    @Insert
-    suspend fun insert(tasks:Dhikr):Long*/
-/*
     @Query("SELECT * FROM dhikr")
     suspend fun getAllDhikrs():List<Dhikr>
 
-    @Query("SELECT * FROM dhikr WHERE uuid = :taskId")
-    suspend fun getDhikr(taskId:Int):Dhikr
+    @Query("SELECT * FROM dhikr WHERE uuid = :dhikrId")
+    suspend fun getDhikr(dhikrId:Int):Dhikr
 
     @Query("DELETE FROM dhikr")
     suspend fun deleteAllDhikrs()
 
-    @Query ("DELETE FROM dhikr WHERE uuid = :taskId")
-    suspend fun deletDhikr(taskId:Int)
+    @Query ("DELETE FROM dhikr WHERE uuid = :dhikrId")
+    suspend fun deleteDhikr(dhikrId:Int)
 
     @Update
     suspend fun updateDhikr(task :Dhikr)
@@ -33,7 +33,6 @@ interface DhikrDao {
     @Update
     suspend fun updateMultipleDhikrs(taskList: List<Dhikr>)
 
-*/
 /*
     @Query("SELECT * FROM dhikr WHERE week = 0")
     suspend fun getLiveTasks():List<Dhikr>
