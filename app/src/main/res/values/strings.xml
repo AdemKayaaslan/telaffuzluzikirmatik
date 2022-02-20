@@ -5,4 +5,12 @@
     <string name="app_name">Telaffuzlu Zikirmatik</string>
     <string name="weeklyNotificationSuffix">Haftalık Burç Yorumunuz</string>
     <string name="last_ads_info">Son reklamı görüntülediniz. Bu oturumda daha fazla reklam görmeyeceksiniz.</string>
+    <string name="arabic_subhanallah" translatable="false">سبحان الله</string>
+    <string name="name_subhanallah">SUBHANALLAH</string>
+    <string name="explanation_subhanallah">Allah noksanlardan münezzehtir</string>
+    <string name="body_subhanallah">“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))</string>
+
+
+
+
 </resources>
