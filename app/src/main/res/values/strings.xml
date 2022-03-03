@@ -5,10 +5,32 @@
     <string name="app_name">Telaffuzlu Zikirmatik</string>
     <string name="weeklyNotificationSuffix">Haftalık Burç Yorumunuz</string>
     <string name="last_ads_info">Son reklamı görüntülediniz. Bu oturumda daha fazla reklam görmeyeceksiniz.</string>
+
+
+
+    <string name="arabic_ya_allah" translatable="false">الله</string>
+    <string name="name_ya_allah">Allah</string>
+    <string name="explanation_ya_allah">The Almighty Lord of All Worlds</string>
+    <string name="body_ya_allah">Allah is Al-Ism Al-A\'zam, the Greatest name which contains all the divine attributes and is the sign of the essence and cause of all existence. Allah does not resemble in any way any of His creation. Allah is Allah\'s name only. Nothing else can assume this name or share it.</string>
+
+
+    <string name="arabic_lailaheillallah" translatable="false">لَا اِلَهَ اِلَّا اللهْ مُحَمَّدُ الرَّسُولُ</string>
+    <string name="name_lailaheillallah">La Ilaha Illallah</string>
+    <string name="explanation_lailaheillallah">There is no God but Allah.</string>
+    <string name="body_lailaheillallah">Sayyiduna Abu Hurayrah (radiyallahu ‘anhu) once asked Nabi (sallallahu ‘alayhi wa sallam), “Who will be the fortunate person to gain your intercession on the day of Qiyamah?”Rasulullah (sallallahu ‘alayhi wa sallam)said:“O Abu Hurayrah, I knew you would be the first to ask me about this due to your eagerness for Hadith. The fortunate person who will gain my intercession will be that person who says ‘La ilaha illallah’ sincerely from his heart.”(Sahih Bukhari, Hadith: 99)</string>
+
+
     <string name="arabic_subhanallah" translatable="false">سبحان الله</string>
-    <string name="name_subhanallah">SUBHANALLAH</string>
-    <string name="explanation_subhanallah">Allah noksanlardan münezzehtir</string>
-    <string name="body_subhanallah">“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))</string>
+    <string name="name_subhanallah">Subhanallah</string>
+    <string name="explanation_subhanallah">Allah is free from imperfection.</string>
+    <string name="body_subhanallah">The Messenger of Allah (ﷺ) said to me, “Shall I tell you the expression that is most loved by Allah?” It is ‘Subhan-Allahi wa bihamdihi’ (Allah is free from imperfection and His is the praise)’.”[Muslim]</string>
+
+
+    <string name="arabic_alhamdullilah" translatable="false">ٱلْحَمْدُ لِلَّٰهِ</string>
+    <string name="name_alhamdullilah">Alhamdullilah</string>
+    <string name="explanation_alhamdullilah">All Praise is for Allah.</string>
+    <string name="body_alhamdullilah"></string>
+
 
 
 

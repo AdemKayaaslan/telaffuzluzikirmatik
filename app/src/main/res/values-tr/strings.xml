@@ -3,9 +3,21 @@
     <string name="weeklyNotificationSuffix">Haftalık Burç Yorumunuz</string>
     <string name="last_ads_info">Son reklamı görüntülediniz. Bu oturumda daha fazla reklam görmeyeceksiniz.</string>
 
+    <string name="name_ya_allah">Allah</string>
+    <string name="explanation_ya_allah">Tüm Alemlerin Yüce Rabbi</string>
+    <string name="body_ya_allah">Allah, tüm ilahi sıfatları içeren ve tüm varlıkların özünün ve nedeninin işareti olan en büyük isim olan Al-İsm-i A\'zam\'dır. Allah, yarattıklarının hiçbirine hiçbir şekilde benzemez. Allah sadece Allah'ın adıdır. Bu adı başka hiçbir şey üstlenemez veya paylaşamaz.</string>
 
-    <string name="name_subhanallah">SÜBHANALLAH</string>
-    <string name="explanation_subhanallah">Allah noksanlardan münezzehtir</string>
-    <string name="body_subhanallah">“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))</string>
+    <string name="arabic_lailaheillallah" translatable="false">لَا اِلَهَ اِلَّا اللهْ مُحَمَّدُ الرَّسُولُ</string>
+    <string name="name_lailaheillallah">La İlahe İllallah</string>
+    <string name="explanation_lailaheillallah">Allah\'tan başka ilah yoktur.</string>
+    <string name="body_lailaheillallah">Seyyiduna Ebu Hüreyre (radiyallahu anhu) bir keresinde Nebi\'ye (sallallahu \'aleyhi sellem\'in) sordu: "Kıyamet gününde şefaatinize bahşedecek bahtiyar kişi kim olur?" Resulullah (sallallahu aleyhi ve sellem) Ve sallam) dedi ki: "Ey Ebu Hureyre, Hadis hevesinden dolayı bunu bana ilk soran olacağını biliyordum. Şefaatime nail olacak bahtiyar, kalbinden ihlasla "La ilahe illallah" diyen kimsedir."(Sahih Buhari, Hadis: 99)</string>
+
+    <string name="name_subhanallah">Sübhanallah</string>
+    <string name="explanation_subhanallah">Allah, kusurlardan münezzehtir.</string>
+    <string name="body_subhanallah">Resulullah (Sallallahu aleyhi ve Sellem) bana, "Sana Allah'ın en çok sevdiği ifadeyi söyleyeyim mi?" dedi. O, “Sübhanallahi ve bihamdihi”dir (Allah, noksanlardan münezzehtir ve hamd O’nundur).”[Müslim]</string>
+
+
+
+
 
 </resources>
