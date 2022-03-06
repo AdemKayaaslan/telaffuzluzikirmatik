@@ -1,5 +1,7 @@
 package com.ademkayaaslan.telaffuzluzikirmatik.view
 
+import android.content.Context
+import android.content.SharedPreferences
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.os.Handler
@@ -9,7 +11,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
-import androidx.viewpager2.widget.MarginPageTransformer
 import androidx.viewpager2.widget.ViewPager2
 import com.ademkayaaslan.telaffuzluzikirmatik.R
 import com.ademkayaaslan.telaffuzluzikirmatik.adapter.ViewpagerAdapter
@@ -43,17 +44,29 @@ class HomeFragment : Fragment() {
         sliderItems()
         itemSliderView()
 
+        button_start.setOnClickListener {
+            val sharedPreferences = activity?.getSharedPreferences(
+                "com.ademkayaaslan.telaffuzluzikirmatik",
+                Context.MODE_PRIVATE
+            )
+
+            sharedPreferences?.edit()?.putInt("positionInt", viewpager_dhikr_home.currentItem)?.apply()
+            val dhikrFragment = DhikrFragment()
+            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.layout_container, dhikrFragment, "dhikrFragment")?.commit()
+
+        }
+
     }
 
     private fun sliderItems() {
         sliderItemList = ArrayList()
-        viewPagerAdapter = ViewpagerAdapter(dhikr_viewpager,sliderItemList)
-        dhikr_viewpager.adapter = viewPagerAdapter
-        dhikr_viewpager.clipToPadding = false
-        dhikr_viewpager.clipChildren = false
-        dhikr_viewpager.offscreenPageLimit = 3
-        dhikr_viewpager.getChildAt(0).overScrollMode = RecyclerView.OVER_SCROLL_NEVER
-        dhikr_viewpager.setPadding(120,0,120,0);
+        viewPagerAdapter = ViewpagerAdapter(viewpager_dhikr_home,sliderItemList)
+        viewpager_dhikr_home.adapter = viewPagerAdapter
+        viewpager_dhikr_home.clipToPadding = false
+        viewpager_dhikr_home.clipChildren = false
+        viewpager_dhikr_home.offscreenPageLimit = 3
+        viewpager_dhikr_home.getChildAt(0).overScrollMode = RecyclerView.OVER_SCROLL_NEVER
+        viewpager_dhikr_home.setPadding(120,0,120,0);
 
         val comPosPageTarn = CompositePageTransformer()
         //comPosPageTarn.addTransformer(MarginPageTransformer(24))
@@ -64,12 +77,12 @@ class HomeFragment : Fragment() {
             page.scaleY = 0.85f + r * 0.15f
         }
 
-        dhikr_viewpager.setPageTransformer(comPosPageTarn)
+        viewpager_dhikr_home.setPageTransformer(comPosPageTarn)
         sliderHandle = Handler()
         sliderRun = Runnable {
-            dhikr_viewpager.currentItem = dhikr_viewpager.currentItem + 1
+            viewpager_dhikr_home.currentItem = viewpager_dhikr_home.currentItem + 1
         }
-        dhikr_viewpager.registerOnPageChangeCallback(
+        viewpager_dhikr_home.registerOnPageChangeCallback(
             object : ViewPager2.OnPageChangeCallback() {
                 override fun onPageSelected(position: Int) {
                     super.onPageSelected(position)
@@ -93,13 +106,13 @@ class HomeFragment : Fragment() {
     }
 
     private fun itemSliderView() {
-        sliderItemList.add(ViewpagerItem(getString(R.string.arabic_subhanallah),getString(R.string.name_subhanallah),getString(R.string.explanation_subhanallah), "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","LA İLAHE İLLALLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","SÜBHANALLAH3","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","ELHAMDULİLLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","ALLAHUEKBER","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","ALLAH HÜMME SALLİ ALA SEYYİDİNA MUHAMMEDİN VE ALA ALİ SEYYİDİNA MUHAMMED","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","LA HAVLE VE LA KUVVETE İLLA BİLLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
+        sliderItemList.add(ViewpagerItem(getString(R.string.arabic_subhanallah),getString(R.string.name_subhanallah),getString(R.string.explanation_subhanallah), "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
+        sliderItemList.add(ViewpagerItem("سبحان الله","LA İLAHE İLLALLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
+        sliderItemList.add(ViewpagerItem("سبحان الله","SÜBHANALLAH3","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
+        sliderItemList.add(ViewpagerItem("سبحان الله","ELHAMDULİLLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
+        sliderItemList.add(ViewpagerItem("سبحان الله","ALLAHUEKBER","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
+        sliderItemList.add(ViewpagerItem("سبحان الله","ALLAH HÜMME SALLİ ALA SEYYİDİNA MUHAMMEDİN VE ALA ALİ SEYYİDİNA MUHAMMED","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
+        sliderItemList.add(ViewpagerItem("سبحان الله","LA HAVLE VE LA KUVVETE İLLA BİLLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
 
     }
 

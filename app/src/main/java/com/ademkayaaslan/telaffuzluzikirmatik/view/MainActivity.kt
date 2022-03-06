@@ -18,13 +18,14 @@ import androidx.fragment.app.FragmentTransaction
 import com.ademkayaaslan.telaffuzluzikirmatik.R
 import com.ademkayaaslan.telaffuzluzikirmatik.utils.Utils.Companion.showAds
 import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.MobileAds
 import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
 
-  //  lateinit var mAdView: AdView
+    lateinit var mAdView: AdView
     lateinit var mediaPlayer: MediaPlayer
     var isWorkedByOnCreate = true
     var isSoundOn = true
@@ -81,9 +82,10 @@ class MainActivity : AppCompatActivity() {
         positionInt = sharedPreferences.getInt("positionInt", 0)
 
         //   ----------------  reklam  ---------------
-//        MobileAds.initialize(this) {}
+        /*
+        MobileAds.initialize(this) {}
 
-        /* mInterstitialAd = InterstitialAd(this)
+         mInterstitialAd = InterstitialAd(this)
          mInterstitialAd.adUnitId = "ca-app-pub-3665001246595939/6617121575"
          mInterstitialAd.loadAd(AdRequest.Builder().build())
 
@@ -97,7 +99,9 @@ class MainActivity : AppCompatActivity() {
                  super.onAdClosed()
                  virdPosition()
              }
-         }*/
+         }
+
+         */
         //   ----------------  reklam  ---------------
 
         //    --------------------  spinner  -----------------------
@@ -436,7 +440,7 @@ class MainActivity : AppCompatActivity() {
         sharedPreferences.edit().putInt("ı8", ı8!!).apply()
         sharedPreferences.edit().putInt("i9", i9!!).apply()
         sharedPreferences.edit().putInt("j10", j10!!).apply()
-        sharedPreferences.edit().putInt("positionInt", positionInt!!).apply()
+
 
         mediaPlayer.release()
     }

@@ -11,20 +11,14 @@
     <string name="arabic_alhamdullilah" translatable="false">ٱلْحَمْدُ لِلَّٰهِ</string>
     <string name="arabic_allahuekber" translatable="false">الله أكبر</string>
     <string name="arabic_salawat" translatable="false">اللَّهُمَّ صَلِّ عَلَى سيّدنا مُحَمَّدٍ، وَعَلَى آلِ سيّدنا مُحَمَّدٍٍ</string>
-    <string name="arabic_subhanallahi_vebihamdihi" translatable="false">اللَّهُمَّ صَلِّ عَلَى سيّدنا مُحَمَّدٍ، وَعَلَى آلِ سيّدنا مُحَمَّدٍٍ</string>
-    <string name="arabic_lahavle" translatable="false">اللَّهُمَّ صَلِّ عَلَى سيّدنا مُحَمَّدٍ، وَعَلَى آلِ سيّدنا مُحَمَّدٍٍ</string>
-    <string name="arabic_hasbunallahu" translatable="false">اللَّهُمَّ صَلِّ عَلَى سيّدنا مُحَمَّدٍ، وَعَلَى آلِ سيّدنا مُحَمَّدٍٍ</string>
-    <string name="arabic_lailahe" translatable="false">اللَّهُمَّ صَلِّ عَلَى سيّدنا مُحَمَّدٍ، وَعَلَى آلِ سيّدنا مُحَمَّدٍٍ</string>
-    <string name="arabic_subhanallahi_velhamdulillahi" translatable="false">اللَّهُمَّ صَلِّ عَلَى سيّدنا مُحَمَّدٍ، وَعَلَى آلِ سيّدنا مُحَمَّدٍٍ</string>
+    <string name="arabic_subhanallahi_vebihamdihi" translatable="false">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ العَظِيمٍٍ</string>
+    <string name="arabic_lahavle" translatable="false">لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بااللّٰهِ</string>
+    <string name="arabic_hasbunallahu" translatable="false">ٍٍ</string>
+    <string name="arabic_lailahe" translatable="false"></string>
+    <string name="arabic_subhanallahi_velhamdulillahi" translatable="false"></string>
 
 
-    <!-- NON-TRANSLATABLE
-
-    >The Messenger of Allah (ﷺ) said to me, “Shall I tell you the expression that is most loved by
-    Allah?” It is ‘Subhan-Allahi wa bihamdihi’ (Allah is free from imperfection and His is the
-    praise)’.”[Muslim]
-
-    -->
+    <!-- NON-TRANSLATABLE -->
 
 
     <string name="app_name">Telaffuzlu Zikirmatik</string>
@@ -34,12 +28,11 @@
 
     <string name="name_ya_allah">Allah</string>
     <string name="explanation_ya_allah">The Almighty Lord of All Worlds</string>
-    <string name="body_ya_allah">Allah is Al-Ism Al-A\'zam, the Greatest name which contains all the divine attributes and is the sign of the essence and cause of all existence. Allah does not resemble in any way any of His creation. Allah is Allah\'s name only. Nothing else can assume this name or share it.</string>
 
 
     <string name="name_lailaheillallah">La Ilaha Illallah</string>
     <string name="explanation_lailaheillallah">There is no God but Allah.</string>
-    <string name="body_lailaheillallah">Sayyiduna Abu Hurayrah (radiyallahu ‘anhu) once asked Nabi (sallallahu ‘alayhi wa sallam), “Who will be the fortunate person to gain your intercession on the day of Qiyamah?”Rasulullah (sallallahu ‘alayhi wa sallam)said:“O Abu Hurayrah, I knew you would be the first to ask me about this due to your eagerness for Hadith. The fortunate person who will gain my intercession will be that person who says ‘La ilaha illallah’ sincerely from his heart.”(Sahih Bukhari, Hadith: 99)</string>
+    <string name="body_lailaheillallah">Sayyiduna Abu Hurayrah (radiyallahu ‘anhu) once asked Nabi (sallallahu ‘alayhi wa sallam), “Who will be the fortunate person to gain your intercession on the day of Qiyamah?”Rasulullah (sallallahu ‘alayhi wa sallam)said:“O Abu Hurayrah, I knew you would be the first to ask me about this due to your eagerness for Hadith. The fortunate person who will gain my intercession will be that person who says ‘La ilaha illallah\' sincerely from his heart.”(Sahih Bukhari, Hadith: 99)</string>
 
 
     <string name="name_subhanallah">Subhanallah</string>
@@ -49,42 +42,43 @@
 
     <string name="name_alhamdullilah">Alhamdullilah</string>
     <string name="explanation_alhamdullilah">All Praise is for Allah.</string>
-    <string name="body_alhamdullilah">“Strange are the ways of a believer for there is good in every affair of his and this is not the case with anyone else except in the case of a believer for if he has an occasion to feel delight, he thanks Allah, thus there is a good for him in it, and if he gets into trouble and shows resignation (endures into patiently), there is good for him in it.” [Sahih Muslim]</string>
+    <string name="body_alhamdullilah">Strange are the ways of a believer for there is good in every affair of his and this is not the case with anyone else except in the case of a believer for if he has an occasion to feel delight, he thanks Allah, thus there is a good for him in it, and if he gets into trouble and shows resignation (endures into patiently), there is good for him in it. [Sahih Muslim]</string>
 
 
     <string name="name_allahuekber">Allahu ekber</string>
     <string name="explanation_allahuekber">Allah is the Greatest.</string>
-    <string name="body_allahuekber">Abu Hurairah (May Allah be pleased with him) reported:\nThe Messenger of Allah (ﷺ) said, “He who recites after every prayer: Subhan-Allah (Allah is free from imperfection) thirty-three times; Al-hamdu lillah (praise be to Allah) thirty-three times; Allahu Akbar (Allah is Greatest) thirty-three times; and completes the hundred with: La ilaha illallahu, wahdahu la sharika lahu, lahul-mulku wa lahul-hamdu, wa Huwa ‘ala kulli shai’in Qadir (there is no true god except Allah. He is One and He has no partner with Him. His is the sovereignty and His is the praise, and He is Omnipotent), will have all his sins pardoned even if they may be as large as the foam on the surface of the sea.” [Muslim]. Reference: Book 16, Hadith 12 Arabic/English book reference : Book 16, Hadith 1419</string>
 
 
     <string name="name_salawat">Allahumma salli ala sayyidina Muhammadin and ala ali sayyidina Muhammad.</string>
-    <string name="explanation_salawat">O’ Allah (SWT), send your mercy on the Prophet (PBUH) and his family.</string>
+    <string name="explanation_salawat">O\' Allah (SWT), send your mercy on the Prophet (PBUH) and his family.</string>
     <string name="body_salawat">The Prophet (PBUH) said Those closest to me will be those who send the most blessings on me. If you send blessings on me, Allah (swt) will send blessings on you. Bring me salawat. Wherever you are, your prays always reach to me.</string>
 
 
-    <string name="name_subhanallahi_vebihamdihi">Allahumma salli ala sayyidina Muhammadin and ala ali sayyidina Muhammad.</string>
-    <string name="explanation_subhanallahi_vebihamdihi">O’ Allah (SWT), send your mercy on the Prophet (PBUH) and his family.</string>
-    <string name="body_subhanallahi_vebihamdihi">The Prophet (PBUH) said Those closest to me will be those who send the most blessings on me. If you send blessings on me, Allah (swt) will send blessings on you. Bring me salawat. Wherever you are, your prays always reach to me.</string>
+    <string name="name_subhanallahi_vebihamdihi">subhanallahi wa bihamdihi subhanallahil azeem</string>
+    <string name="explanation_subhanallahi_vebihamdihi">Glory be to Allah and all praise is due to him, glory be to Allah the great.</string>
+    <string name="body_subhanallahi_vebihamdihi">The Messenger of Allah (ﷺ) said to me, “Shall I tell you the expression that is most loved by Allah?” It is ‘Subhan-Allahi wa bihamdihi\' (Allah is free from imperfection and His is the praise)\'.”[Muslim]</string>
 
 
-    <string name="name_lahavle">Allahumma salli ala sayyidina Muhammadin and ala ali sayyidina Muhammad.</string>
-    <string name="explanation_lahavle">O’ Allah (SWT), send your mercy on the Prophet (PBUH) and his family.</string>
-    <string name="body_lahavle">The Prophet (PBUH) said Those closest to me will be those who send the most blessings on me. If you send blessings on me, Allah (swt) will send blessings on you. Bring me salawat. Wherever you are, your prays always reach to me.</string>
+    <string name="name_lahavle"></string>
+    <string name="explanation_lahavle"></string>
+    <string name="body_lahavle"></string>
 
 
-    <string name="name_hasbunallahu">Allahumma salli ala sayyidina Muhammadin and ala ali sayyidina Muhammad.</string>
-    <string name="explanation_hasbunallahu">O’ Allah (SWT), send your mercy on the Prophet (PBUH) and his family.</string>
-    <string name="body_hasbunallahu">The Prophet (PBUH) said Those closest to me will be those who send the most blessings on me. If you send blessings on me, Allah (swt) will send blessings on you. Bring me salawat. Wherever you are, your prays always reach to me.</string>
+    <string name="name_hasbunallahu"></string>
+    <string name="explanation_hasbunallahu"></string>
+    <string name="body_hasbunallahu"></string>
 
 
-    <string name="name_lailahe">Allahumma salli ala sayyidina Muhammadin and ala ali sayyidina Muhammad.</string>
-    <string name="explanation_lailahe">O’ Allah (SWT), send your mercy on the Prophet (PBUH) and his family.</string>
-    <string name="body_lailahe">The Prophet (PBUH) said Those closest to me will be those who send the most blessings on me. If you send blessings on me, Allah (swt) will send blessings on you. Bring me salawat. Wherever you are, your prays always reach to me.</string>
+    <string name="name_lailahe"></string>
+    <string name="explanation_lailahe"></string>
+    <string name="body_lailahe"></string>
 
 
-    <string name="name_subhanallahi_velhamdulillahi">Allahumma salli ala sayyidina Muhammadin and ala ali sayyidina Muhammad.</string>
-    <string name="explanation_subhanallahi_velhamdulillahi">O’ Allah (SWT), send your mercy on the Prophet (PBUH) and his family.</string>
-    <string name="body_subhanallahi_velhamdulillahi">The Prophet (PBUH) said Those closest to me will be those who send the most blessings on me. If you send blessings on me, Allah (swt) will send blessings on you. Bring me salawat. Wherever you are, your prays always reach to me.</string>
+    <string name="name_subhanallahi_velhamdulillahi"></string>
+    <string name="explanation_subhanallahi_velhamdulillahi"></string>
+    <string name="body_subhanallahi_velhamdulillahi"></string>
+    <string name="button_start">Start</string>
+    <string name="all_rights_reserved">© 2022 Rocklion Software All Rights Reserved</string>
 
 
 </resources>

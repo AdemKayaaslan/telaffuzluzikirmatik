@@ -16,6 +16,7 @@
     <color name="frameRed">#d93923</color>
     <color name="black">#000000</color>
     <color name="colorBrownDarker">#4b3c19</color>
+    <color name="white">#FFFFFF</color>
 
 
 </resources>

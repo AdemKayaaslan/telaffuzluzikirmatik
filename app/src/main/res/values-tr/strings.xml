@@ -6,8 +6,6 @@
 
     <string name="name_ya_allah">Allah</string>
     <string name="explanation_ya_allah">Tüm Alemlerin Yüce Rabbi</string>
-    <string name="body_ya_allah">Allah, tüm ilahi sıfatları içeren ve tüm varlıkların özünün ve nedeninin işareti olan en büyük isim olan Al-İsm-i A\'zam\'dır. Allah, yarattıklarının hiçbirine hiçbir şekilde benzemez. Allah sadece Allah'ın adıdır. Bu adı başka hiçbir şey üstlenemez veya paylaşamaz.</string>
-
 
     <string name="name_lailaheillallah">La İlahe İllallah</string>
     <string name="explanation_lailaheillallah">Allah\'tan başka ilah yoktur.</string>
@@ -16,7 +14,7 @@
 
     <string name="name_subhanallah">Sübhanallah</string>
     <string name="explanation_subhanallah">Allah, kusurlardan münezzehtir.</string>
-    <string name="body_subhanallah">“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah’tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))</string>
+    <string name="body_subhanallah">“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))</string>
 
 
     <string name="name_alhamdullilah">Alhamdullilah</string>
@@ -26,12 +24,35 @@
 
     <string name="name_allahuekber">Allahu ekber</string>
     <string name="explanation_allahuekber">Allah her şeyden yüce ve büyüktür</string>
-    <string name="body_allahuekber">Ebu Hureyre (Allah Ondan razı olsun) şöyle bildirdi: Rasûlullah (s.a.v.) buyurdular ki: Kim her namazın ardından otuz üç defa: Subhanallah (Allah noksanlardan münezzehtir) okur; El-hamdu lillah (Allah\'a hamd olsun) otuz üç defa; Allahu Ekber (Allah en büyüktür) otuz üç defa; ve 100\'ü şu şekilde tamamlar: La ilahe illallahu, vahdehu la şerika lehu, lehül-mulku ve lehül-hamdü, ve huve ala külli şey\'in Kadir (Allah'tan başka hak ilah yoktur. O birdir ve O'nun ortağı yoktur. Hükümdarlık O'nundur, hamd O'nundur ve O, her şeye kadirdir), denizin yüzeyindeki köpük kadar da olsa günahları bağışlanır [Müslüman] Kaynak: Kitap 16, Hadis 12 Arapça/İngilizce kitap referansı : Kitap 16, Hadis 1419</string>
-
 
     <string name="name_salawat">Allahümme salli ala seyyidina Muhammedin ve ala ali seyyidina Muhammed.</string>
     <string name="explanation_salawat">Allah\'ım (SWT), Peygamberimiz (sav)\'e ve ailesine rahmet et.</string>
     <string name="body_salawat">Peygamber (s.a.v.) Bana en yakın olanlar, bana en çok salavat getirenlerdir. Bana salavat getirirsen, Allah (c.c) sana salât eder. Bana salavat getir. Nerede olursan ol, duaların hep bana ulaşır.</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi"></string>
+    <string name="explanation_subhanallahi_vebihamdihi"></string>
+    <string name="body_subhanallahi_vebihamdihi"></string>
+
+
+    <string name="name_lahavle"></string>
+    <string name="explanation_lahavle"></string>
+    <string name="body_lahavle"></string>
+
+
+    <string name="name_hasbunallahu"></string>
+    <string name="explanation_hasbunallahu"></string>
+    <string name="body_hasbunallahu"></string>
+
+
+    <string name="name_lailahe"></string>
+    <string name="explanation_lailahe"></string>
+    <string name="body_lailahe"></string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi"></string>
+    <string name="explanation_subhanallahi_velhamdulillahi"></string>
+    <string name="body_subhanallahi_velhamdulillahi"></string>
 
 
 </resources>

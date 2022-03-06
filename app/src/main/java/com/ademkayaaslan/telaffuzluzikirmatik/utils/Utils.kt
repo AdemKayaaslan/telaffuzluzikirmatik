@@ -36,12 +36,12 @@ class Utils {
 
     companion object {
         var admobInterstitial: InterstitialAd? = null
-        var adCount = 0;
+        var adCount = 0
 
         @SuppressLint("MissingPermission")
         fun isNetworkConnected(mContext: Context): Boolean {
             val cm = mContext.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-            return cm?.activeNetworkInfo != null
+            return cm.activeNetworkInfo != null
         }
 
         fun loadAds(mContext: Context) {
