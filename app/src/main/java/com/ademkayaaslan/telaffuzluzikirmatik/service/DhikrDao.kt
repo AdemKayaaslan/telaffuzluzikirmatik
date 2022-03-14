@@ -18,8 +18,8 @@ interface DhikrDao {
     @Query("SELECT * FROM dhikr")
     suspend fun getAllDhikrs():List<Dhikr>
 
-    @Query("SELECT * FROM dhikr WHERE uuid = :dhikrId")
-    suspend fun getDhikr(dhikrId:Int):Dhikr
+    @Query("SELECT * FROM dhikr WHERE id = :dhikrId")
+    suspend fun getDhikrsByDhikrId(dhikrId:Int):List<Dhikr>
 
     @Query("DELETE FROM dhikr")
     suspend fun deleteAllDhikrs()

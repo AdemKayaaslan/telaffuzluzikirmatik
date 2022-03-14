@@ -9,11 +9,13 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.ViewPager2
 import com.ademkayaaslan.telaffuzluzikirmatik.R
 import com.ademkayaaslan.telaffuzluzikirmatik.adapter.ViewpagerAdapter
+import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
 import com.ademkayaaslan.telaffuzluzikirmatik.model.ViewpagerItem
 import com.ademkayaaslan.telaffuzluzikirmatik.viewmodel.HomeViewModel
 import kotlinx.android.synthetic.main.home_fragment.*
@@ -41,8 +43,16 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(this)[HomeViewModel::class.java]
 
+
+        viewModel.getallDhikrs(1)
+
+
+
+
+
         sliderItems()
         itemSliderView()
+        observeLiveData()
 
         button_start.setOnClickListener {
             val sharedPreferences = activity?.getSharedPreferences(
@@ -56,6 +66,15 @@ class HomeFragment : Fragment() {
 
         }
 
+    }
+
+
+    fun observeLiveData() {
+        viewModel.allTasks.observe(viewLifecycleOwner, Observer {
+            it?.let {
+                month_dhikr.text = ""+it.size
+            }
+        })
     }
 
     private fun sliderItems() {

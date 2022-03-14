@@ -1,7 +1,7 @@
 package com.ademkayaaslan.telaffuzluzikirmatik.viewmodel
 
-import androidx.lifecycle.ViewModel
+import android.app.Application
 
-class DhikrViewModel : ViewModel() {
+class DhikrViewModel(application: Application) :BaseViewModel(application) {
 
 }
