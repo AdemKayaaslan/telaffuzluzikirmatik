@@ -1,15 +1,14 @@
 package com.ademkayaaslan.telaffuzluzikirmatik.view
 
 import android.content.Context
-import android.content.SharedPreferences
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.os.Handler
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.ViewPager2
@@ -19,6 +18,9 @@ import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
 import com.ademkayaaslan.telaffuzluzikirmatik.model.ViewpagerItem
 import com.ademkayaaslan.telaffuzluzikirmatik.viewmodel.HomeViewModel
 import kotlinx.android.synthetic.main.home_fragment.*
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlin.collections.ArrayList
 import kotlin.math.abs
 
 class HomeFragment : Fragment() {
@@ -27,6 +29,8 @@ class HomeFragment : Fragment() {
     private lateinit var viewPagerAdapter:ViewpagerAdapter
     private lateinit var sliderHandle:Handler
     private lateinit var sliderRun:Runnable
+    val allDhikrs  = ArrayList<Dhikr>()
+    val patternString = "yyyy-MM-dd'T'HH:mm:ss'Z'"
 
 
 
@@ -72,9 +76,45 @@ class HomeFragment : Fragment() {
     fun observeLiveData() {
         viewModel.allTasks.observe(viewLifecycleOwner, Observer {
             it?.let {
+                allDhikrs.addAll(it)
                 month_dhikr.text = ""+it.size
+                setThisWeekDhikr()
             }
         })
+    }
+
+    fun setThisWeekDhikr() {
+
+        val myCallendar = Calendar.getInstance()
+        val thisWeekDhikr = ArrayList<Dhikr>()
+
+        myCallendar.set(Calendar.DAY_OF_WEEK,myCallendar.firstDayOfWeek)
+
+
+        val sdf = SimpleDateFormat(patternString,Locale.getDefault())
+
+        try {
+            for (dhikr in allDhikrs) {
+
+            val date = sdf.parse(dhikr.dhikrDate)
+
+            if (date != null) {
+                if (myCallendar.time.before(date)) {
+                    thisWeekDhikr.add(dhikr)
+                }
+            }
+
+            }
+            week_dhikr.text = ""+thisWeekDhikr.size
+        } catch (e:Exception) {
+            e.printStackTrace()
+        }
+
+
+
+
+
+
     }
 
     private fun sliderItems() {
