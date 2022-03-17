@@ -6,6 +6,8 @@
 
     <string name="name_ya_allah">Allah</string>
     <string name="explanation_ya_allah">Tüm Alemlerin Yüce Rabbi</string>
+    <string name="body_ya_allah">payla</string>
+
 
     <string name="name_lailaheillallah">La İlahe İllallah</string>
     <string name="explanation_lailaheillallah">Allah\'tan başka ilah yoktur.</string>
@@ -24,6 +26,8 @@
 
     <string name="name_allahuekber">Allahu ekber</string>
     <string name="explanation_allahuekber">Allah her şeyden yüce ve büyüktür</string>
+    <string name="body_allahuekber">adis</string>
+
 
     <string name="name_salawat">Allahümme salli ala seyyidina Muhammedin ve ala ali seyyidina Muhammed.</string>
     <string name="explanation_salawat">Allah\'ım (SWT), Peygamberimiz (sav)\'e ve ailesine rahmet et.</string>

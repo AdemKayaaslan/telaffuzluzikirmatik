@@ -24,7 +24,7 @@ class HomeViewModel(application: Application) :BaseViewModel(application) {
             val myCalendar = Calendar.getInstance()
             val sdf = SimpleDateFormat(patternString,Locale.getDefault())
             val date = sdf.format(myCalendar.time)
-            val dhikr = Dhikr("subhan",1,date)
+            val dhikr = Dhikr("subhan",33,1,date)
           //  dao.insert(dhikr)
 
             allTasks.value = dhikrList

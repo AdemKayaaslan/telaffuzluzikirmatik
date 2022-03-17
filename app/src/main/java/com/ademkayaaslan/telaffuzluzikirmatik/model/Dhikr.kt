@@ -11,6 +11,9 @@ data class Dhikr (
     @ColumnInfo(name="name")
     val dhikrName:String,
 
+    @ColumnInfo(name="count")
+    val dhikrCount:Int,
+
     @ColumnInfo(name="id")
     val dhikrId:Int,
 

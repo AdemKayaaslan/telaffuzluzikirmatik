@@ -68,7 +68,6 @@ class DhikrFragment : Fragment() {
     override fun onPause() {
         super.onPause()
 
-
     }
 
     override fun onResume() {
@@ -77,13 +76,37 @@ class DhikrFragment : Fragment() {
     }
 
     private fun itemSliderView() {
-        sliderItemList.add(ViewpagerItem(getString(R.string.arabic_subhanallah),getString(R.string.name_subhanallah),getString(R.string.explanation_subhanallah), "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","LA İLAHE İLLALLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","SÜBHANALLAH3","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","ELHAMDULİLLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","ALLAHUEKBER","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","ALLAH HÜMME SALLİ ALA SEYYİDİNA MUHAMMEDİN VE ALA ALİ SEYYİDİNA MUHAMMED","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","LA HAVLE VE LA KUVVETE İLLA BİLLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
+
+        val viewPagerYaAllah = ViewpagerItem(getString(R.string.arabic_ya_allah),getString(R.string.name_ya_allah),getString(R.string.explanation_ya_allah),  getString(R.string.body_ya_allah))
+        val viewPagerLailaheillallah = ViewpagerItem(getString(R.string.arabic_lailaheillallah),getString(R.string.name_lailaheillallah),getString(R.string.explanation_lailaheillallah),  getString(R.string.body_lailaheillallah))
+        val viewPagerSubhanallah = ViewpagerItem(getString(R.string.arabic_subhanallah),getString(R.string.name_subhanallah),getString(R.string.explanation_subhanallah),  getString(R.string.body_subhanallah))
+
+        val viewPagerAlhamdulillah = ViewpagerItem(getString(R.string.arabic_alhamdullilah),getString(R.string.name_alhamdullilah),getString(R.string.explanation_alhamdullilah),  getString(R.string.body_alhamdullilah))
+        val viewPagerAllahuekber = ViewpagerItem(getString(R.string.arabic_allahuekber),getString(R.string.name_allahuekber),getString(R.string.explanation_allahuekber),  getString(R.string.body_allahuekber))
+        val viewPagerSalawat = ViewpagerItem(getString(R.string.arabic_salawat),getString(R.string.name_salawat),getString(R.string.explanation_salawat),  getString(R.string.body_salawat))
+
+        val viewPagerSubhanallahiVebihamdihi = ViewpagerItem(getString(R.string.arabic_subhanallahi_vebihamdihi),getString(R.string.name_subhanallahi_vebihamdihi),getString(R.string.explanation_subhanallahi_vebihamdihi),  getString(R.string.body_subhanallahi_vebihamdihi))
+        val viewPagerLahavle = ViewpagerItem(getString(R.string.arabic_lahavle),getString(R.string.name_lahavle),getString(R.string.explanation_lahavle),  getString(R.string.body_lahavle))
+        val viewPagerHasbunallahu = ViewpagerItem(getString(R.string.arabic_hasbunallahu),getString(R.string.name_hasbunallahu),getString(R.string.explanation_hasbunallahu),  getString(R.string.body_hasbunallahu))
+
+        val viewPagerLailahe = ViewpagerItem(getString(R.string.arabic_lailahe),getString(R.string.name_lailahe),getString(R.string.explanation_lailahe),  getString(R.string.body_lailahe))
+        val viewPagerSubhanallahiVelhamdulillahi = ViewpagerItem(getString(R.string.arabic_subhanallahi_velhamdulillahi),getString(R.string.name_subhanallahi_velhamdulillahi),getString(R.string.explanation_subhanallahi_velhamdulillahi),  getString(R.string.body_subhanallahi_velhamdulillahi))
+
+
+        sliderItemList.add(viewPagerYaAllah)
+        sliderItemList.add(viewPagerLailaheillallah)
+        sliderItemList.add(viewPagerSubhanallah)
+
+        sliderItemList.add(viewPagerAlhamdulillah)
+        sliderItemList.add(viewPagerAllahuekber)
+        sliderItemList.add(viewPagerSalawat)
+
+        sliderItemList.add(viewPagerSubhanallahiVebihamdihi)
+        sliderItemList.add(viewPagerLahavle)
+        sliderItemList.add(viewPagerHasbunallahu)
+
+        sliderItemList.add(viewPagerLailahe)
+        sliderItemList.add(viewPagerSubhanallahiVelhamdulillahi)
 
     }
 
