@@ -5,7 +5,7 @@
     <!-- NON-TRANSLATABLE-->
     <string name="interstitial_admob" translatable="false">ca-app-pub-3665001246595939/6617121575</string>
     <string name="admob_app_id" translatable="false">ca-app-pub-3665001246595939~5117457208</string>
-
+    <string name="all_rights_reserved" translatable="false">© 2022 Rocklion Software All Rights Reserved</string>
 
     <string name="arabic_ya_allah" translatable="false">الله</string>
     <string name="arabic_lailaheillallah" translatable="false">لَا اِلَهَ اِلَّا اللهْ مُحَمَّدُ الرَّسُولُ</string>
@@ -14,8 +14,10 @@
     <string name="arabic_allahuekber" translatable="false">الله أكبر</string>
     <string name="arabic_salawat" translatable="false">اللَّهُمَّ صَلِّ عَلَى سيّدنا مُحَمَّدٍ، وَعَلَى آلِ سيّدنا مُحَمَّدٍٍ</string>
     <string name="arabic_subhanallahi_vebihamdihi" translatable="false">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ العَظِيمٍٍ</string>
+
+
     <string name="arabic_lahavle" translatable="false">لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بااللّٰهِ</string>
-    <string name="arabic_hasbunallahu" translatable="false">ٍٍ</string>
+    <string name="arabic_hasbunallahu" translatable="false">حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلٍٍُ</string>
     <string name="arabic_lailahe" translatable="false"></string>
     <string name="arabic_subhanallahi_velhamdulillahi" translatable="false"></string>
 
@@ -61,14 +63,14 @@
     <string name="body_subhanallahi_vebihamdihi">The Messenger of Allah (ﷺ) said to me, “Shall I tell you the expression that is most loved by Allah?” It is ‘Subhan-Allahi wa bihamdihi\' (Allah is free from imperfection and His is the praise)\'.”[Muslim]</string>
 
 
-    <string name="name_lahavle"></string>
-    <string name="explanation_lahavle"></string>
-    <string name="body_lahavle"></string>
+    <string name="name_lahavle">La Hawla Wala Quwwata Illa Billah</string>
+    <string name="explanation_lahavle">There is no power nor strength except Allah</string>
+    <string name="body_lahavle">Hazrat Abu Huraira (RA) narrated that Prophet Hazrat Mohammad (ﷺ) said La Hawla Wala Quwwata Illa Billah is the cure of 99 diseases from which the smallest degree of disease is distress and sadness.</string>
 
 
-    <string name="name_hasbunallahu"></string>
-    <string name="explanation_hasbunallahu"></string>
-    <string name="body_hasbunallahu"></string>
+    <string name="name_hasbunallahu">Hasbunallahu Wa Ni’mal Wakeel</string>
+    <string name="explanation_hasbunallahu">Sufficient for us is Allah, and [He is] the best Disposer of affairs.</string>
+    <string name="body_hasbunallahu">Abu Sa’id Al-Khudri Radi ALLAHu ‘Anhu reported:\nMessenger of ALLAH ﷺ said, “How can I feel at ease when the Angel of the Trumpet, (Israfeel) has put his lips to the Trumpet and is waiting for the order to blow it”. He ﷺ perceived as if this had shocked his Companions, so he ﷺ told them to seek comfort through reciting: ‘HasbunALLAH Wani’mal Wakeel [ALLAH (Alone) is Sufficient for us, and He is the Best Disposer of affairs (for us)]”.\nJam’i At-Tirmidhi | Book 1, Hadith 409</string>
 
 
     <string name="name_lailahe"></string>
@@ -79,8 +81,12 @@
     <string name="name_subhanallahi_velhamdulillahi"></string>
     <string name="explanation_subhanallahi_velhamdulillahi"></string>
     <string name="body_subhanallahi_velhamdulillahi"></string>
+
+
+
+
     <string name="button_start">Start</string>
-    <string name="all_rights_reserved">© 2022 Rocklion Software All Rights Reserved</string>
+
 
 
 </resources>
