@@ -21,6 +21,9 @@ interface DhikrDao {
     @Query("SELECT * FROM dhikr WHERE id = :dhikrId")
     suspend fun getDhikrsByDhikrId(dhikrId:Int):List<Dhikr>
 
+    @Query("SELECT * FROM dhikr WHERE timestamp > :dhikrtimestamp AND id = :dhikrId")
+    suspend fun getDhikrsBydhikrIdAndTimeStamp(dhikrtimestamp:Long,dhikrId:Int):List<Dhikr>
+
     @Query("DELETE FROM dhikr")
     suspend fun deleteAllDhikrs()
 

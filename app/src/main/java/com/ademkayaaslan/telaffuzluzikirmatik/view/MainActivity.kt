@@ -49,12 +49,12 @@ class MainActivity : AppCompatActivity() {
 
 
 
-
+/*
         MobileAds.initialize(
             this
         ) { loadBanner() }
 
-
+*/
 
         val homeFragment = HomeFragment()
         val manager: FragmentManager = supportFragmentManager
@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
         transaction.add(R.id.layout_container, homeFragment, "homeFragment")
         transaction.addToBackStack("homeFragment")
         transaction.commit()
-
+/*
         sharedPreferences = this.getSharedPreferences(
             "com.ademkayaaslan.telaffuzluzikirmatik",
             Context.MODE_PRIVATE
@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         i9 = sharedPreferences.getInt("i9", 0)
         j10 = sharedPreferences.getInt("j10", 0)
         positionInt = sharedPreferences.getInt("positionInt", 0)
-
+*/
         //   ----------------  reklam  ---------------
         /*
         MobileAds.initialize(this) {}
@@ -105,6 +105,8 @@ class MainActivity : AppCompatActivity() {
         //   ----------------  reklam  ---------------
 
         //    --------------------  spinner  -----------------------
+
+        /*
         val items = arrayOf(
             "1) Ya Allah",
             "2) La ilahe illallah",
@@ -135,7 +137,7 @@ class MainActivity : AppCompatActivity() {
                 id: Long
             ) {
                 if (isWorkedByOnCreate == false) {
-                    showAds(this@MainActivity, null)
+                   // showAds(this@MainActivity, null)
                     positionInt = position
                     mediaPlayer.release()
                     virdPosition()
@@ -148,17 +150,17 @@ class MainActivity : AppCompatActivity() {
 
         }
         //    --------------------  spinner  -----------------------
-
+*/
     }
-
+/*
     override fun onResume() {
         super.onResume()
         virdPosition()
         spinner.setSelection(positionInt!!)
 
     }
-
-
+*/
+/*
     fun virdCounter() {
         if (positionInt == 0) {
             a0 = a0?.plus(1)
@@ -197,8 +199,8 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-
-
+*/
+/*
     fun virdButton(view: View) {
 
         view.setOnTouchListener { v, event ->
@@ -315,7 +317,7 @@ class MainActivity : AppCompatActivity() {
 
         alert.setPositiveButton("Evet") { dialog, which ->
 
-            showAds(this, null)
+          //  showAds(this, null)
 
             if (positionInt == 0) {
                 sharedPreferences.edit().remove("a0").apply()
@@ -389,7 +391,7 @@ class MainActivity : AppCompatActivity() {
 
     fun loop(view: View) {
 
-        showAds(this, null)
+      //  showAds(this, null)
 
         if (isSoundOn == true) {
 
@@ -419,7 +421,8 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
+*/
+    /*
     @SuppressLint("MissingPermission")
     fun loadBanner() {
         val adRequest: AdRequest = AdRequest.Builder().build()
@@ -445,5 +448,5 @@ class MainActivity : AppCompatActivity() {
         mediaPlayer.release()
     }
 
-
+*/
 }

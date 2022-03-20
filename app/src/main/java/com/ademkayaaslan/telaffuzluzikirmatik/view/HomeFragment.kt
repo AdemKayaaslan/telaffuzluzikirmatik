@@ -1,6 +1,7 @@
 package com.ademkayaaslan.telaffuzluzikirmatik.view
 
 import android.content.Context
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.os.Handler
 import android.view.LayoutInflater
@@ -18,7 +19,6 @@ import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
 import com.ademkayaaslan.telaffuzluzikirmatik.model.ViewpagerItem
 import com.ademkayaaslan.telaffuzluzikirmatik.viewmodel.HomeViewModel
 import kotlinx.android.synthetic.main.home_fragment.*
-import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.math.abs
@@ -29,12 +29,13 @@ class HomeFragment : Fragment() {
     private lateinit var viewPagerAdapter:ViewpagerAdapter
     private lateinit var sliderHandle:Handler
     private lateinit var sliderRun:Runnable
-    val allDhikrs  = ArrayList<Dhikr>()
-    val patternString = "yyyy-MM-dd'T'HH:mm:ss'Z'"
-
-
-
     private lateinit var viewModel: HomeViewModel
+
+    private lateinit var sharedPreferences: SharedPreferences
+
+
+
+    var positionInt = 0
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -46,17 +47,25 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(this)[HomeViewModel::class.java]
-
-
-        viewModel.getallDhikrs(1)
-
-
-
+        activity?.getSharedPreferences(
+            "com.ademkayaaslan.telaffuzluzikirmatik",
+            Context.MODE_PRIVATE
+        )?.also { sharedPreferences = it }
 
 
         sliderItems()
         itemSliderView()
         observeLiveData()
+        buttonStart()
+
+        viewpager_dhikr_home.currentItem = sharedPreferences.getInt("positionInt",0)
+
+
+
+
+    }
+
+    fun buttonStart() {
 
         button_start.setOnClickListener {
             val sharedPreferences = activity?.getSharedPreferences(
@@ -74,46 +83,64 @@ class HomeFragment : Fragment() {
 
 
     fun observeLiveData() {
-        viewModel.allTasks.observe(viewLifecycleOwner, Observer {
+
+        viewModel.lastDhikr.observe(viewLifecycleOwner, Observer {
             it?.let {
-                allDhikrs.addAll(it)
-                month_dhikr.text = ""+it.size
-                setThisWeekDhikr()
+
+                if (it.dhikrId == -1) {
+                    list_dhikr.text = ""+0
+                } else {
+                    list_dhikr.text = ""+it.dhikrCount
+                }
+
+
+            }
+        })
+
+        viewModel.lastWeekDhikrs.observe(viewLifecycleOwner, Observer {
+            it?.let {
+
+                var counter = 0
+                for (dhikr in it) {
+                    counter += dhikr.dhikrCount
+                }
+                week_dhikr.text = ""+counter
+
+            }
+        })
+
+        viewModel.lastMonthDhikrs.observe(viewLifecycleOwner, Observer {
+            it?.let {
+
+                var counter = 0
+                for (dhikr in it) {
+                    counter += dhikr.dhikrCount
+                }
+                month_dhikr.text = ""+counter
+
             }
         })
     }
 
-    fun setThisWeekDhikr() {
+    fun callLiveDataFunctions(dhikrId:Int) {
 
-        val myCallendar = Calendar.getInstance()
-        val thisWeekDhikr = ArrayList<Dhikr>()
-
-        myCallendar.set(Calendar.DAY_OF_WEEK,myCallendar.firstDayOfWeek)
+        val weekCallendar = Calendar.getInstance()
+        val monthCallendar = Calendar.getInstance()
 
 
-        val sdf = SimpleDateFormat(patternString,Locale.getDefault())
+        weekCallendar.set(Calendar.DAY_OF_WEEK,weekCallendar.firstDayOfWeek)
+        weekCallendar.set(Calendar.HOUR_OF_DAY,0)
+        weekCallendar.set(Calendar.MINUTE,0)
+        weekCallendar.set(Calendar.SECOND,0)
 
-        try {
-            for (dhikr in allDhikrs) {
+        monthCallendar.set(Calendar.DAY_OF_MONTH,1)
+        weekCallendar.set(Calendar.HOUR_OF_DAY,0)
+        weekCallendar.set(Calendar.MINUTE,0)
+        weekCallendar.set(Calendar.SECOND,0)
 
-            val date = sdf.parse(dhikr.dhikrDate)
-
-            if (date != null) {
-                if (myCallendar.time.before(date)) {
-                    thisWeekDhikr.add(dhikr)
-                }
-            }
-
-            }
-            week_dhikr.text = ""+thisWeekDhikr.size
-        } catch (e:Exception) {
-            e.printStackTrace()
-        }
-
-
-
-
-
+        viewModel.getDhikrs(weekCallendar.timeInMillis,dhikrId,1)
+        viewModel.getDhikrs(monthCallendar.timeInMillis,dhikrId,2)
+        viewModel.getLastDhikr(dhikrId)
 
     }
 
@@ -146,6 +173,8 @@ class HomeFragment : Fragment() {
                 override fun onPageSelected(position: Int) {
                     super.onPageSelected(position)
 
+                    callLiveDataFunctions(position)
+
                     sliderHandle.removeCallbacks(sliderRun)
                     sliderHandle.postDelayed(sliderRun,6000)
                 }
@@ -165,14 +194,36 @@ class HomeFragment : Fragment() {
     }
 
     private fun itemSliderView() {
-        sliderItemList.add(ViewpagerItem(getString(R.string.arabic_subhanallah),getString(R.string.name_subhanallah),getString(R.string.explanation_subhanallah), "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","LA İLAHE İLLALLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","SÜBHANALLAH3","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","ELHAMDULİLLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","ALLAHUEKBER","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","ALLAH HÜMME SALLİ ALA SEYYİDİNA MUHAMMEDİN VE ALA ALİ SEYYİDİNA MUHAMMED","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
-        sliderItemList.add(ViewpagerItem("سبحان الله","LA HAVLE VE LA KUVVETE İLLA BİLLAH","Allah noksanlardan münezzehtir", "“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"))
+        val viewPagerYaAllah = ViewpagerItem(getString(R.string.arabic_ya_allah),getString(R.string.name_ya_allah),getString(R.string.explanation_ya_allah),  getString(R.string.body_ya_allah))
+        val viewPagerLailaheillallah = ViewpagerItem(getString(R.string.arabic_lailaheillallah),getString(R.string.name_lailaheillallah),getString(R.string.explanation_lailaheillallah),  getString(R.string.body_lailaheillallah))
+        val viewPagerSubhanallah = ViewpagerItem(getString(R.string.arabic_subhanallah),getString(R.string.name_subhanallah),getString(R.string.explanation_subhanallah),  getString(R.string.body_subhanallah))
 
+        val viewPagerAlhamdulillah = ViewpagerItem(getString(R.string.arabic_alhamdullilah),getString(R.string.name_alhamdullilah),getString(R.string.explanation_alhamdullilah),  getString(R.string.body_alhamdullilah))
+        val viewPagerAllahuekber = ViewpagerItem(getString(R.string.arabic_allahuekber),getString(R.string.name_allahuekber),getString(R.string.explanation_allahuekber),  getString(R.string.body_allahuekber))
+        val viewPagerSalawat = ViewpagerItem(getString(R.string.arabic_salawat),getString(R.string.name_salawat),getString(R.string.explanation_salawat),  getString(R.string.body_salawat))
+
+        val viewPagerSubhanallahiVebihamdihi = ViewpagerItem(getString(R.string.arabic_subhanallahi_vebihamdihi),getString(R.string.name_subhanallahi_vebihamdihi),getString(R.string.explanation_subhanallahi_vebihamdihi),  getString(R.string.body_subhanallahi_vebihamdihi))
+        val viewPagerLahavle = ViewpagerItem(getString(R.string.arabic_lahavle),getString(R.string.name_lahavle),getString(R.string.explanation_lahavle),  getString(R.string.body_lahavle))
+        val viewPagerHasbunallahu = ViewpagerItem(getString(R.string.arabic_hasbunallahu),getString(R.string.name_hasbunallahu),getString(R.string.explanation_hasbunallahu),  getString(R.string.body_hasbunallahu))
+
+        val viewPagerLailahe = ViewpagerItem(getString(R.string.arabic_lailahe),getString(R.string.name_lailahe),getString(R.string.explanation_lailahe),  getString(R.string.body_lailahe))
+        val viewPagerSubhanallahiVelhamdulillahi = ViewpagerItem(getString(R.string.arabic_subhanallahi_velhamdulillahi),getString(R.string.name_subhanallahi_velhamdulillahi),getString(R.string.explanation_subhanallahi_velhamdulillahi),  getString(R.string.body_subhanallahi_velhamdulillahi))
+
+
+        sliderItemList.add(viewPagerYaAllah)
+        sliderItemList.add(viewPagerLailaheillallah)
+        sliderItemList.add(viewPagerSubhanallah)
+
+        sliderItemList.add(viewPagerAlhamdulillah)
+        sliderItemList.add(viewPagerAllahuekber)
+        sliderItemList.add(viewPagerSalawat)
+
+        sliderItemList.add(viewPagerSubhanallahiVebihamdihi)
+        sliderItemList.add(viewPagerLahavle)
+        sliderItemList.add(viewPagerHasbunallahu)
+
+        sliderItemList.add(viewPagerLailahe)
+        sliderItemList.add(viewPagerSubhanallahiVelhamdulillahi)
     }
 
 
