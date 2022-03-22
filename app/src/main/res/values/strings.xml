@@ -16,7 +16,7 @@
 
     <string name="arabic_lahavle" translatable="false">لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بااللّٰهِ</string>
     <string name="arabic_hasbunallahu" translatable="false">حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلٍٍُ</string>
-    <string name="arabic_lailahe" translatable="false">arabic_lailahe</string>
+    <string name="arabic_lailahe" translatable="false">لاَ إِلهَ إِِلاَّ أَنْتَ سُبْحَانَكَ إِِنِّي كُنْتُ مِنَ الظَّالِمِينَ</string>
     <string name="arabic_subhanallahi_velhamdulillahi" translatable="false">arabic_subhanallahi_velhamdulillahi</string>
 
 
@@ -73,8 +73,8 @@
     <string name="body_hasbunallahu">Abu Sa’id Al-Khudri Radi ALLAHu ‘Anhu reported:\nMessenger of ALLAH ﷺ said, “How can I feel at ease when the Angel of the Trumpet, (Israfeel) has put his lips to the Trumpet and is waiting for the order to blow it”. He ﷺ perceived as if this had shocked his Companions, so he ﷺ told them to seek comfort through reciting: ‘HasbunALLAH Wani’mal Wakeel [ALLAH (Alone) is Sufficient for us, and He is the Best Disposer of affairs (for us)]”.\nJam’i At-Tirmidhi | Book 1, Hadith 409</string>
 
 
-    <string name="name_lailahe">name_lailahe</string>
-    <string name="explanation_lailahe">explanation_lailahe</string>
+    <string name="name_lailahe">La ilaaha illa Anta, subhaanaka inni kuntu min al-zaalimeen</string>
+    <string name="explanation_lailahe">(O ALLAH!) There are none worthy of worship besides You. Glory be to You. Verily, I have been of the wrongdoers.</string>
     <string name="body_lailahe">body_lailahe</string>
 
 
