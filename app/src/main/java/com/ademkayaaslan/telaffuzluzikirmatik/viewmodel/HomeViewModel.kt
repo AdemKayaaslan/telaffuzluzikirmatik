@@ -35,18 +35,7 @@ class HomeViewModel(application: Application) :BaseViewModel(application) {
         launch {
             val dao = DhikrDatabase(getApplication()).DhikrDao()
             val dhikrList = dao.getDhikrsByDhikrId(dhikrId)
-            /*
 
-            for (dhikr in dhikrList) {
-                if (liveDhikr.dhikrId == -1) {
-                    liveDhikr = dhikr
-                } else {
-                    if (dhikr.timestamp > liveDhikr.timestamp) {
-                        liveDhikr = dhikr
-                    }
-                }
-            }
-*/
             val dummyDhikr = Dhikr(-1,-1,-1)
            if (dhikrList.isNotEmpty()) {
                lastDhikr.value = dhikrList.last()
