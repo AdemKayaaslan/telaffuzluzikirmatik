@@ -27,7 +27,7 @@ interface DhikrDao {
     @Query("DELETE FROM dhikr")
     suspend fun deleteAllDhikrs()
 
-    @Query ("DELETE FROM dhikr WHERE uuid = :dhikrId")
+    @Query ("DELETE FROM dhikr WHERE id = :dhikrId")
     suspend fun deleteDhikr(dhikrId:Int)
 
     @Update

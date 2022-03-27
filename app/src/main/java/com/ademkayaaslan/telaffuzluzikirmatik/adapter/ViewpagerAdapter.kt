@@ -1,6 +1,7 @@
 package com.ademkayaaslan.telaffuzluzikirmatik.adapter
 
 
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -23,6 +24,7 @@ class ViewpagerAdapter(
         val textViewExplanation = v.findViewById<TextView>(R.id.textview_explanation)
         val textViewText = v.findViewById<TextView>(R.id.textview_body_text)
 
+
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewPagerViewHolder {
@@ -37,20 +39,10 @@ class ViewpagerAdapter(
         holder.textViewHeader.text = slideItem.header
         holder.textViewExplanation.text = slideItem.explanation
         holder.textViewText.text = slideItem.bodyText
-
-        if (position == slideList.size-2) {
-            viewPager.post(run)
-        }
+        holder.textViewText.movementMethod = ScrollingMovementMethod()
 
     }
 
-    private val run = object :Runnable {
-        override fun run() {
-            slideList.addAll(slideList)
-            notifyDataSetChanged()
-        }
-
-    }
 
     override fun getItemCount(): Int = slideList.size
 }

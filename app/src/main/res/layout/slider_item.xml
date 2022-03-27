@@ -19,6 +19,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_margin="8dp"
+        android:padding="4dp"
         android:background="@drawable/frame_background">
 
         <TextView
@@ -56,9 +57,11 @@
         <TextView
             android:id="@+id/textview_body_text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:paddingEnd="4dp"
             android:paddingStart="4dp"
+            android:scrollbars="vertical"
             android:text="“Sübhanallah demek mizanın yarısını doldurur. Elhamdülillah demek ise teraziyi doldurmuş olur. Allah\'tan başka gerçek ilah yoktur, sadece O vardır, diyen kimse ile Allah arasında hiçbir perde yoktur. Cennette kendisiyle beraber oluncaya kadar…” \n(Tirmizî, Daavat, 87)"
             android:gravity="center"
             android:layout_marginTop="8dp"

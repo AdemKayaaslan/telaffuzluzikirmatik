@@ -34,4 +34,15 @@ class DhikrViewModel(application: Application) :BaseViewModel(application) {
 
     }
 
+    fun deleteDhikrById (dhikrId:Int) {
+
+        launch {
+            val dao = DhikrDatabase(getApplication()).DhikrDao()
+
+            dao.deleteDhikr(dhikrId)
+
+        }
+
+    }
+
 }

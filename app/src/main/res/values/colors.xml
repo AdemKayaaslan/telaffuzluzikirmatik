@@ -18,5 +18,7 @@
     <color name="colorBrownDarker">#4b3c19</color>
     <color name="white">#FFFFFF</color>
 
+    <color name="colorButton">#f5ad09</color>
+
 
 </resources>

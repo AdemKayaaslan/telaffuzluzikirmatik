@@ -1,13 +1,15 @@
 package com.ademkayaaslan.telaffuzluzikirmatik.view
 
+import android.app.AlertDialog
 import android.content.Context
 import android.content.SharedPreferences
+import android.media.MediaPlayer
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
+import android.view.*
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import android.widget.Toast
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
 import com.ademkayaaslan.telaffuzluzikirmatik.R
@@ -15,7 +17,6 @@ import com.ademkayaaslan.telaffuzluzikirmatik.adapter.ViewpagerAdapter
 import com.ademkayaaslan.telaffuzluzikirmatik.model.ViewpagerItem
 import com.ademkayaaslan.telaffuzluzikirmatik.viewmodel.DhikrViewModel
 import kotlinx.android.synthetic.main.dhikr_fragment.*
-import kotlinx.android.synthetic.main.home_fragment.*
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -26,6 +27,8 @@ class DhikrFragment : Fragment() {
     }
 
 
+    var isSoundOn = true
+     var mediaPlayer: MediaPlayer? = null
     var a0: Int = 0
     var b1: Int = 0
     var c2: Int = 0
@@ -60,6 +63,7 @@ class DhikrFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        setHasOptionsMenu(true)
         return inflater.inflate(R.layout.dhikr_fragment, container, false)
     }
 
@@ -70,14 +74,14 @@ class DhikrFragment : Fragment() {
             "com.ademkayaaslan.telaffuzluzikirmatik",
             Context.MODE_PRIVATE
         )?.also { sharedPreferences = it }
-        sliderItems()
-        itemSliderView()
+
         virdButton()
+        soundButton()
+        loopButton()
         viewModel.getAllDhikrs()
         observeLiveData()
 
         positionInt = sharedPreferences.getInt("positionInt", 0)
-        viewpager_dhikr.currentItem = positionInt
 
     }
 
@@ -85,8 +89,119 @@ class DhikrFragment : Fragment() {
     fun virdButton() {
 
         virdButton.setOnClickListener {
-            virdCounter()
+
+
+            if (mediaPlayer?.isPlaying == false) {
+
+                virdCounter()
+
+                if (isSoundOn == true) {
+                    mediaPlayer?.start()
+                }
+
+            }
+
+            if (mediaPlayer?.isLooping == true) {
+                mediaPlayer?.release()
+                virdPositionMediaPlayerCreater()
+            }
         }
+
+    }
+
+
+    fun soundButton() {
+
+        button_sound.setOnClickListener {
+
+            if (isSoundOn) {
+                button_sound.setImageDrawable(ContextCompat.getDrawable(requireContext(),R.drawable.ic_baseline_volume_off_24))
+                isSoundOn = false
+                mediaPlayer?.release()
+                virdPositionMediaPlayerCreater()
+            } else {
+                button_sound.setImageDrawable(ContextCompat.getDrawable(requireContext(),R.drawable.ic_baseline_volume_up_24))
+                isSoundOn = true
+                virdPositionMediaPlayerCreater()
+            }
+
+        }
+
+    }
+
+
+    fun loopButton() {
+
+        button_loop.setOnClickListener {
+
+            if (isSoundOn == true) {
+
+                if (mediaPlayer?.isPlaying == true) {
+                    mediaPlayer?.release()
+                    virdPositionMediaPlayerCreater()
+                } else {
+                    var count = 0
+                    mediaPlayer?.setOnCompletionListener(object : MediaPlayer.OnCompletionListener {
+                        var maxCount = 1000
+                        override fun onCompletion(mediaPlayer: MediaPlayer) {
+                            if (count < maxCount) {
+                                count++
+                                mediaPlayer.seekTo(0)
+                                mediaPlayer.start()
+
+                                virdCounter()
+
+                            }
+                        }
+                    })
+                    mediaPlayer?.start()
+                }
+
+            } else {
+                Toast.makeText(requireContext(), getString(R.string.sound_off), Toast.LENGTH_SHORT).show()
+            }
+
+        }
+
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+        inflater.inflate(R.menu.menu,menu)
+
+    }
+
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId) {
+            R.id.statistics -> {
+                Toast.makeText(requireContext(), "Yardım Masası", Toast.LENGTH_SHORT).show()
+                false
+            }
+            R.id.reset -> {
+                resetDhikr()
+                true
+            }
+            else -> super.onContextItemSelected(item)
+        }
+    }
+
+    fun resetDhikr() {
+        val alert = AlertDialog.Builder(requireContext())
+        alert.setTitle(getString(R.string.reset_header))
+        alert.setMessage(getString(R.string.reset_question))
+
+        alert.setPositiveButton(getString(R.string.yes)) { dialog, which ->
+
+            viewModel.deleteDhikrById(positionInt)
+            virdReseter()
+
+            Toast.makeText(requireContext(), getString(R.string.reset), Toast.LENGTH_LONG).show()
+        }
+        alert.setNegativeButton(getString(R.string.no)) { dialog, which ->
+            Toast.makeText(requireContext(), getString(R.string.noreset), Toast.LENGTH_LONG).show()
+        }
+        alert.show()
 
     }
 
@@ -158,42 +273,81 @@ class DhikrFragment : Fragment() {
 
     }
 
+    fun virdReseter() {
+        if (positionInt == 0) {
+            a0=0
+            textView.text = "vird :" + a0
+        } else if (positionInt == 1) {
+            b1 = 0
+            textView.text = "vird :" + b1
+        } else if (positionInt == 2) {
+            c2 = 0
+            textView.text = "vird :" + c2
+        } else if (positionInt == 3) {
+            d3=0
+            textView.text = "vird :" + d3
+        } else if (positionInt == 4) {
+            e4=0
+            textView.text = "vird :" + e4
+        } else if (positionInt == 5) {
+            f5=0
+            textView.text = "vird :" + f5
+        } else if (positionInt == 6) {
+            g6=0
+            textView.text = "vird :" + g6
+        } else if (positionInt == 7) {
+            h7=0
+            textView.text = "vird :" + h7
+        } else if (positionInt == 8) {
+            i8=0
+            textView.text = "vird :" + i8
+        } else if (positionInt == 9) {
+            j9=0
+            textView.text = "vird :" + j9
+        } else if (positionInt == 10) {
+            k10=0
+            textView.text = "vird :" + k10
+        }
+
+
+    }
+
     override fun onPause() {
         super.onPause()
 
         val timestamp = Calendar.getInstance().timeInMillis
         if (a0 > entrya0) {
-            viewModel.saveDhikr(a0, 0, timestamp)
+            viewModel.saveDhikr(a0-entrya0, 0, timestamp)
         }
         if (b1 > entryb1) {
-            viewModel.saveDhikr(b1, 1, timestamp)
+            viewModel.saveDhikr(b1-entryb1, 1, timestamp)
         }
         if (c2 > entryc2) {
-            viewModel.saveDhikr(c2, 2, timestamp)
+            viewModel.saveDhikr(c2-entryc2, 2, timestamp)
         }
         if (d3 > entryd3) {
-            viewModel.saveDhikr(d3, 3, timestamp)
+            viewModel.saveDhikr(d3-entryd3, 3, timestamp)
         }
         if (e4 > entrye4) {
-            viewModel.saveDhikr(e4, 4, timestamp)
+            viewModel.saveDhikr(e4-entrye4, 4, timestamp)
         }
         if (f5 > entryf5) {
-            viewModel.saveDhikr(f5, 5, timestamp)
+            viewModel.saveDhikr(f5-entryf5, 5, timestamp)
         }
         if (g6 > entryg6) {
-            viewModel.saveDhikr(g6, 6, timestamp)
+            viewModel.saveDhikr(g6-entryg6, 6, timestamp)
         }
         if (h7 > entryh7) {
-            viewModel.saveDhikr(h7, 7, timestamp)
+            viewModel.saveDhikr(h7-entryh7, 7, timestamp)
         }
         if (i8 > entryi8) {
-            viewModel.saveDhikr(i8, 8, timestamp)
+            viewModel.saveDhikr(i8-entryi8, 8, timestamp)
         }
         if (j9 > entryj9) {
-            viewModel.saveDhikr(j9, 9, timestamp)
+            viewModel.saveDhikr(j9-entryj9, 9, timestamp)
         }
         if (k10 > entryk10) {
-            viewModel.saveDhikr(k10, 10, timestamp)
+            viewModel.saveDhikr(k10-entryk10, 10, timestamp)
         }
 
         sharedPreferences.edit().putInt("positionInt", positionInt).apply()
@@ -238,6 +392,11 @@ class DhikrFragment : Fragment() {
                     }
                 }
 
+
+                sliderItems()
+                itemSliderView()
+                viewpager_dhikr.currentItem = positionInt
+
                 entrya0 = a0
                 entryb1 = b1
                 entryc2 = c2
@@ -256,6 +415,33 @@ class DhikrFragment : Fragment() {
 
     }
 
+    fun virdPositionMediaPlayerCreater() {
+
+        if (positionInt == 0) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.yaallah)
+        } else if (positionInt == 1) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.lailaheillallah)
+        } else if (positionInt == 2) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.subhanallah)
+        } else if (positionInt == 3) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.elhamdulillah)
+        } else if (positionInt == 4) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.allahuekber)
+        } else if (positionInt == 5) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.salavat)
+        } else if (positionInt == 6) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.subhanallahilazim)
+        } else if (positionInt == 7) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.illabillah)
+        } else if (positionInt == 8) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.hasbunallahu)
+        } else if (positionInt == 9) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.minezzalimin)
+        } else if (positionInt == 10) {
+            mediaPlayer = MediaPlayer.create(requireContext(), R.raw.vallahuekber)
+        }
+    }
+
 
     private fun sliderItems() {
         sliderItemList = ArrayList()
@@ -272,9 +458,11 @@ class DhikrFragment : Fragment() {
             object : ViewPager2.OnPageChangeCallback() {
                 override fun onPageSelected(position: Int) {
                     super.onPageSelected(position)
-                    println("viewpager_dhikr.currentItem : "+viewpager_dhikr.currentItem)
                     positionInt = viewpager_dhikr.currentItem
                     virdWriter()
+
+                    mediaPlayer?.release()
+                    virdPositionMediaPlayerCreater()
 
                 }
             }

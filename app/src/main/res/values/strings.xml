@@ -86,7 +86,15 @@
 
 
     <string name="button_start" translatable="false">Start</string>
-
+    <string name="sound_off">Ses kapalı!</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_restart">Reset Dhikr</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="noreset">Dhikr has not been reset</string>
+    <string name="reset">Dhikr has been reset</string>
+    <string name="reset_header">Reset</string>
+    <string name="reset_question">Are you sure you want to reset the vird count?</string>
 
 
 </resources>

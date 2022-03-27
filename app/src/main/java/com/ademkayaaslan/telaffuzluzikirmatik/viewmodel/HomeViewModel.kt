@@ -43,7 +43,6 @@ class HomeViewModel(application: Application) :BaseViewModel(application) {
                lastDhikr.value = dummyDhikr
            }
 
-
         }
 
     }

@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.os.Handler
+import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -15,13 +16,12 @@ import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.ViewPager2
 import com.ademkayaaslan.telaffuzluzikirmatik.R
 import com.ademkayaaslan.telaffuzluzikirmatik.adapter.ViewpagerAdapter
-import com.ademkayaaslan.telaffuzluzikirmatik.model.Dhikr
 import com.ademkayaaslan.telaffuzluzikirmatik.model.ViewpagerItem
 import com.ademkayaaslan.telaffuzluzikirmatik.viewmodel.HomeViewModel
 import kotlinx.android.synthetic.main.home_fragment.*
 import java.util.*
-import kotlin.collections.ArrayList
 import kotlin.math.abs
+
 
 class HomeFragment : Fragment() {
 
@@ -32,7 +32,6 @@ class HomeFragment : Fragment() {
     private lateinit var viewModel: HomeViewModel
 
     private lateinit var sharedPreferences: SharedPreferences
-
 
 
     var positionInt = 0
@@ -75,7 +74,7 @@ class HomeFragment : Fragment() {
 
             sharedPreferences?.edit()?.putInt("positionInt", viewpager_dhikr_home.currentItem)?.apply()
             val dhikrFragment = DhikrFragment()
-            activity?.supportFragmentManager?.beginTransaction()?.add(R.id.layout_container, dhikrFragment, "dhikrFragment")?.commit()
+            activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.layout_container, dhikrFragment, "dhikrFragment")?.commit()
 
         }
 
@@ -166,7 +165,12 @@ class HomeFragment : Fragment() {
         viewpager_dhikr_home.setPageTransformer(comPosPageTarn)
         sliderHandle = Handler()
         sliderRun = Runnable {
-            viewpager_dhikr_home.currentItem = viewpager_dhikr_home.currentItem + 1
+            if (viewpager_dhikr_home.currentItem < 10) {
+                viewpager_dhikr_home.currentItem = viewpager_dhikr_home.currentItem + 1
+            } else {
+                viewpager_dhikr_home.currentItem = 0
+            }
+
         }
         viewpager_dhikr_home.registerOnPageChangeCallback(
             object : ViewPager2.OnPageChangeCallback() {
