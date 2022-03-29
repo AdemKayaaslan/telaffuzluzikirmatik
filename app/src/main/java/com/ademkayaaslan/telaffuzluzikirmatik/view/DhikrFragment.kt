@@ -107,6 +107,25 @@ class DhikrFragment : Fragment() {
             }
         }
 
+        button_back.setOnClickListener {
+
+            if (viewpager_dhikr.currentItem > 0) {
+                viewpager_dhikr.currentItem -= 1
+            } else {
+                viewpager_dhikr.currentItem = 10
+            }
+
+        }
+
+
+        button_foward.setOnClickListener {
+            if (viewpager_dhikr.currentItem < 10) {
+                viewpager_dhikr.currentItem += 1
+            } else {
+                viewpager_dhikr.currentItem = 0
+            }
+        }
+
     }
 
 
@@ -453,6 +472,7 @@ class DhikrFragment : Fragment() {
         viewpager_dhikr.getChildAt(0).overScrollMode = RecyclerView.OVER_SCROLL_NEVER
 
 
+        spring_dots_indicator.setViewPager2(viewpager_dhikr)
 
         viewpager_dhikr.registerOnPageChangeCallback(
             object : ViewPager2.OnPageChangeCallback() {

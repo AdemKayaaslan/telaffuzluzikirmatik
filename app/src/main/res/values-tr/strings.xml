@@ -46,7 +46,7 @@
 
     <string name="name_hasbunallahu">Hasbunallahu Ve Ni\'mal Wakeel</string>
     <string name="explanation_hasbunallahu">Allah bize yeter ve [O] ne güzel vekildir.</string>
-    <string name="body_hasbunallahu">Ebu Sa\'id Al-Khudri Radi ALLAHu \'Anhu bildirdi:\nALLAH\'ın Elçisi (Sallallahu aleyhi ve Sellem) şöyle dedi: Trompet çalıyor ve üfleme emrini bekliyor”. O (s.a.v) sahabelerini şoke etmiş gibi algıladı, bu yüzden onlara şu ayeti okuyarak teselli aramalarını buyurdu: "HasbunALLAH Veni\'mel Vekil [ALLAH (Yalnız) bize yeter ve O, (bizim için) ne güzel vekildir)" ]”.\nCem'i At-Tirmizi | 1. Kitap, Hadis 409</string>
+    <string name="body_hasbunallahu">Ebu Sa\'id Al-Khudri Radi ALLAHu \'Anhu bildirdi:\nALLAH\'ın Elçisi (Sallallahu aleyhi ve Sellem) şöyle dedi: Trompet çalıyor ve üfleme emrini bekliyor”. O (s.a.v) sahabelerini şoke etmiş gibi algıladı, bu yüzden onlara şu ayeti okuyarak teselli aramalarını buyurdu: "HasbunALLAH Veni\'mel Vekil [ALLAH (Yalnız) bize yeter ve O, (bizim için) ne güzel vekildir)" ]”.\nCem\'i At-Tirmizi | 1. Kitap, Hadis 409</string>
 
 
     <string name="name_lailahe">La ilaaha illa Anta, subhaanaka inni kuntu min al-zaalimeen</string>
@@ -55,8 +55,9 @@
 
 
     <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Velhamdulillah vela İlahe İllallah Wallaahu Ekber</string>
-    <string name="explanation_subhanallahi_velhamdulillahi">Allah\'a hamdolsun, hamd Allah\'a mahsustur, Allah\'tan başka ilah yoktur ve Allah en büyüktür</string>
-    <string name="body_subhanallahi_velhamdulillahi">Peygamber (s.a.v) şöyle buyurdu: "Sübhanallah Velhamdülillah vela İlahe İllallah Wallaahu Ekber (Allah\'ı tesbih ederim, hamd Allah\'a mahsustur, Allah\'tan başka ilah yoktur ve Allah en büyüktür) dediğimde ), bu bana güneşin üzerine doğduğu her şeyden daha sevimlidir." (Müslim rivayet etmiştir). Bu sözler, Allah'a en sevgili, kelimelerin en güzelidir ve sahih hadislerde bildirildiği gibi salih amellerin terazisinde ağır gelir.</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">Allah\'a hamdolsun, hamd Allah\'a mahsustur, Allah\'tan başka ilah yoktur ve Allah en büyüktür.</string>
+    <string name="body_subhanallahi_velhamdulillahi">Peygamber (s.a.v) şöyle buyurdu: \"Sübhanallah velhamdülillah vela ilahe illallah wallaahu ekber (Allah\'ı tesbih ederim, hamd Allah\'a mahsustur, Allah\'tan başka ilah yoktur ve Allah en büyüktür) dediğimde ), bu bana güneşin üzerine doğduğu her şeyden daha sevimlidir." (Müslim rivayet etmiştir). Bu sözler, Allah'a en sevgili, kelimelerin en güzelidir ve sahih hadislerde bildirildiği gibi salih amellerin terazisinde ağır gelir.</string>
+
 
 
 
