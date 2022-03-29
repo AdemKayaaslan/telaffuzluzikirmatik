@@ -17,7 +17,7 @@
     <string name="arabic_lahavle" translatable="false">لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بااللّٰهِ</string>
     <string name="arabic_hasbunallahu" translatable="false">حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلٍٍُ</string>
     <string name="arabic_lailahe" translatable="false">لاَ إِلهَ إِِلاَّ أَنْتَ سُبْحَانَكَ إِِنِّي كُنْتُ مِنَ الظَّالِمِينَ</string>
-    <string name="arabic_subhanallahi_velhamdulillahi" translatable="false">arabic_subhanallahi_velhamdulillahi</string>
+    <string name="arabic_subhanallahi_velhamdulillahi" translatable="false">سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلاَ إِلَهَ إِلاَّ اللَّهُ وَاللَّهُ أَكْبَرُ وَلاَ حَوْلَ وَلاَ قُوَّةَ إِلاَّ بِاللَّ</string>
 
 
     <!-- NON-TRANSLATABLE -->
@@ -30,7 +30,7 @@
 
     <string name="name_ya_allah">Allah</string>
     <string name="explanation_ya_allah">The Almighty Lord of All Worlds</string>
-    <string name="body_ya_allah">it</string>
+    <string name="body_ya_allah">Allah is Al-Ism Al-A\'zam, the Greatest name which contains all the divine attributes and is the sign of the essence and cause of all existence. Allah does not resemble in any way any of His creation. Allah is Allah\'s name only. Nothing else can assume this name or share it.</string>
 
 
     <string name="name_lailaheillallah">La Ilaha Illallah</string>
@@ -50,7 +50,7 @@
 
     <string name="name_allahuekber">Allahu ekber</string>
     <string name="explanation_allahuekber">Allah is the Greatest.</string>
-    <string name="body_allahuekber">Reference</string>
+    <string name="body_allahuekber">Abu Hurairah (May Allah be pleased with him) reported: \n The Messenger of Allah said, He who recites after every prayer: Subhan-Allah (Allah is free from imperfection) thirty-three times; Al-hamdu lillah (praise be to Allah) thirty-three times; Allahu Akbar (Allah is Greatest) thirty-three times; and completes the hundred with: La ilaha illallahu, wahdahu la sharika lahu, lahul-mulku wa lahul-hamdu, wa Huwa \'ala kulli shai\'in Qadir (there is no true god except Allah. He is One and He has no partner with Him. His is the sovereignty and His is the praise, and He is Omnipotent), will have all his sins pardoned even if they may be as large as the foam on the surface of the sea. [Muslim]. Reference: Book 16, Hadith 12 Arabic/English book reference : Book 16, Hadith 1419</string>
 
 
     <string name="name_salawat">Allahumma salli ala sayyidina Muhammadin and ala ali sayyidina Muhammad.</string>
@@ -78,15 +78,13 @@
     <string name="body_lailahe">body_lailahe</string>
 
 
-    <string name="name_subhanallahi_velhamdulillahi">name_subhanallahi_velhamdulillahi</string>
-    <string name="explanation_subhanallahi_velhamdulillahi">explanation_subhanallahi_velhamdulillahi</string>
-    <string name="body_subhanallahi_velhamdulillahi">body_subhanallahi_velhamdulillahi</string>
+    <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">Glory be to Allah, praise be to Allah, there is no god except Allah, and Allah is Most Great</string>
+    <string name="body_subhanallahi_velhamdulillahi">The Prophet (ﷺ) said: “When I say ‘SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar (Glory be to Allah, praise be to Allah, there is no god except Allah, and Allah is Most Great)’, this is more beloved to me than all that the sun rises upon.” (Narrated by Muslim). These words are the most beloved words to Allah, the best of words, and they weigh heavily in the balance of good deeds, as was narrated in the saheeh ahaadeeth.</string>
 
 
-
-
-    <string name="button_start" translatable="false">Start</string>
-    <string name="sound_off">Ses kapalı!</string>
+    <string name="button_start">Start</string>
+    <string name="sound_off">Sound Off!</string>
     <string name="menu_statistics">Statistics</string>
     <string name="menu_restart">Reset Dhikr</string>
     <string name="yes">yes</string>

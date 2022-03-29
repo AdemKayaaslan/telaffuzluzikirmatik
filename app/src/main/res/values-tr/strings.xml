@@ -6,7 +6,7 @@
 
     <string name="name_ya_allah">Allah</string>
     <string name="explanation_ya_allah">Tüm Alemlerin Yüce Rabbi</string>
-    <string name="body_ya_allah">payla</string>
+    <string name="body_ya_allah">Allah, tüm ilahi sıfatları içeren ve tüm varlıkların özünün ve nedeninin işareti olan en büyük isim olan Al-İsm-i A\'zam\'dır. Allah, yarattıklarının hiçbirine hiçbir şekilde benzemez. Allah sadece Allah\'ın adıdır. Bu adı başka hiçbir şey üstlenemez veya paylaşamaz.</string>
 
 
     <string name="name_lailaheillallah">La İlahe İllallah</string>
@@ -26,7 +26,7 @@
 
     <string name="name_allahuekber">Allahu ekber</string>
     <string name="explanation_allahuekber">Allah her şeyden yüce ve büyüktür</string>
-    <string name="body_allahuekber">adis</string>
+    <string name="body_allahuekber">Ebu Hureyre (Allah Ondan razı olsun) şöyle bildirdi: Rasûlullah (s.a.v.) buyurdular ki: Kim her namazın ardından otuz üç defa: Subhanallah (Allah noksanlardan münezzehtir) okur; El-hamdu lillah (Allah\'a hamd olsun) otuz üç defa; Allahu Ekber (Allah en büyüktür) otuz üç defa; ve 100\'ü şu şekilde tamamlar: La ilahe illallahu, vahdehu la şerika lehu, lehül-mulku ve lehül-hamdü, ve huve ala külli şey\'in Kadir (Allah\'tan başka hak ilah yoktur. O birdir ve O\'nun ortağı yoktur. Hükümdarlık O\'nundur, hamd O\'nundur ve O, her şeye kadirdir), denizin yüzeyindeki köpük kadar da olsa günahları bağışlanır [Müslüman] Kaynak: Kitap 16, Hadis 12 Arapça/İngilizce kitap referansı : Kitap 16, Hadis 1419</string>
 
 
     <string name="name_salawat">Allahümme salli ala seyyidina Muhammedin ve ala ali seyyidina Muhammed.</string>
@@ -34,29 +34,42 @@
     <string name="body_salawat">Peygamber (s.a.v.) Bana en yakın olanlar, bana en çok salavat getirenlerdir. Bana salavat getirirsen, Allah (c.c) sana salât eder. Bana salavat getir. Nerede olursan ol, duaların hep bana ulaşır.</string>
 
 
-    <string name="name_subhanallahi_vebihamdihi"></string>
-    <string name="explanation_subhanallahi_vebihamdihi"></string>
-    <string name="body_subhanallahi_vebihamdihi"></string>
+    <string name="name_subhanallahi_vebihamdihi">subhanallahi ve bihamdihi subhanallahil azim</string>
+    <string name="explanation_subhanallahi_vebihamdihi">Allah\'a hamdolsun, hamd O\'na mahsustur, yüce Allah\'a mahsustur.</string>
+    <string name="body_subhanallahi_vebihamdihi">Resulullah (Sallallahu aleyhi ve Sellem) bana şöyle dedi: "Sana Allah\'ın en çok sevdiği ifadeyi söyleyeyim mi?" O, "Sübhanallahi ve bihamdihi"dir (Allah, noksanlardan münezzehtir ve hamd O\'nundur)\'.”[Müslim]</string>
 
 
-    <string name="name_lahavle"></string>
-    <string name="explanation_lahavle"></string>
-    <string name="body_lahavle"></string>
+    <string name="name_lahavle">La Hawla Wala Quwwata Illa Billah</string>
+    <string name="explanation_lahavle">Allah\'tan başka güç ve kuvvet yoktur</string>
+    <string name="body_lahavle">Hz Ebu Hureyre (RA), Hz. Muhammed\'in (S.A.V) La Havle Vela Kuvvata İlla Billah\'ın, en küçük hastalık derecesinin sıkıntı ve üzüntü olduğu 99 hastalığın tedavisi olduğunu söylediğini anlattı.</string >
 
 
-    <string name="name_hasbunallahu"></string>
-    <string name="explanation_hasbunallahu"></string>
-    <string name="body_hasbunallahu"></string>
+    <string name="name_hasbunallahu">Hasbunallahu Ve Ni\'mal Wakeel</string>
+    <string name="explanation_hasbunallahu">Allah bize yeter ve [O] ne güzel vekildir.</string>
+    <string name="body_hasbunallahu">Ebu Sa\'id Al-Khudri Radi ALLAHu \'Anhu bildirdi:\nALLAH\'ın Elçisi (Sallallahu aleyhi ve Sellem) şöyle dedi: Trompet çalıyor ve üfleme emrini bekliyor”. O (s.a.v) sahabelerini şoke etmiş gibi algıladı, bu yüzden onlara şu ayeti okuyarak teselli aramalarını buyurdu: "HasbunALLAH Veni\'mel Vekil [ALLAH (Yalnız) bize yeter ve O, (bizim için) ne güzel vekildir)" ]”.\nCem'i At-Tirmizi | 1. Kitap, Hadis 409</string>
 
 
-    <string name="name_lailahe"></string>
-    <string name="explanation_lailahe"></string>
-    <string name="body_lailahe"></string>
+    <string name="name_lailahe">La ilaaha illa Anta, subhaanaka inni kuntu min al-zaalimeen</string>
+    <string name="explanation_lailahe">(Ey ALLAH\'ım!) Senden başka ibadete layık yoktur. Sana şan olsun. Doğrusu ben zalimlerden oldum.</string>
+    <string name="body_lailahe">body_lailahe</string>
 
 
-    <string name="name_subhanallahi_velhamdulillahi"></string>
-    <string name="explanation_subhanallahi_velhamdulillahi"></string>
-    <string name="body_subhanallahi_velhamdulillahi"></string>
+    <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Velhamdulillah vela İlahe İllallah Wallaahu Ekber</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">Allah\'a hamdolsun, hamd Allah\'a mahsustur, Allah\'tan başka ilah yoktur ve Allah en büyüktür</string>
+    <string name="body_subhanallahi_velhamdulillahi">Peygamber (s.a.v) şöyle buyurdu: "Sübhanallah Velhamdülillah vela İlahe İllallah Wallaahu Ekber (Allah\'ı tesbih ederim, hamd Allah\'a mahsustur, Allah\'tan başka ilah yoktur ve Allah en büyüktür) dediğimde ), bu bana güneşin üzerine doğduğu her şeyden daha sevimlidir." (Müslim rivayet etmiştir). Bu sözler, Allah'a en sevgili, kelimelerin en güzelidir ve sahih hadislerde bildirildiği gibi salih amellerin terazisinde ağır gelir.</string>
+
+
+
+    <string name="button_start">Başlat</string>
+    <string name="sound_off">Ses Kapalı!</string>
+    <string name="menu_statistics">İstatistikler</string>
+    <string name="menu_restart">Zikiri Sıfırla</string>
+    <string name="yes">evet</string>
+    <string name="no">hayır</string>
+    <string name="noreset">Zikir sıfırlanmadı</string>
+    <string name="reset">Zikir sıfırlandı</string>
+    <string name="reset_header">Sıfırla</string>
+    <string name="reset_question">Vird sayısını sıfırlamak istediğinizden emin misiniz?</string>
 
 
 </resources>
