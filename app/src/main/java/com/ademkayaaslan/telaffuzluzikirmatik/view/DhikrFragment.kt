@@ -41,6 +41,28 @@ class DhikrFragment : Fragment() {
     var j9: Int = 0
     var k10: Int = 0
     var positionInt = 0
+    var totala0: Int = 0
+    var totalb1: Int = 0
+    var totalc2: Int = 0
+    var totald3: Int = 0
+    var totale4: Int = 0
+    var totalf5: Int = 0
+    var totalg6: Int = 0
+    var totalh7: Int = 0
+    var totali8: Int = 0
+    var totalj9: Int = 0
+    var totalk10: Int = 0
+    var montha0: Int = 0
+    var monthb1: Int = 0
+    var monthc2: Int = 0
+    var monthd3: Int = 0
+    var monthe4: Int = 0
+    var monthf5: Int = 0
+    var monthg6: Int = 0
+    var monthh7: Int = 0
+    var monthi8: Int = 0
+    var monthj9: Int = 0
+    var monthk10: Int = 0
     var entrya0: Int = 0
     var entryb1: Int = 0
     var entryc2: Int = 0
@@ -64,8 +86,10 @@ class DhikrFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         setHasOptionsMenu(true)
+
         return inflater.inflate(R.layout.dhikr_fragment, container, false)
     }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -74,11 +98,14 @@ class DhikrFragment : Fragment() {
             "com.ademkayaaslan.telaffuzluzikirmatik",
             Context.MODE_PRIVATE
         )?.also { sharedPreferences = it }
-
+        activity?.actionBar?. setDisplayHomeAsUpEnabled(true)
+        activity?.actionBar?. setDisplayShowHomeEnabled(true)
         virdButton()
         soundButton()
         loopButton()
         viewModel.getAllDhikrs()
+
+
         observeLiveData()
 
         positionInt = sharedPreferences.getInt("positionInt", 0)
@@ -201,6 +228,9 @@ class DhikrFragment : Fragment() {
                 resetDhikr()
                 true
             }
+            R.id.home -> {
+                true
+            }
             else -> super.onContextItemSelected(item)
         }
     }
@@ -266,27 +296,49 @@ class DhikrFragment : Fragment() {
 
     fun virdWriter() {
         if (positionInt == 0) {
-            textView.text = "vird :" + a0
+            textView.text = "vird : " + a0
+            textView_total.text = "Total Dhikr : "+(totala0 + a0)
+            textView_month.text = "Month Dhikr : "+ (montha0 + a0)
         } else if (positionInt == 1) {
-            textView.text = "vird :" + b1
+            textView.text = "vird : " + b1
+            textView_total.text = "Total Dhikr : "+(totalb1 + b1)
+            textView_month.text = "Month Dhikr : "+ (monthb1 + b1)
         } else if (positionInt == 2) {
-            textView.text = "vird :" + c2
+            textView.text = "vird : " + c2
+            textView_total.text = "Total Dhikr : "+(totalc2 + c2)
+            textView_month.text = "Month Dhikr : "+ (monthc2 + c2)
         } else if (positionInt == 3) {
-            textView.text = "vird :" + d3
+            textView.text = "vird : " + d3
+            textView_total.text = "Total Dhikr : "+(totald3 + d3)
+            textView_month.text = "Month Dhikr : "+ (monthd3 + d3)
         } else if (positionInt == 4) {
-            textView.text = "vird :" + e4
+            textView.text = "vird : " + e4
+            textView_total.text = "Total Dhikr : "+(totale4 + e4)
+            textView_month.text = "Month Dhikr : "+ (monthe4 + e4)
         } else if (positionInt == 5) {
-            textView.text = "vird :" + f5
+            textView.text = "vird : " + f5
+            textView_total.text = "Total Dhikr : "+(totalf5 + f5)
+            textView_month.text = "Month Dhikr : "+ (monthf5 + f5)
         } else if (positionInt == 6) {
-            textView.text = "vird :" + g6
+            textView.text = "vird : " + g6
+            textView_total.text = "Total Dhikr : "+(totalg6 + g6)
+            textView_month.text = "Month Dhikr : "+ (monthg6 + g6)
         } else if (positionInt == 7) {
-            textView.text = "vird :" + h7
+            textView.text = "vird : " + h7
+            textView_total.text = "Total Dhikr : "+(totalh7 + h7)
+            textView_month.text = "Month Dhikr : "+ (monthh7 + h7)
         } else if (positionInt == 8) {
-            textView.text = "vird :" + i8
+            textView.text = "vird : " + i8
+            textView_total.text = "Total Dhikr : "+(totali8 + i8)
+            textView_month.text = "Month Dhikr : "+ (monthi8 + i8)
         } else if (positionInt == 9) {
-            textView.text = "vird :" + j9
+            textView.text = "vird : " + j9
+            textView_total.text = "Total Dhikr : "+(totalj9 + j9)
+            textView_month.text = "Month Dhikr : "+ (monthj9 + j9)
         } else if (positionInt == 10) {
-            textView.text = "vird :" + k10
+            textView.text = "vird : " + k10
+            textView_total.text = "Total Dhikr : "+(totalk10 + k10)
+            textView_month.text = "Month Dhikr : "+ (monthk10 + k10)
         }
 
 
@@ -335,6 +387,7 @@ class DhikrFragment : Fragment() {
         super.onPause()
 
         val timestamp = Calendar.getInstance().timeInMillis
+
         if (a0 > entrya0) {
             viewModel.saveDhikr(a0-entrya0, 0, timestamp)
         }
@@ -395,38 +448,61 @@ class DhikrFragment : Fragment() {
                 for (dhikr in it) {
                     when (dhikr.dhikrId) {
 
-                        0 -> a0 += dhikr.dhikrCount
-                        1 -> b1 += dhikr.dhikrCount
-                        2 -> c2 += dhikr.dhikrCount
-                        3 -> d3 += dhikr.dhikrCount
-                        4 -> e4 += dhikr.dhikrCount
-                        5 -> f5 += dhikr.dhikrCount
-                        6 -> g6 += dhikr.dhikrCount
-                        7 -> h7 += dhikr.dhikrCount
-                        8 -> i8 += dhikr.dhikrCount
-                        9 -> j9 += dhikr.dhikrCount
-                        10 -> k10 += dhikr.dhikrCount
+                        0 -> totala0 += dhikr.dhikrCount
+                        1 -> totalb1 += dhikr.dhikrCount
+                        2 -> totalc2 += dhikr.dhikrCount
+                        3 -> totald3 += dhikr.dhikrCount
+                        4 -> totale4 += dhikr.dhikrCount
+                        5 -> totalf5 += dhikr.dhikrCount
+                        6 -> totalg6 += dhikr.dhikrCount
+                        7 -> totalh7 += dhikr.dhikrCount
+                        8 -> totali8 += dhikr.dhikrCount
+                        9 -> totalj9 += dhikr.dhikrCount
+                        10 -> totalk10 += dhikr.dhikrCount
 
 
                     }
                 }
 
+                val cal = Calendar.getInstance()
+                cal.set(Calendar.DAY_OF_MONTH,1)
+                cal.set(Calendar.HOUR_OF_DAY,0)
+                cal.set(Calendar.MINUTE,0)
+                cal.set(Calendar.SECOND,0)
+                viewModel.getMonthDhikrs(cal.timeInMillis,positionInt)
+
+
+            }
+
+        })
+
+
+        viewModel.monthDhikrs.observe(viewLifecycleOwner, androidx.lifecycle.Observer {
+
+            it?.let {
+
+                for (dhikr in it) {
+                    when (dhikr.dhikrId) {
+
+                        0 -> montha0 += dhikr.dhikrCount
+                        1 -> monthb1 += dhikr.dhikrCount
+                        2 -> monthc2 += dhikr.dhikrCount
+                        3 -> monthd3 += dhikr.dhikrCount
+                        4 -> monthe4 += dhikr.dhikrCount
+                        5 -> monthf5 += dhikr.dhikrCount
+                        6 -> monthg6 += dhikr.dhikrCount
+                        7 -> monthh7 += dhikr.dhikrCount
+                        8 -> monthi8 += dhikr.dhikrCount
+                        9 -> monthj9 += dhikr.dhikrCount
+                        10 -> monthk10 += dhikr.dhikrCount
+
+
+                    }
+                }
 
                 sliderItems()
                 itemSliderView()
                 viewpager_dhikr.currentItem = positionInt
-
-                entrya0 = a0
-                entryb1 = b1
-                entryc2 = c2
-                entryd3 = d3
-                entrye4 = e4
-                entryf5 = f5
-                entryg6 = g6
-                entryh7 = h7
-                entryi8 = i8
-                entryj9 = j9
-                entryk10 = k10
 
             }
 

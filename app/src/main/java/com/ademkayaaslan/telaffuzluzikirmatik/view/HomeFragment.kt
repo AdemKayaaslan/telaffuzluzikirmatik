@@ -74,7 +74,7 @@ class HomeFragment : Fragment() {
 
             sharedPreferences?.edit()?.putInt("positionInt", viewpager_dhikr_home.currentItem)?.apply()
             val dhikrFragment = DhikrFragment()
-            activity?.supportFragmentManager?.beginTransaction()?.replace(R.id.layout_container, dhikrFragment, "dhikrFragment")?.commit()
+            activity?.supportFragmentManager?.beginTransaction()?.addToBackStack("home")?.replace(R.id.layout_container, dhikrFragment, "dhikrFragment")?.commit()
 
         }
 

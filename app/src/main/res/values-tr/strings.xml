@@ -41,7 +41,7 @@
 
     <string name="name_lahavle">La Hawla Wala Quwwata Illa Billah</string>
     <string name="explanation_lahavle">Allah\'tan başka güç ve kuvvet yoktur</string>
-    <string name="body_lahavle">Hz Ebu Hureyre (RA), Hz. Muhammed\'in (S.A.V) La Havle Vela Kuvvata İlla Billah\'ın, en küçük hastalık derecesinin sıkıntı ve üzüntü olduğu 99 hastalığın tedavisi olduğunu söylediğini anlattı.</string >
+    <string name="body_lahavle">Hz Ebu Hureyre (RA), Hz. Muhammed\'in (S.A.V) La Havle Vela Kuvvata İlla Billah\'ın, en küçük hastalık derecesinin sıkıntı ve üzüntü olduğu 99 hastalığın tedavisi olduğunu söylediğini anlattı.</string>
 
 
     <string name="name_hasbunallahu">Hasbunallahu Ve Ni\'mal Wakeel</string>
@@ -51,14 +51,12 @@
 
     <string name="name_lailahe">La ilaaha illa Anta, subhaanaka inni kuntu min al-zaalimeen</string>
     <string name="explanation_lailahe">(Ey ALLAH\'ım!) Senden başka ibadete layık yoktur. Sana şan olsun. Doğrusu ben zalimlerden oldum.</string>
-    <string name="body_lailahe">body_lailahe</string>
+    <string name="body_lailahe">Sayyidatina Aishah r.a bildirdi:\nKim Allah\'ın Kitabından bir harf okursa, ondan sevap ve on misli sevap alır. Elif Lam Mim harftir demiyorum ama Elif harftir, Lam harftir ve Mim harftir\n(Sünen At-Tirmizi)</string>
 
 
     <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Velhamdulillah vela İlahe İllallah Wallaahu Ekber</string>
     <string name="explanation_subhanallahi_velhamdulillahi">Allah\'a hamdolsun, hamd Allah\'a mahsustur, Allah\'tan başka ilah yoktur ve Allah en büyüktür.</string>
     <string name="body_subhanallahi_velhamdulillahi">Peygamber (s.a.v) şöyle buyurdu: \"Sübhanallah velhamdülillah vela ilahe illallah wallaahu ekber (Allah\'ı tesbih ederim, hamd Allah\'a mahsustur, Allah\'tan başka ilah yoktur ve Allah en büyüktür) dediğimde ), bu bana güneşin üzerine doğduğu her şeyden daha sevimlidir." (Müslim rivayet etmiştir). Bu sözler, Allah'a en sevgili, kelimelerin en güzelidir ve sahih hadislerde bildirildiği gibi salih amellerin terazisinde ağır gelir.</string>
-
-
 
 
     <string name="button_start">Başlat</string>
