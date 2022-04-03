@@ -31,7 +31,7 @@ class SplashActivity : AppCompatActivity() {
             MobileAds.initialize(
                 this
             ) { Utils.loadAds(this@SplashActivity) }
-            1000
+            1500
         } else {
             800
         }
@@ -41,9 +41,7 @@ class SplashActivity : AppCompatActivity() {
             finish()
         }, timeDelay)
 
-        /*val intent = Intent(this@SplashActivity, MainActivity::class.java)
-        startActivity(intent)
-        finish()*/
+
     }
 
     override fun onBackPressed() {

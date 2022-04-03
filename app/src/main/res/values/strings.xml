@@ -12,8 +12,6 @@
     <string name="arabic_allahuekber" translatable="false">الله أكبر</string>
     <string name="arabic_salawat" translatable="false">اللَّهُمَّ صَلِّ عَلَى سيّدنا مُحَمَّدٍ، وَعَلَى آلِ سيّدنا مُحَمَّدٍٍ</string>
     <string name="arabic_subhanallahi_vebihamdihi" translatable="false">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ العَظِيمٍٍ</string>
-
-
     <string name="arabic_lahavle" translatable="false">لَا حَوْلَ وَلَا قُوَّةَ اِلَّا بااللّٰهِ</string>
     <string name="arabic_hasbunallahu" translatable="false">حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلٍٍُ</string>
     <string name="arabic_lailahe" translatable="false">لاَ إِلهَ إِِلاَّ أَنْتَ سُبْحَانَكَ إِِنِّي كُنْتُ مِنَ الظَّالِمِينَ</string>
@@ -23,9 +21,9 @@
     <!-- NON-TRANSLATABLE -->
 
 
-    <string name="app_name">Telaffuzlu Zikirmatik</string>
-    <string name="weeklyNotificationSuffix">Haftalık Burç Yorumunuz</string>
-    <string name="last_ads_info">Son reklamı görüntülediniz. Bu oturumda daha fazla reklam görmeyeceksiniz.</string>
+    <string name="app_name">Adhkar : Dhikr and Voice</string>
+    <string name="weeklyNotificationSuffix">The most beneficial dhikr is the regular one.</string>
+    <string name="last_ads_info">You have viewed the last ad. You will not see any more ads in this session.</string>
 
 
     <string name="name_ya_allah">Allah</string>
@@ -93,6 +91,11 @@
     <string name="reset">Dhikr has been reset</string>
     <string name="reset_header">Reset</string>
     <string name="reset_question">Are you sure you want to reset the vird count?</string>
+    <string name="last_dhikr">\nLast Dhikr</string>
+    <string name="this_week_dhikr">This Week\nDhikr</string>
+    <string name="this_month_dhikr">This Month\nDhikr</string>
+    <string name="total_dhikr">"Total Dhikr  :  "</string>
+    <string name="month_dhikr">"Month Dhikr  :  "</string>
 
 
 </resources>

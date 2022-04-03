@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">اذکار : ذکر و صدا</string>
+    <string name="weeklyNotificationSuffix">مفیدترین ذکر ذکر معمولی است.</string>
+    <string name="last_ads_info">آخرین آگهی را مشاهده کردید. در این جلسه دیگر تبلیغاتی نخواهید دید.</string>
+
+
+    <string name="name_ya_allah">الله</string>
+    <string name="explanation_ya_allah">پروردگار متعال همه جهانیان</string>
+    <string name="body_ya_allah">الله اسم الاعظم است، اسم اعظم که همه صفات الهی را در خود دارد و نشانه ذات و علت وجودی است. خداوند به هیچ وجه به هیچ یک از مخلوقات خود شباهتی ندارد. خدا فقط نام خداست هیچ چیز دیگری نمی تواند این نام را در نظر بگیرد یا آن را به اشتراک بگذارد.</string>
+
+
+    <string name="name_lailaheillallah">لا اله الا الله</string>
+    <string name="explanation_lailaheillallah">هیچ خدایی جز الله نیست.</string>
+    <string name="body_lailaheillallah">سیدونا ابوهریره رضی الله عنه از نبی (صلی الله علیه و آله و سلم) پرسید: چه کسی در روز قیامت شفاعت شما را به دست می آورد؟ و سلم گفت: اى ابوهريره، مى دانستم كه تو اولين كسى هستى كه به خاطر اشتياقت به حديث، در اين باره از من سؤال مى كنى. سعادتمندی که شفاعت من را به دست می آورد، کسی است که از صمیم قلب، لا اله الا الله بگوید.» (صحیح بخاری، حدیث: 99)</string>
+
+
+    <string name="name_subhanallah">سبحان الله</string>
+    <string name="explanation_subhanallah">خدا منزه از نقص است.</string>
+    <string name="body_subhanallah">گفتن "سبحان الله" نیمی از ترازو را پر می کند. گفتن الحمدلله کفه ترازو را پر می کند. بین کسی که می گوید: «لا اله الا اللّه لا اله الا الله» و خدا حجابی نیست. تا با او در بهشت ​​باشد...» \n(ترمذی، دعوت، 87)»))</string>
+
+
+    <string name="name_alhamdullilah">الحمدلله</string>
+    <string name="explanation_alhamdullilah">همه ستایش ها مخصوص خداوند است.</string>
+    <string name="body_alhamdullilah">عجيب است راههاي مؤمن، زيرا در هر كار او خير است و اين در مورد ديگري نيست مگر در مورد مؤمن، زيرا اگر فرصتي براي شادي داشته باشد. خدا را شکر می‌کند، پس در آن خیری برایش است، و اگر در تنگنا قرار گیرد و تسلیم شود (صبر کند)، در آن خیری برایش دارد. [صحیح مسلم]</string>
+
+
+    <string name="name_allahuekber">الله اکبر</string>
+    <string name="explanation_allahuekber">خدا بزرگترین است.</string>
+    <string name="body_allahuekber">ابوهریره رضی الله عنه روایت می کند: \n رسول خدا فرمود: هر کس بعد از هر نماز سی و سه مرتبه سبحان الله را بخواند. الحمد لله (الحمد لله) سی و سه مرتبه; الله اکبر (الله اکبر) سی و سه مرتبه; و صد را با: لا اله الا الله، وحده لا شریکا لهو، لاهول ملکو و لاهول حمدو، و هووا الا کلّی شیء این قادر کامل می کند (لا اله الا الله، او یکی است و او ندارد). با او شریک است، فرمانروایی و ستایش از آن اوست، و او قادر مطلق است، همه گناهان او بخشیده می شود، هر چند به اندازه کف دریا باشد. [مسلمان]. مرجع: کتاب 16، حدیث 12 مرجع کتاب عربی/انگلیسی: کتاب 16، حدیث 1419</string>
+
+
+    <string name="name_salawat">اللهم صلی الله علیه و آله و سلّی السیدین محمدین و علی علی سیدینا محمد.</string>
+    <string name="explanation_salawat">خدایا رحمت خود را بر پیامبر و خاندانش بفرست.</string>
+    <string name="body_salawat">پیامبر اکرم صلی الله علیه و آله و سلم فرمودند نزدیکترین آنها به من کسانی هستند که بیشترین صلوات را بر من بفرستند. اگر بر من صلوات بفرستى، خداوند بر تو درود مى فرستد. برایم صلوات بیاور. هر جا که هستی دعای تو همیشه به من می رسد.</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi">سبحان الله و به همدیه سبحان الله عظیم</string>
+    <string name="explanation_subhanallahi_vebihamdihi">سبحان الله و حمد و حمد مخصوص اوست، سبحان الله بزرگ.</string>
+    <string name="body_subhanallahi_vebihamdihi">رسول خدا (صلی الله علیه و آله و سلم) به من فرمود: آیا تعبیری را که خداوند دوستش دارد به تو بگویم؟ «سبحان اللهی و بحمدیهی» (خداوند منزه از نقص و ستایش از آن اوست) است.»[مسلم]</string>
+
+
+    <string name="name_lahavle">لا حولا ولا قوته الا بالله</string>
+    <string name="explanation_lahavle">هیچ قدرت و نیرویی جز خداوند نیست</string>
+    <string name="body_lahavle">حضرت ابوهریره رضی الله عنه روایت کرده است که حضرت محمد صلی الله علیه و آله فرمودند لا حولا ولا قوته الا بالله شفای 99 بیماری است که کوچکترین درجه بیماری از آنها ناراحتی و اندوه است. </string>
+
+
+    <string name="name_hasbunallahu">Hasbunallahu Wa Ni’mal Wakeel</string>
+    <string name="explanation_hasbunallahu">خداوند ما را بس است و او بهترین پشتیبان است.</string>
+    <string name="body_hasbunallahu">ابوسعید خدری رضی الله عنهو می‌گوید:\nرسول خدا صلی الله علیه و آله فرمود: چگونه می‌توانم آسوده شوم وقتی فرشته شیپور (اسرافیل) لب‌هایش را بر لب نهاده است. شیپور و منتظر فرمان دمیدن آن است.» حضرت صلی الله علیه و آله احساس کرد که این امر اصحابش را متحیر کرده است، پس به آنان فرمود: «حسبون الله وانیمل وکیل» ما را بس است و او بهترین پشتیبان است. ]”.\nجامعی ترمذی | کتاب 1 حدیث 409</string>
+
+
+    <string name="name_lailahe">لا اله الا عنتا، سبحانکا اینی کنتو من الزعلیمین</string>
+    <string name="explanation_lailahe">(خدایا!) جز تو کسی شایسته پرستش نیست. منزهی تو همانا من از ستمکاران بودم</string>
+    <string name="body_lailahe">سیداتینه عایشه رضی الله عنها می‌گوید:\nکسی که نامه‌ای از کتاب خدا را بخواند، ثواب آن و ثواب ده مانند آن را می‌گیرد. نمی گویم الف لام میم حرف است، اما الف حرف است، لام حرف و میم حرف\n(سنن ترمیزی)</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi">سبحان الله والحمدالله ولا اله الا الله والله اکبر</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">سبحان الله و حمد لله لا اله الا الله و الله اکبر</string>
+    <string name="body_subhanallahi_velhamdulillahi">پیامبر اکرم (صلی الله علیه و آله و سلم) می فرماید: «هنگامی که می گویم سبحان الله وحمدالله وله اله الله والله اکبر (سبحان الله و حمد لله لا اله الا الله و الله اکبر). این برای من از همه چیزهایی که خورشید بر آن طلوع می کند محبوب تر است.» (به روایت مسلم). این سخنان محبوب ترین کلمات نزد خداوند و بهترین کلمات است و در ترازوی نیکوکاری سنگینی می کند، چنانکه در احادیث صحیح آمده است.</string>
+
+
+    <string name="button_start">شروع</string>
+    <string name="sound_off">صدا خاموش است!</string>
+    <string name="menu_statistics">آمار</string>
+    <string name="menu_restart">ذکر را بازنشانی کنید</string>
+    <string name="yes">بله</string>
+    <string name="no">نه</string>
+    <string name="noreset">ذکر بازنشانی نشده است</string>
+    <string name="reset">ذکر بازنشانی شد</string>
+    <string name="reset_header">بازنشانی</string>
+    <string name="reset_question">آیا مطمئن هستید که می‌خواهید تعداد ویروس‌ها را بازنشانی کنید؟</string>
+    <string name="last_dhikr">\nآخرین ذکر</string>
+    <string name="this_week_dhikr">این هفته\nذکر</string>
+    <string name="this_month_dhikr">این ماه\nذکر</string>
+    <string name="total_dhikr">"ذکر کل : "</string>
+    <string name="month_dhikr">"ذکر ماه : "</string>
+
+</resources>

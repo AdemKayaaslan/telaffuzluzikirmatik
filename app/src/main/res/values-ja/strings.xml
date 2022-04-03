@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="app_name"> Adhkar：ズィクルと声</string>
+    <string name="weeklyNotificationSuffix">最も有益なズィクルは通常のズィクルです。</string>
+    <string name="last_ads_info">最後の広告を表示しました。このセッションではこれ以上広告は表示されません。</string>
+
+
+    <string name="name_ya_allah">アッラー</string>
+    <string name="explanation_ya_allah">全世界の全能の主</string>
+    <string name="body_ya_allah">アッラーはAl-IsmAl-A\'zamであり、すべての神聖な属性を含み、すべての存在の本質と原因のしるしである最大の名前です。アッラーは彼の創造物のいずれにも決して似ていません。アッラーはアッラーの名前だけです。他の誰もこの名前を想定したり共有したりすることはできません。</string>
+
+
+    <string name="name_lailaheillallah"> La Ilaha Illallah </string>
+    <string name="explanation_lailaheillallah">アッラー以外に神はいない。</string>
+    <string name="body_lailaheillallah"> Sayyiduna Abu Hurayrah（radiyallahu\'anhu）はかつてNabi（sallallahu\' alayhi wa sallam）に尋ねました、「Qiyamahの日にあなたの執り成しを得る幸運な人は誰ですか？」Rasulullah（sallallahu\' alayhi wa sallam）は次のように述べています。私の執り成しを得る幸運な人は、心から「ライラハイララ」と誠実に言う人です。」（Sahih Bukhari、ハディース：99）</string>
+
+
+    <string name="name_subhanallah"> Subhanallah </string>
+    <string name="explanation_subhanallah">アッラーは不完全ではありません。</string>
+    <string name="body_subhanallah">「Subhanallah」と言うとスケールの半分になります。アルハムドゥリッラーと言うと、鱗がいっぱいになります。 「真の神はアッラー以外に存在しない、彼だけが存在する」と言う人とアッラーとの間にベールはありません。彼が彼女と一緒に天国にいるまで…」\n（Tirmidhi、Daavat、87） "））</string>
+
+
+    <string name="name_alhamdullilah"> Alhamdullilah </string>
+    <string name="explanation_alhamdullilah">すべての賛美はアッラーのためです。</string>
+    <string name="body_alhamdullilah">不思議なのは信者のやり方です。彼のすべての事柄に善があり、これは信者の場合を除いて他の誰にも当てはまりません。かれはアッラーに感謝します。それでかれには善があります。もしかれが問題を抱えて辞任を示したならば（辛抱強く耐え忍ぶ）、かれには善があります。 [サヒーフムスリム]</string>
+
+
+    <string name="name_allahuekber"> Allahu ekber </string>
+    <string name="explanation_allahuekber">アッラーは最高です。</string>
+    <string name="body_allahuekber">アブ・フライラー（アッラーが彼に喜ばれるように）は次のように報告しました。アルハムドゥリッラー（アッラーに讃えあれ）33回。アッラーフアクバル（アッラーは最も偉大です）33回;そして百を完成させる：La ilaha illallahu、wahdahu la sharika lahu、lahul-mulku wa lahul-hamdu、wa Huwa \'ala kulli shai \'in Qadir（アッラー以外に真の神はいない。彼は一つであり、彼にはない彼とパートナーを組んでください。彼は主権であり、彼は賞賛であり、彼は全能です）、海面の泡と同じくらいの大きさであっても、彼の罪はすべて赦されます。 [イスラム教徒]。参考書：ブック16、ハディース12アラビア語/英語の参考書：ブック16、ハディース1419 </string>
+
+
+    <string name="name_salawat"> Allahumma salli alasayyidinaMuhammadinおよびalaalisayyidinaMuhammad。</string>
+    <string name="explanation_salawat"> O \'アッラー（SWT）、預言者（PBUH）と彼の家族にあなたの慈悲を送ってください。</string>
+    <string name="body_salawat">預言者（PBUH）は、私に最も近いのは私に最も多くの祝福を送る人々であると言いました。あなたが私に祝福を送るならば、アッラー（swt）はあなたに祝福を送ります。サラワートを持ってきてください。どこにいても、あなたの祈りはいつも私に届きます。</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi"> subhanallahi wa bihamdihi subhanallahil azeem </string>
+    <string name="explanation_subhanallahi_vebihamdihi">栄光はアッラーにあり、すべての賛美は彼のおかげです。栄光は偉大なアッラーにあります。</string>
+    <string name="body_subhanallahi_vebihamdihi">アッラーの使徒（ﷺ）は私に言った、「アッラーに最も愛されている表現を教えましょうか？」それは「Subhan-Allahiwabihamdihi \」（アッラーは不完全さから解放され、彼は賛美です）\'です。」[イスラム教徒]</string>
+
+
+    <string name="name_lahavle"> La Hawla Wala Quwwata Illa Billah </string>
+    <string name="explanation_lahavle">アッラー以外に力も力もありません</string>
+    <string name="body_lahavle"> Hazrat Abu Huraira（RA）は、預言者Hazrat Mohammad（ﷺ）がLa Hawla Wala Quwwata Illa Billahは99の病気の治療法であり、病気の程度が最も小さいのは苦痛と悲しみであると語ったと語っています。</string>
+
+
+    <string name="name_hasbunallahu"> Hasbunallahu Wa Ni’mal Wakeel </string>
+    <string name="explanation_hasbunallahu">私たちにとって十分なのはアッラーであり、[彼は]最高の問題の処理者です。</string>
+    <string name="body_hasbunallahu"> Abu Sa\'id Al-Khudri RadiALLAHu\'Anhuは次のように報告しています。\nALLAHのメッセンジャーﷺは次のように述べています。トランペットとそれを吹く命令を待っています。」彼はﷺこれが彼の仲間に衝撃を与えたかのように感じたので、彼はﷺ暗唱を通して慰めを求めるように彼らに言いました： ]”。\ nJam\'i At-Tirmidhi |ブック1、ハディース409 </string>
+
+
+    <string name="name_lailahe"> La ilaaha illa Anta、subhaanaka inni kuntu min al-zaalimeen </string>
+    <string name="explanation_lailahe">（アッラーよ！）あなた以外に崇拝に値するものはありません。あなたに栄光あれ。確かに、私は悪行者でした。</string>
+    <string name="body_lailahe"> Sayyidatina Aishah r.aは、次のように報告しています。 Alif Lam Mimが手紙だとは言いませんが、Alifは手紙、Lamは手紙、Mimは手紙です\ n（Sunan At-Tirmizi）</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi"> SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar </string>
+    <string name="explanation_subhanallahi_velhamdulillahi">アッラーに栄光を帰し、アッラーに賛美を捧げ、アッラー以外に神は存在せず、アッラーは最も偉大です</string>
+    <string name="body_subhanallahi_velhamdulillahi">預言者（ﷺ）は次のように述べています。 ）\'、これは太陽が昇るすべてのものよりも私に愛されています。」 （イスラム教徒によるナレーション）。これらの言葉は、アッラーにとって最も愛されている言葉であり、最高の言葉であり、saheeh ahaadeethで語られたように、善行のバランスに重くのしかかっています。</string>
+
+
+    <string name="button_start">開始</string>
+    <string name="sound_off">サウンドオフ！</string>
+    <string name="menu_statistics">統計</string>
+    <string name="menu_restart">Dhikrをリセット</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="noreset">Dhikrはリセットされていません</string>
+    <string name="reset">Dhikrがリセットされました</string>
+    <string name="reset_header">リセット</string>
+    <string name="reset_question">本当にvirdカウントをリセットしますか？</string>
+    <string name="last_dhikr">\n最後のズィクル</string>
+    <string name="this_week_dhikr">今週\nズィクル</string>
+    <string name="this_month_dhikr">今月\nズィクル</string>
+    <string name="total_dhikr"> "合計ズィクル：" </string>
+    <string name="month_dhikr"> "Month Dhikr：" </string>
+
+
+
+</resources>

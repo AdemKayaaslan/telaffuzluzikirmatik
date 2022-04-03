@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">Adhkar: Dhikr y Voz</string>
+    <string name="weeklyNotificationSuffix">El dhikr más beneficioso es el regular.</string>
+    <string name="last_ads_info">Has visto el último anuncio. No verá más anuncios en esta sesión.</string>
+
+
+    <string name="name_ya_allah">Alá</string>
+    <string name="explanation_ya_allah">El Todopoderoso Señor de Todos los Mundos</string>
+    <string name="body_ya_allah">Alá es Al-Ism Al-A\'zam, el Nombre Más Grande que contiene todos los atributos divinos y es el signo de la esencia y causa de toda existencia. Allah no se parece en nada a ninguno de Su creación. Allah es sólo el nombre de Allah. Nada más puede asumir este nombre o compartirlo.</string>
+
+
+    <string name="name_lailaheillallah">La Ilaha Illallah</string>
+    <string name="explanation_lailaheillallah">No hay más Dios que Alá.</string>
+    <string name="body_lailaheillallah">Sayyiduna Abu Hurayrah (radiyallahu \'anhu) le preguntó una vez a Nabi (sallallahu \'alayhi wa sallam), "¿Quién será la persona afortunada en obtener tu intercesión en el día de Qiyamah?" Rasulullah (sallallahu \'alayhi wa sallam) dijo: “Oh Abu Hurairah, sabía que serías el primero en preguntarme sobre esto debido a tu entusiasmo por el hadiz. La persona afortunada que ganará mi intercesión será aquella persona que diga \'La ilaha illallah\' sinceramente desde su corazón.” (Sahih Bukhari, Hadith: 99)</string>
+
+
+    <string name="name_subhanallah">Subhanallah</string>
+    <string name="explanation_subhanallah">Alá está libre de imperfecciones.</string>
+    <string name="body_subhanallah">Decir "Subhanallah" llena la mitad de la escala. Decir Alhamdulillah llena la balanza. No hay velo entre una persona que dice: "No hay dios verdadero excepto Allah, sólo existe Él" y Allah. Hasta que esté con ella en el cielo…” \n(Tirmidhi, Daavat, 87)"))</string>
+
+
+    <string name="name_alhamdullilah">Alhamdullilah</string>
+    <string name="explanation_alhamdullilah">Todas las alabanzas son para Allah.</string>
+    <string name="body_alhamdullilah">Extraños son los caminos de un creyente porque hay bondad en cada asunto suyo y este no es el caso de nadie más excepto en el caso de un creyente porque si tiene la ocasión de sentir deleite, él agradece a Allah, por lo tanto, hay algo bueno para él en eso, y si se mete en problemas y muestra resignación (soporta con paciencia), hay algo bueno para él en eso. [Musulman Sahih]</string>
+
+
+    <string name="name_allahuekber">Aláhu ekber</string>
+    <string name="explanation_allahuekber">Alá es el Más Grande.</string>
+    <string name="body_allahuekber">Abu Hurairah (que Allah esté complacido con él) informó: \n El Mensajero de Allah dijo: El que recita después de cada oración: Subhan-Allah (Allah está libre de imperfecciones) treinta y tres veces; Al-hamdu lillah (alabado sea Allah) treinta y tres veces; Allahu Akbar (Alá es el Más Grande) treinta y tres veces; y completa el centenar con: La ilaha illallahu, wahdahu la sharika lahu, lahul-mulku wa lahul-hamdu, wa Huwa \'ala kulli shai\'in Qadir (no hay dios verdadero excepto Allah. Él es Uno y no tiene socio de Él. Suya es la soberanía y Suya es la alabanza, y Él es Omnipotente), tendrá todos sus pecados perdonados, aunque sean tan grandes como la espuma sobre la superficie del mar. [Musulmán]. Referencia: Libro 16, Hadith 12 Referencia de libro en árabe/inglés: Libro 16, Hadith 1419</string>
+
+
+    <string name="name_salawat">Allahumma salli ala sayyidina Muhammadin y ala ali sayyidina Muhammad.</string>
+    <string name="explanation_salawat">O\' Allah (SWT), envía tu misericordia al Profeta (PyB) y su familia.</string>
+    <string name="body_salawat">El Profeta (PyB) dijo que los más cercanos a mí serán los que me envíen más bendiciones. Si envías bendiciones sobre mí, Allah (swt) te enviará bendiciones. Tráeme salawat. Estés donde estés, tus oraciones siempre llegan a mí.</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi">subhanallahi wa bihamdihi subhanallahil azeem</string>
+    <string name="explanation_subhanallahi_vebihamdihi">Gloria a Allah y toda alabanza se debe a él, gloria a Allah el grande.</string>
+    <string name="body_subhanallahi_vebihamdihi">El Mensajero de Allah (ﷺ) me dijo: "¿Debería decirte la expresión que Allah más ama?" Es \'Subhan-Allahi wa bihamdihi\' (Alá está libre de imperfecciones y Suya es la alabanza)\'".[Muslim]</string>
+
+
+    <string name="name_lahavle">La Hawla Wala Quwwata Illa Billah</string>
+    <string name="explanation_lahavle">No hay poder ni fuerza excepto Allah</string>
+    <string name="body_lahavle">Hazrat Abu Huraira (RA) narró que el Profeta Hazrat Mohammad (ﷺ) dijo que La Hawla Wala Quwwata Illa Billah es la cura de 99 enfermedades de las cuales el grado más pequeño de enfermedad es angustia y tristeza.</string >
+
+
+    <string name="name_hasbunallahu">Hasbunallahu Wa Ni\'mal Wakeel</string>
+    <string name="explanation_hasbunallahu">Suficiente para nosotros es Allah, y [Él es] el mejor Dispensador de asuntos.</string>
+    <string name="body_hasbunallahu">Abu Sa\'id Al-Khudri Radi ALLAHu \'Anhu informó:\nEl Mensajero de ALLAH ﷺ dijo: “¿Cómo puedo sentirme tranquilo cuando el Ángel de la Trompeta (Israfeel) ha puesto sus labios en la trompeta y está esperando la orden de tocarla”. Él ﷺ percibió como si esto hubiera conmocionado a sus Compañeros, por lo que ﷺ les dijo que buscaran consuelo recitando: \'HasbunALLAH Wani\'mal Wakeel [ALLAH (solo) es suficiente para nosotros, y Él es quien mejor dispone de los asuntos (para nosotros) ]”.\nJam\'i At-Tirmidhi | Libro 1, Hadiz 409</string>
+
+
+    <string name="name_lailahe">La ilaaha illa Anta, subhaanaka inni kuntu min al-zaalimeen</string>
+    <string name="explanation_lailahe">(¡OH ALLAH!) No hay nadie digno de adoración fuera de Ti. Gloria a Ti. En verdad, yo he sido de los malhechores.</string>
+    <string name="body_lailahe">Sayyidatina Aishah r.a informó:\nQuien recita una letra del Libro de Allah, entonces recibe la recompensa de ella, y la recompensa de diez similares. No digo que Alif Lam Mim sea una letra, pero Alif es una letra, Lam es una letra y Mim es una letra\n(Sunan At-Tirmizi)</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">Gloria a Allah, alabado sea Allah, no hay dios excepto Allah, y Allah es el Más Grande</string>
+    <string name="body_subhanallahi_velhamdulillahi">El Profeta (ﷺ) dijo: “Cuando digo \'SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar (Gloria a Allah, alabanza a Allah, no hay dios excepto Allah, y Allah es el Más Grande )\', esto es más querido para mí que todo aquello sobre lo que sale el sol”. (Narrado por musulmán). Estas palabras son las palabras más queridas de Allah, las mejores palabras, y pesan mucho en la balanza de las buenas obras, como se narró en los hadices sahih.</string>
+
+
+    <string name="button_start">Inicio</string>
+    <string name="sound_off">¡Sonido apagado!</string>
+    <string name="menu_statistics">Estadísticas</string>
+    <string name="menu_restart">Restablecer Dhikr</string>
+    <string name="yes">si</string>
+    <string name="no">no</string>
+    <string name="noreset">Dhikr no se ha restablecido</string>
+    <string name="reset">Dhikr ha sido reiniciado</string>
+    <string name="reset_header">Restablecer</string>
+    <string name="reset_question">¿Está seguro de que desea restablecer el recuento de vird?</string>
+    <string name="last_dhikr">\nÚltimo Dhikr</string>
+    <string name="this_week_dhikr">Esta semana\nDhikr</string>
+    <string name="this_month_dhikr">Este mes\nDhikr</string>
+    <string name="total_dhikr">"Dikr total: "</string>
+    <string name="month_dhikr">"Mes Dhikr: "</string>
+
+</resources>

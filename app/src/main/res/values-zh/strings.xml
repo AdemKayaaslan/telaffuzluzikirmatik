@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">Adhkar : Dhikr 和语音</string>
+    <string name="weeklyNotificationSuffix">最有益的dhikr是常规的。</string>
+    <string name="last_ads_info">您查看了最后一个广告。在此会话中您不会再看到任何广告。</string>
+
+
+    <string name="name_ya_allah">安拉</string>
+    <string name="explanation_ya_allah">万界之主</string>
+    <string name="body_ya_allah">安拉是Al-Ism Al-A\'zam，包含所有神圣属性的最伟大的名字，是所有存在的本质和原因的标志。安拉在任何方面都不像他的任何创造物。安拉只是安拉的名字。没有其他东西可以使用这个名字或分享它。</string>
+
+
+    <string name="name_lailaheillallah">拉伊拉哈伊拉拉</string>
+    <string name="explanation_lailaheillallah">除真主外别无神。</string>
+    <string name="body_lailaheillallah">Sayyiduna Abu Hurayrah (radiyallahu \'anhu) 曾经问过纳比 (sallallahu \'alayhi wa sallam)，“在奇亚玛日，谁会是获得你代祷的幸运者？”拉苏鲁拉 (sallallahu \'alayhi) wa sallam) 说：“哦，Abu Hurayrah，我知道由于你对圣训的渴望，你会是第一个问我这个问题的人。得到我的代祷的幸运者将是那个发自内心真诚地说“La ilaha illallah”的人。”（布哈里圣训，圣训：99）</string>
+
+
+    <string name="name_subhanallah">Subhanallah</string>
+    <string name="explanation_subhanallah">安拉没有缺陷。</string>
+    <string name="body_subhanallah">说“Subhanallah”占了一半。说 Alhamdulillah 充满了天平。一个说“除了真主，没有真神，只有他”的人和真主之间没有面纱。直到他和她在天堂……” \n(Tirmidhi, Daavat, 87)"))</string>
+
+
+    <string name="name_alhamdullilah">Alhamdullilah</string>
+    <string name="explanation_alhamdullilah">一切赞美归于真主。</string>
+    <string name="body_alhamdullilah">信徒的方式很奇怪，因为他的每一件事都有好处，其他人都不是这样，除非信徒有机会感到高兴，他感谢真主，因此对他有好处，如果他遇到麻烦并表现出辞职（忍耐），这对他有好处。 [穆斯林圣训]</string>
+
+
+    <string name="name_allahuekber">阿拉胡埃克伯</string>
+    <string name="explanation_allahuekber">真主是最伟大的。</string>
+    <string name="body_allahuekber">Abu Hurairah（愿真主喜悦他）传述：\n 真主的使者说，每拜后诵念：Subhan-Allah（真主是无瑕疵的）三十三次； Al-hamdu lillah（赞美真主）三十三次； Allahu Akbar（真主至大）三十三次；并完成一百个：La ilaha illallahu, wahdahu la sharika lahu, lahul-mulku wa lahul-hamdu, wa Huwa \'ala kulli shai\'in Qadir（除真主外没有真神。他是独一的，他没有与他为伴。他是主宰，他是赞美，他是全能的），他所有的罪孽都会被赦免，即使它们可能像海面的泡沫一样大。 [穆斯林]。参考：第 16 册，圣训 12 阿拉伯语/英语书籍参考：第 16 册，圣训 1419</string>
+
+
+    <string name="name_salawat">Allahumma salli ala sayyidina Muhammadin 和 ala ali sayyidina Muhammad。</string>
+    <string name="explanation_salawat">O\' Allah (SWT)，向先知 (PBUH) 和他的家人施以慈悲。</string>
+    <string name="body_salawat">先知 (PBUH) 说过，最亲近的人将是最祝福我的人。如果你祝福我，真主 (swt) 会祝福你。给我拜拜。无论你身在何处，你的祈祷总能传到我身边。</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi">subhanallahi wa bihamdihi subhanallahil azeem</string>
+    <string name="explanation_subhanallahi_vebihamdihi">荣耀归于真主，所有的赞美都归于他，荣耀归于伟大的真主。</string>
+    <string name="body_subhanallahi_vebihamdihi">安拉的使者（ﷺ）对我说：“我可以告诉你安拉最喜爱的表情吗？”它是\'Subhan-Allahi wa bihamdihi\'（安拉没有不完美，他是赞美）\'。”[穆斯林]</string>
+
+
+    <string name="name_lahavle">La Hawla Wala Quwwata Illa Billah</string>
+    <string name="explanation_lahavle">除了真主，没有力量也没有力量</string>
+    <string name="body_lahavle">Hazrat Abu Huraira (RA) 讲述先知 Hazrat Mohammad (ﷺ) 说 La Hawla Wala Quwwata Illa Billah 可以治愈 99 种疾病，其中最小程度的疾病是痛苦和悲伤。</string >
+
+
+    <string name="name_hasbunallahu">Hasbunallahu Wa Ni’mal Wakeel</string>
+    <string name="explanation_hasbunallahu">安拉对我们来说足够了，[他是]最好的事务处理者。</string>
+    <string name="body_hasbunallahu">Abu Sa\'id Al-Khudri Radi ALLAHu \'Anhu 报告：\n安拉的使者ﷺ 说：“当小号天使 (Israfeel) 亲口说号角，正在等待吹响它的命令”。他 ﷺ 觉得这似乎震惊了他的同伴，所以他 ﷺ 告诉他们通过背诵来寻求安慰：\'HasbunALLAH Wani\'mal Wakeel [ALLAH (Alone) is Sufficient for us, and he is the best Disposer of Affairs (for us) ]”。\nJami\'i At-Tirmidhi |第一册，圣训 409</string>
+
+
+    <string name="name_lailahe">La ilaaha illa Anta, subhaanaka inni kuntu min al-zaalimeen</string>
+    <string name="explanation_lailahe">（上帝啊！）除了你，没有人值得崇拜。荣耀归于你。确实，我是做错事的人。</string>
+    <string name="body_lailahe">Sayyidatina Aishah r.a 报告：\n谁背诵真主之书的一封信，他就会得到它的奖励，以及十个类似的奖励。我不是说 Alif Lam Mim 是一个字母，而是 Alif 是一个字母，Lam 是一个字母，Mim 是一个字母\n(Sunan At-Tirmizi)</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">荣耀归于真主，赞美归于真主，除真主外别无神，真主至大</string>
+    <string name="body_subhanallahi_velhamdulillahi">先知 (ﷺ) 说：“当我说‘SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar (荣耀归于真主，赞美归于真主，除真主外没有神，真主至大)\'，这对我来说比太阳升起的一切都更可爱。” （穆斯林传述）。这些话是真主最喜爱的话，是最好的话，它们在善行的天平中占有重要地位，正如圣训中所记载的那样。</string>
+
+
+    <string name="button_start">开始</string>
+    <string name="sound_off">声音关闭！</string>
+    <string name="menu_statistics">统计数据</string>
+    <string name="menu_restart">重置Dhikr</string>
+    <string name="yes">是</string>
+    <string name="no">没有</string>
+    <string name="noreset">Dhikr 没有被重置</string>
+    <string name="reset">Dhikr 已被重置</string>
+    <string name="reset_header">重置</string>
+    <string name="reset_question">您确定要重置 vird 计数吗？</string>
+    <string name="last_dhikr">\n最后一个 Dhikr</string>
+    <string name="this_week_dhikr">本周\nDhikr</string>
+    <string name="this_month_dhikr">本月\nDhikr</string>
+    <string name="total_dhikr">"总Dhikr："</string>
+    <string name="month_dhikr">"月 Dhikr : "</string>
+
+</resources>

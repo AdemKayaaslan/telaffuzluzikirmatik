@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">አድካር፡ ዲክር እና ድምጽ</string>
+    <string name="weeklyNotificationSuffix">በጣም ጠቃሚው ዚክር መደበኛው ነው።</string>
+    <string name="last_ads_info">የመጨረሻውን ማስታወቂያ አይተሃል። በዚህ ክፍለ ጊዜ ምንም ተጨማሪ ማስታወቂያ አይታይም።</string>
+
+
+    <string name="name_ya_allah">አላህ</string>
+    <string name="explanation_ya_allah">ሁሉን ቻይ የዓለማት ሁሉ ጌታ</string>
+    <string name="body_ya_allah">አላህ አል-ኢስም አል-አ\'ዛም ነው፣ ሁሉንም መለኮታዊ ባህሪያትን የያዘ እና የህልውና ሁሉ መገለጫ እና መንስኤ ምልክት ነው። አላህ ከፍጥረቱ በምንም መልኩ አይመሳሰልም። አላህ የአላህ ስም ብቻ ነው። ሌላ ምንም ነገር ይህን ስም ሊወስድ ወይም ሊያጋራው አይችልም።</string>
+
+
+    <string name="name_lailaheillallah">ላ ኢላሀ ኢለላህ</string>
+    <string name="explanation_lailaheillallah">ከአላህ በስተቀር ሌላ አምላክ የለም።</string>
+    <string name="body_lailaheillallah">ሰይዱና አቡ ሁረይራህ (ረዲየላሁ ዐንሁ) በአንድ ወቅት ነብዩን (ሶለላሁ ​​ዐለይሂ ወሰለም) “በቂያማህ ቀን አማላጅነትህን የሚያገኝ ማነው?” በማለት ጠየቀው ረሱል (ሰ.ዐ.ወ) ወ) እንዲህ ብለዋል፡- “አቡ ሁረይራ ሆይ ለሀዲስ ካለህ ጉጉት የተነሳ በመጀመሪያ እንደምትጠይቀኝ አውቅ ነበር። አማላጄን የሚያገኘው እድለኛው ከልቡ ‘ላ ኢላሀ ኢለላህ’ ያለው ነው።</string>
+
+
+    <string name="name_subhanallah">ሱብሃነላህ</string>
+    <string name="explanation_subhanallah">አላህ ከጉድለት የጸዳ ነው።</string>
+    <string name="body_subhanallah">"ሱብሃነላህ" ማለት የመለኪያውን ግማሹን ይሞላል። አልሀምዱሊላህ ማለት ሚዛኑን ይሞላል። "ከአላህ በስተቀር በእውነት የሚመለክ አምላክ የለም እርሱ ብቻ ነው" ባለ ሰው እና በአላህ መካከል ምንም መጋረጃ የለም። በገነት ከእርሷ ጋር እስከሚሆን ድረስ…” \n (ቲርሚዚይ፣ ዳዕዋት፣ 87)))</string>
+
+
+    <string name="name_alhamdullilah">አልሃምዱሊላህ</string>
+    <string name="explanation_alhamdullilah">ምስጋና ሁሉ ለአላህ ይሁን።</string>
+    <string name="body_alhamdullilah">የሙእሚን መንገዶች እንግዳ ናቸው በነገሩ ሁሉ መልካም ነገር ስላለ ይህ ደግሞ በሌላ ሰው ላይ አይደለም ለሙእሚን ጉዳይ ካልሆነ በስተቀር የመደሰት እድል ካገኘው። አላህን አመሰገነ። በውስጧም ደግ ነገር አለበት። ችግር ውስጥ ወድቆ ስራን ቢያሳይ (በታገሥ) ለእርሱ መልካም ነገር አለበት። [ሳሂህ ሙስሊም]</string>
+
+
+    <string name="name_allahuekber">አላሁ ከበር</string>
+    <string name= "explanation_allahuekber">አላህ ከሁሉ የላቀ ነው።</string>
+    <string name="body_allahuekber">አቡ ሁረይራ (ረዲየላሁ ዐንሁ) እንደዘገቡት፡ \n የአላህ መልእክተኛ እንዲህ አሉ፡- “ከእያንዳንዱ ጸሎት በኋላ የሚያነብ፡ ሱብሀን-አላህ (አላህ ከጉድለት የጸዳ ነው) ሰላሳ ሶስት ጊዜ። አልሃምዱ ሊላህ (ምስጋና የተገባ) ሰላሳ ሶስት ጊዜ; አላሁ አክበር (አላህ ታላቅ ነው) ሠላሳ ሦስት ጊዜ; እና መቶውን ያጠናቀቀው፡- ላ ኢላሀ ኢለላሁ፣ ወህዳሁ ላ ሸሪቃ ላሁ፣ ላሁል-ሙልኩ ወ ላሁል-ሀምዱ፣ ወ ሁዋ \'አላ ኩሊ ሻኢ\'ኢን ቃድርር (ከአላህ በስተቀር እውነተኛ አምላክ የለም። እርሱ አንድ ነው ለእርሱም ምንም የለውም)። በርሱ ተጋራ፡ ንግሥና ለርሱ ብቻ ነው ምስጋናውም ለርሱ ብቻ ነው፡ እርሱም ሁሉን ቻይ ነው፡ ፡ ኃጢአቱ ሁሉ በባሕር ላይ እንዳለ አረፋ ቢበዛ ይቅር ይባላል። (ሙስሊም) ዋቢ፡ መፅሐፍ 16፣ ሀዲስ 12 አረብኛ/እንግሊዘኛ መጽሃፍ ዋቢ፡- መጽሃፍ 16፣ ሀዲስ 1419</string>
+
+
+    <string name="name_salawat">አላሁማ ሰሊ አላ ሰዪዲና ሙሀመዲን እና አላ አሊ ሰዪዲና ሙሀመድ።</string>
+    <string name="explanation_salawat">አላህ (ሱ.ወ) ሆይ እዝነትህን በነብዩ (ሶ.ዐ.ወ) እና በቤተሰቦቻቸው ላይ አውርድ።</string>
+    <string name="body_salawat">ነብዩ (ሶ.ዐ.ወ) በጣም ቅርብ የሆኑት በኔ ላይ በረከታቸውን የሚያወርዱ ይሆናሉ ብለዋል። በረካ ከላከኝ አላህ (ሱ. ሰለዋት አምጣልኝ። የትም ብትሆን ጸሎቶችህ ሁልጊዜ ወደ እኔ ይደርሳሉ</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi">ሱብሃነላሂ ወ ቢሀምዲሂ ሱብሃነላሂል አዚም</string>
+    <string name= "explanation_subhanallahi_vebihamdihi">ክብር ለአላህ ይሁን ምስጋናም ሁሉ ለእርሱ የተገባው ክብር ለታላቁ አላህ ይሁን።</string>
+    <string name="body_subhanallahi_vebihamdihi">የአላህ መልእክተኛ (ሶ.ዐ.ወ) እንዲህ አሉኝ፡- "አላህ ዘንድ በጣም የተወደደውን አነጋገር ልንገርህ?" እሱም ‘ሱብሀን-አላሂ ወቢሃምዲሂ’ (አላህ ከጉድለት የጸዳ ነው ምስጋናም የሱ ነው)።” [ሙስሊም]</string>
+
+
+    <string name="name_lahavle">ላ ሀውላ ዋላ ቁውዋታ ኢላ ቢላህ</string>
+    <string name="explanation_lahavle">ከአላህ በስተቀር ምንም ሃይልም ሆነ ብርታት የለም።</string>
+    <string name="body_lahavle">አቡ ሁረይራ (ረዲየላሁ ዐንሁ) እንዳስተላለፉት ነብዩ ሙሐመድ (ሶ.ዐ.ወ) ላ ኸዋላ ወላ ቁወተ ኢላ ቢላህ የ99 በሽታዎች መድሀኒት ሲሆን ከበሽታቸው ትንሹ ጭንቀትና ሀዘን ነው። ></string>
+
+
+    <string name="name_hasbunallahu">ሀስቡነላሁ ወኒእማል ዋቄል</string>
+    <string name= "explanation_hasbunallahu">በቃ ለኛ አላህ ነው የነገሩንም በላጭ ባለቤት ነው።</string>
+    <string name="body_hasbunallahu">አቡ ሰኢድ አል-ሁድሪሪ ረዲየ አሏሁ ዐንሁ እንዳስተላለፉት፡\nየአላህ መልእክተኛ ﷺ እንዲህ ብለዋል፡- ‹‹የመለከት መልአክ (ኢስራኢል) ከንፈሩን ባደረገ ጊዜ እንዴት እረጋለሁ። ጥሩምባው እና እንዲነፋው ትእዛዝ እየጠበቀ ነው" ይህ ሁኔታ ሶሓቦቻቸውን ያስደነገጠ መስሎት ስላወቁ (ረዐ) በማንበብ መጽናናትን እንዲፈልጉ ነገራቸው፡- ‹‹ሀስቡንላህ ወኒመል ዋቂል (አላህ ብቻውን) በቂያችን ነው፤ እርሱም የጉዳይ ባለቤት ነው (ለእኛ)። ]”\nጀሚዒ አት-ቲርሚዚ | መጽሐፍ 1፣ ሀዲስ 409</string>
+
+
+    <string name="name_lailahe">ላ ኢላሃ ኢላ አንታ፣ ሱብሃናካ ኢንኒ ኩንቱ ምን አል-ዛሊሚን</string>
+    <string name="explanation_lailahe">(አላህ ሆይ!) ካንተ ሌላ አምልኮ የሚገባው የለም። ክብር ላንተ ይሁን። እኔ ከበደለኞች ነበርኩኝ።</string>
+    <string name="body_lailahe">ሰይዳቲና አኢሻህ ር.ኤ.አ እንደዘገቡት፡-\nከአላህ ኪታብ የኾነን ፊደል ያነበበ ሰው ምንዳውንና የአሥር ብጤዎቹን ምንዳ ያገኛል። አሊፍ ላም ሚም ፊደል ነው አላልኩም አሊፍ ፊደል ነው ላም ፊደል ነው ሚም ፊደል ነው \n(ሱናን አት ቲርሚዚ)</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi">ሱብሀንአላህ ወልሀምዱሊላህ ወላ ኢላሀ ኢለላህ ወላሁ አክበር</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">ክብር ለአላህ ይገባው ለአላህ ምስጋና ይገባው ከአላህ በስተቀር ሌላ አምላክ የለም አላህም ታላቅ ነው</string>
+    <string name="body_subhanallahi_velhamdulillahi">ነብዩ (ሶ.ዐ.ወ) እንዲህ ብለዋል፡- “ሱብሀንአሏህ ወልሀምዱሊላህ ወላ ኢላሀ ኢለላህ ወልሀምዱሊላህ ወላ ኢላሀ ኢለላህ ወላሁ አክበር (ክብርና ምስጋና ይገባው ከአላህ በስተቀር ሌላ አምላክ የለም፣ አላህም ታላቅ ነው) ) ፀሐይ ከወጣችበት ሁሉ ይህ ለእኔ በጣም የተወደደ ነው። (ሙስሊም ዘግበውታል)። እነዚህ ቃላቶች ለአላህ በጣም የተወደዱ ከንግግሮች ሁሉ በላጭ ናቸው እና በሰሂህ አሀዲሶች ላይ እንደ ተረከው ​​ከበጎ ስራ ሚዛኖች ጋር ይዛመዳሉ።</string>
+
+
+    <string name= "button_start">ጀምር</string>
+    <string name="sound_off">ድምጽ ጠፍቷል!</string>
+    <string name= "menu_statistics">ስታስቲክስ</string>
+    <string name= "menu_restart">ዲክርን ዳግም አስጀምር</string>
+    <string name="yes">አዎ</string>
+    <string name="no">አይ</string>
+    <string name="noreset">ዲክር ዳግም አልተጀመረም</string>
+    <string name= "reset">ዲክር ዳግም ተጀምሯል</string>
+    <string name= "reset_header">ዳግም አስጀምር</string>
+    <string name="reset_question">እርግጠኛ ነዎት የቨርድ ቆጠራውን ዳግም ማስጀመር ይፈልጋሉ?</string>
+    <string name="last_dhikr">\nየመጨረሻው ዚክር</string>
+    <string name="this_week_dhikr">በዚህ ሳምንት\nዲክር</string>
+    <string name= "this_month_dhikr">በዚህ ወር\nዲክር</string>
+    <string name= "total_dhikr">"ጠቅላላ ዚክር:"</string>
+    <string name="month_dhikr">"ወር ዚክር :" </string>
+
+</resources>

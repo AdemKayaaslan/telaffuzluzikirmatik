@@ -45,7 +45,7 @@ class Utils {
         }
 
         fun loadAds(mContext: Context) {
-            /*
+
             if (adCount < 2) {
                 val adRequest: AdRequest = AdRequest.Builder().build()
                 InterstitialAd.load(mContext,
@@ -61,11 +61,11 @@ class Utils {
                         }
                     })
             }
-            */
+
         }
 
         fun showAds(activity: Activity, intent: Intent?) {
-            /*
+
             if (admobInterstitial != null) {
                 admobInterstitial!!.setFullScreenContentCallback(object :
                     FullScreenContentCallback() {
@@ -107,7 +107,7 @@ class Utils {
                 )
                     .show()
             }
-            */
+
         }
 
         fun AlarmBuilder(mContext: Context) {
@@ -146,7 +146,7 @@ class Utils {
 
 
         fun createWeeklyAlarm(alarmManager: AlarmManager, pendingIntent: PendingIntent?) {
-            /*
+
             val currentTime: Calendar = Calendar.getInstance()
             //  val alarmHour: Int = prefs.getInt("alarmHour", 10)
             //  val alarmMinute: Int = prefs.getInt("alarmMinute", 0)
@@ -167,7 +167,7 @@ class Utils {
                     AlarmManager.INTERVAL_DAY * 7, pendingIntent
                 )
             }
-            */
+
         }
     }
 }

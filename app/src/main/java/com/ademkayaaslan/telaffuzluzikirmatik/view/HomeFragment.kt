@@ -8,6 +8,7 @@ import android.text.method.ScrollingMovementMethod
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
@@ -17,7 +18,11 @@ import androidx.viewpager2.widget.ViewPager2
 import com.ademkayaaslan.telaffuzluzikirmatik.R
 import com.ademkayaaslan.telaffuzluzikirmatik.adapter.ViewpagerAdapter
 import com.ademkayaaslan.telaffuzluzikirmatik.model.ViewpagerItem
+import com.ademkayaaslan.telaffuzluzikirmatik.utils.Utils
 import com.ademkayaaslan.telaffuzluzikirmatik.viewmodel.HomeViewModel
+import com.google.android.gms.ads.*
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import kotlinx.android.synthetic.main.home_fragment.*
 import java.util.*
 import kotlin.math.abs
@@ -71,10 +76,55 @@ class HomeFragment : Fragment() {
                 "com.ademkayaaslan.telaffuzluzikirmatik",
                 Context.MODE_PRIVATE
             )
-
             sharedPreferences?.edit()?.putInt("positionInt", viewpager_dhikr_home.currentItem)?.apply()
-            val dhikrFragment = DhikrFragment()
-            activity?.supportFragmentManager?.beginTransaction()?.addToBackStack("home")?.replace(R.id.layout_container, dhikrFragment, "dhikrFragment")?.commit()
+  //--------------------------------------------show ad -----------------------------
+
+            if (Utils.admobInterstitial != null) {
+                Utils.admobInterstitial!!.setFullScreenContentCallback(object :
+                    FullScreenContentCallback() {
+                    override fun onAdDismissedFullScreenContent() {
+                        // Called when fullscreen content is dismissed.
+                        val dhikrFragment = DhikrFragment()
+                        activity?.supportFragmentManager?.beginTransaction()?.addToBackStack("home")?.replace(R.id.layout_container, dhikrFragment, "dhikrFragment")?.commit()
+
+
+                        Utils.admobInterstitial = null
+                        Utils.loadAds(activity as MainActivity)
+                    }
+
+                    override fun onAdFailedToShowFullScreenContent(adError: AdError) {
+                        // Called when fullscreen content failed to show.
+                    }
+
+                    override fun onAdShowedFullScreenContent() {
+                        // Called when fullscreen content is shown.
+                        // Make sure to set your reference to null so you don't
+                        // show it a second time.
+                        Utils.admobInterstitial = null
+                    }
+                })
+                Utils.admobInterstitial!!.show(activity)
+                Utils.adCount++
+            } else {
+                // Ads doesn't loaded.
+                val dhikrFragment = DhikrFragment()
+                activity?.supportFragmentManager?.beginTransaction()?.addToBackStack("home")?.replace(R.id.layout_container, dhikrFragment, "dhikrFragment")?.commit()
+
+            }
+            if (Utils.adCount === 2) {
+                Utils.adCount++
+                Toast.makeText(
+                    activity,
+                    activity?.getString(R.string.last_ads_info),
+                    Toast.LENGTH_SHORT
+                )
+                    .show()
+            }
+
+
+
+            //-----------------------------------show ad ------------------
+
 
         }
 
@@ -133,12 +183,12 @@ class HomeFragment : Fragment() {
         weekCallendar.set(Calendar.SECOND,0)
 
         monthCallendar.set(Calendar.DAY_OF_MONTH,1)
-        weekCallendar.set(Calendar.HOUR_OF_DAY,0)
-        weekCallendar.set(Calendar.MINUTE,0)
-        weekCallendar.set(Calendar.SECOND,0)
+        monthCallendar.set(Calendar.HOUR_OF_DAY,0)
+        monthCallendar.set(Calendar.MINUTE,0)
+        monthCallendar.set(Calendar.SECOND,0)
 
-        viewModel.getDhikrs(weekCallendar.timeInMillis,dhikrId,1)
-        viewModel.getDhikrs(monthCallendar.timeInMillis,dhikrId,2)
+        viewModel.getWeekDhikrs(weekCallendar.timeInMillis,dhikrId)
+        viewModel.getMonthDhikrs(monthCallendar.timeInMillis,dhikrId)
         viewModel.getLastDhikr(dhikrId)
 
     }

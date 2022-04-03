@@ -1,0 +1,79 @@
+<resources>
+
+    <string name = "app_name">Adhkar : Zikr va Ovoz</string>
+    <string name="weeklyNotificationSuffix">Eng foydali zikr oddiy zikrdir.</string>
+    <string name="last_ads_info">Siz oxirgi e\'lonni ko\'rdingiz. Bu seansda boshqa hech qanday reklama ko‘rmaysiz.</string>
+
+
+    <string name="name_ya_allah">Alloh</string>
+    <string name="explanation_ya_allah">Olamlarning qudratli Robbi</string>
+    <string name="body_ya_allah">Alloh barcha ilohiy sifatlarni o\'zida jamlagan, borliqning mohiyati va sababining belgisi bo\'lgan eng ulug\' ism bo\'lgan Al-Ismu\'l-A\'zamdir. Alloh taolo hech bir maxluqotiga o\'xshamaydi. Alloh faqat Allohning ismidir. Boshqa hech kim bu nomni o‘z zimmasiga olmaydi yoki uni baham ko‘ra olmaydi.</string>
+
+
+    <string name="name_lailaheillallah">La Ilaha Illalloh</string>
+    <string name="explanation_lailaheillallah">Allohdan o‘zga iloh yo‘q.</string>
+    <string name="body_lailaheillallah">Sayyiduna Abu Hurayra (r.a.) bir kuni Nabiy sollallohu alayhi vasallamdan: "Qiyomat kunida sizning shafoatingiz kimga nasib etadi?" - deb so‘radilar. sollallohu alayhi vasallam aytdilar: «Ey Abu Hurayra, hadisga ishtiyoqingdan bu haqda mendan birinchi bo\'lib so\'rashingni bilardim. “La ilaha illalloh”ni chin dildan aytgan kishi mening shafoatimga nasib etadi” (Sahih Buxoriy, Hadis: 99)</string>
+
+
+    <string name="name_subhanallah">Subhanalloh</string>
+    <string name="explanation_subhanallah">Alloh taolo nomukammaldir.</string>
+    <string name="body_subhanallah">"Subhanalloh" deyish o\'lchovning yarmini to\'ldiradi. Alhamdulillah deyish bilan tarozi to‘ladi. “Allohdan o‘zga iloh yo‘q, faqat U zotdir” degan odam bilan Alloh o‘rtasida parda yo‘q. Toki u bilan birga jannatda...” \n(Termiziy, Davot, 87)”))</string>
+
+
+    <string name="name_alhamdullilah">Alhamdullilah</string>
+    <string name="explanation_alhamdullilah">Barcha hamd Allohga bo‘lsin.</string>
+    <string name="body_alhamdullilah">Mo\'minning yo\'llari g\'alati, chunki uning har bir ishida yaxshilik bor va bu boshqa hech kimda bo\'lmaydi, faqat mo\'minning holidan tashqari, agar u rohatlanish uchun fursat bo\'lsa, Allohga shukr qiladi, bunda uning uchun yaxshilik bordir. Agar qiyinchilikka duchor bo\'lsa va sabr qilsa, u uchun yaxshilik bordir. [Sahih Muslim]</string>
+
+
+    <string name="name_allahuekber">Allohu ekber</string>
+    <string name="explanation_allahuekber">Alloh buyukdir.</string>
+    <string name="body_allahuekber">Abu Hurayra (r.a.) rivoyat qiladilar: \n Rasululloh sollallohu alayhi vasallam: "Kim har namozdan keyin: "Subhanalloh"ni o\'ttiz uch marta o\'qisa", dedilar. Al-hamdu lilloh (Allohga hamd bo\'lsin) o\'ttiz uch marta; Ollohu Akbar (Alloh buyukdir) o\'ttiz uch marta; va yuzni quyidagicha yakunlaydi: La ilaha illallohu, vahdahu la sharika lahu, lahul-mulku va lahul-hamdu, va huva \'ala kulli shay\'in Qodir (Allohdan o\'zga iloh yo\'q. U yagonadir va Uning yo\'q. U zotga sherik bo\'ling, hukmronlik Unikidir, hamd Unikidir va U hamma narsaga qodirdir), hatto dengiz yuzasidagi ko\'pikdek bo\'lsa ham gunohlari mag\'firat qilinadi. [Musulmon]. Ma’lumotnoma: 16-kitob, 12-hadis arabcha/inglizcha kitob ma’lumotnomasi : 16-kitob, 1419-hadis</string>
+
+
+    <string name="name_salawat">Allohumma salli ala sayyidina Muhammadin va ala ali sayyidina Muhammad.</string>
+    <string name="explanation_salawat">Allohim, Payg‘ambarimiz (sollallohu alayhi vasallam) va u zotning oilalariga rahmatlaringni yo‘lla.</string>
+    <string name="body_salawat">Rasululloh sollallohu alayhi vasallam aytdilarki, menga eng yaqinlari menga eng ko‘p salovot aytadiganlardir. Menga salovot aytsang, Alloh taolo ham senga salovat aytadi. Menga salovot keltiring. Qaerda bo\'lsangiz ham duolaringiz menga yetib boradi.</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi">subhanallohi va bihamdihi subhanallohil azim</string>
+    <string name="explanation_subhanallahi_vebihamdihi">Alloh taologa pok va hamdu sanolar bo‘lsin, Alloh taologa pok bo‘lsin.</string>
+    <string name="body_subhanallahi_vebihamdihi">Rasululloh sollallohu alayhi vasallam menga: "Senga Alloh taolo eng yaxshi ko\'radigan iborani aytib beraymi?" dedilar. Bu “Subhanallohi va bihamdihi” (Alloh taolo nomukammaldir va unga hamdlar bo‘lsin)” [Muslim]</string>
+
+
+    <string name="name_lahavle">La havla vala quvvata illa billah</string>
+    <string name="explanation_lahavle">Allohdan boshqa hech qanday kuch ham, quvvat ham yo\'q</string>
+    <string name="body_lahavle">Hazrati Abu Hurayra (r.a.) rivoyat qiladilar: "Rasululloh sollallohu alayhi vasallam "La havla vala quvvata illa billah" 99 ta dardga shifodir, ulardan eng kichiki dard va g\'amdir", dedilar.</string>
+
+
+    <string name="name_hasbunallahu">Hasbunallohu va Ni’mal Vakil</string>
+    <string name="explanation_hasbunallahu">Bizga Allohning o‘zi kifoya va (U) eng yaxshi vakildir.</string>
+    <string name="body_hasbunallahu">Abu Said al-Xudriy roziyallohu anhudan rivoyat qilinadi:\nRasululloh sollallohu alayhi vasallam aytdilar: "Sur farishtasi (Isrofil) lablarini qo\'yganda men qanday xotirjam bo\'laman? surnay chalib, uni chalish amrini kutmoqda”. U (sollallohu alayhi va sallam) bu sahobalarini hayratda qoldirgandek tuyuldi va ularga: «HasbunALLAH Voni\'mal Vakil» [Bizga Allohning o\'zi kifoyadir va U (biz uchun) eng yaxshi vakildir» surasini o\'qish orqali tasalli topishni buyurdi. ]”.\nJom\'i At-Termiziy | 1-kitob, 409-hadis</string>
+
+
+    <string name="name_lailahe">La ilaaha illa Anta, subhaanaka inni kuntu min al-zoalimin</string>
+    <string name="explanation_lailahe">(Yo ALLOH!) Sendan o\'zga ibodatga loyiq zot yo\'q. Senga shon-sharaflar bo\'lsin. Albatta, men zolimlardan bo\'ldim.</string>
+    <string name="body_lailahe">Sayyidatina Oisha r.a. rivoyat qiladilar:\nKim Allohning Kitobidan bir harf o\'qisa, undan savob va o\'n barobar savob oladi. Men Alif Lom Mimni harf demayman, lekin Alif harf, Lom harf va Mim harfdir\n(Sunan At-Termiziy)</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi">Subhanalloh valhamdulillah vala ilaha illalloh vallahu akbar</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">Allohga hamdlar bo\'lsin, Allohdan o\'zga iloh yo\'q va Alloh buyukdir</string>
+    <string name="body_subhanallahi_velhamdulillahi">Rasululloh sollallohu alayhi vasallam aytdilar: "Men "Subhanalloh valhamdulillah vala ilaha illalloh Vallohu akbar" (Allohga hamdlar bo\'lsin, Allohdan o\'zga iloh yo\'q va Alloh buyukdir" desam. )\', bu men uchun quyosh chiqadigan hamma narsadan ham sevimliroqdir. (Muslim rivoyati). Bu so‘zlar Alloh taologa eng sevimli, so‘zlarning eng yaxshisi bo‘lib, sahih hadislarda rivoyat qilinganidek, yaxshi amallar tarozida og‘ir bo‘ladi.</string>
+
+
+    <string name="button_start">Boshlash</string>
+    <string name="sound_off">Ovoz o‘chirildi!</string>
+    <string name="menu_statistics">Statistika</string>
+    <string name="menu_restart">Zikrni tiklash</string>
+    <string name="yes">ha</string>
+    <string name="no">yo\'q</string>
+    <string name="noreset">Zikr qayta tiklanmadi</string>
+    <string name="reset">Zikr qayta tiklandi</string>
+    <string name="reset_header">Qayta tiklash</string>
+    <string name="reset_question">Haqiqatan ham viruslar sonini tiklamoqchimisiz?</string>
+    <string name="last_dhikr">\nSo‘nggi zikr</string>
+    <string name="this_week_dhikr">Bu hafta\nZikr</string>
+    <string name="this_month_dhikr">Bu oy\nZikr</string>
+    <string name="total_dhikr">"Jami zikr: "</string>
+    <string name="month_dhikr">"Oy zikri : "</string>
+
+</resources>

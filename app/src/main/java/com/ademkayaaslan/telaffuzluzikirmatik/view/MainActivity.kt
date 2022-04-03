@@ -105,63 +105,8 @@ class MainActivity : AppCompatActivity() {
 
          */
         //   ----------------  reklam  ---------------
-
-        //    --------------------  spinner  -----------------------
-
-        /*
-        val items = arrayOf(
-            "1) Ya Allah",
-            "2) La ilahe illallah",
-            "3) Subhanallah",
-            "4) Elhamdulillah",
-            "5) Allahuekber",
-            "6) Allah hümme salli ala seyyidina muhammedin ve ala ali seyyidina muhammed",
-            "7) Subhanallahi vebihamdihi subhanallahil azim",
-            "8) La havle vela kuvvete illa billah",
-            "9) Hasbünallahu ve ni'mel vekil",
-            "10) La ilahe illa ente subhaneke inni kuntü minez zalimin",
-            "11) Subhanallahi velhamdulillahi vela ilahe illallahu vallahu ekber"
-        )
-
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, items)
-        spinner.adapter = adapter
-
-
-        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-                virdPosition()
-            }
-
-            override fun onItemSelected(
-                parent: AdapterView<*>?,
-                view: View?,
-                position: Int,
-                id: Long
-            ) {
-                if (isWorkedByOnCreate == false) {
-                   // showAds(this@MainActivity, null)
-                    positionInt = position
-                    mediaPlayer.release()
-                    virdPosition()
-                } else {
-                    isWorkedByOnCreate = false
-                }
-
-
-            }
-
-        }
-        //    --------------------  spinner  -----------------------
-*/
     }
-/*
-    override fun onResume() {
-        super.onResume()
-        virdPosition()
-        spinner.setSelection(positionInt!!)
 
-    }
-*/
 /*
     fun virdCounter() {
         if (positionInt == 0) {

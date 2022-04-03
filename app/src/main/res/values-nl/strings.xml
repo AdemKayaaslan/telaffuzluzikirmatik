@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">Adhkar: Dhikr en stem</string>
+    <string name="weeklyNotificationSuffix">De meest voordelige dhikr is de gewone.</string>
+    <string name="last_ads_info">Je hebt de laatste advertentie bekeken. Je zult geen advertenties meer zien in deze sessie.</string>
+
+
+    <string name="name_ya_allah">Allah</string>
+    <string name="explanation_ya_allah">De Almachtige Heer van Alle Werelden</string>
+    <string name="body_ya_allah">Allah is Al-Ism Al-A\'zam, de Grootste naam die alle goddelijke eigenschappen bevat en het teken is van de essentie en oorzaak van al het bestaan. Allah lijkt op geen enkele manier op Zijn schepping. Allah is alleen de naam van Allah. Niets anders kan deze naam aannemen of delen.</string>
+
+
+    <string name="name_lailaheillallah">La Ilaha Illallah</string>
+    <string name="explanation_lailaheillallah">Er is geen God dan Allah.</string>
+    <string name="body_lailaheillallah">Sayyiduna Abu Hurayrah (radiyallahu \'anhu) vroeg eens aan Nabi (sallallahu \'alayhi wa sallam): "Wie zal de gelukkige persoon zijn om uw voorspraak te verkrijgen op de dag van Qiyamah?" Rasulullah (sallallahu \'alayhi wa sallam) zei: “O Abu Hurayrah, ik wist dat je de eerste zou zijn om me hierover te vragen vanwege je gretigheid voor Hadith. De gelukkige persoon die mijn voorspraak zal winnen, zal die persoon zijn die oprecht vanuit zijn hart \'La ilaha illallah\' zegt.” (Sahih Bukhari, Hadith: 99)</string>
+
+
+    <string name="name_subhanallah">Subhanallah</string>
+    <string name="explanation_subhanallah">Allah is vrij van onvolmaaktheid.</string>
+    <string name="body_subhanallah">Het zeggen van "Subhanallah" vult de helft van de schaal. Alhamdulillah zeggen vult de weegschaal. Er is geen sluier tussen een persoon die zegt: "Er is geen ware god dan Allah, er is alleen Hem", en Allah. Tot hij bij haar in de hemel is…” \n(Tirmidhi, Daavat, 87)"))</string>
+
+
+    <string name="name_alhamdullilah">Alhamdullilah</string>
+    <string name="explanation_alhamdullilah">Alle lof is voor Allah.</string>
+    <string name="body_alhamdullilah">Vreemd zijn de wegen van een gelovige want er is goed in elke zaak van hem en dit is niet het geval met iemand anders behalve in het geval van een gelovige want als hij een gelegenheid heeft om vreugde te voelen, hij dankt Allah, dus er is iets goeds voor hem in, en als hij in de problemen komt en berusting toont (geduld in geduld), is er goed voor hem in. [Sahih moslim]</string>
+
+
+    <string name="name_allahuekber">Allahu ekber</string>
+    <string name="explanation_allahuekber">Allah is de Grootste.</string>
+    <string name="body_allahuekber">Abu Hurairah (Moge Allah tevreden met hem zijn) heeft overgeleverd: \n De Boodschapper van Allah zei, Hij die na elk gebed reciteert: Subhan-Allah (Allah is vrij van onvolmaaktheid) drieëndertig keer; Al-hamdu lillah (geprezen zij Allah) drieëndertig keer; Allahu Akbar (Allah is de Grootste) drieëndertig keer; en voltooit de honderd met: La ilaha illallahu, wahdahu la sharika lahu, lahul-mulku wa lahul-hamdu, wa Huwa \'ala kulli shai\'in Qadir (er is geen ware god behalve Allah. Hij is Eén en Hij heeft geen deelgenoot met Hem. Van Hem is de soevereiniteit en van Hem is de lof, en Hij is Almachtig), zullen al zijn zonden vergeven worden, zelfs als ze zo groot zijn als het schuim op het oppervlak van de zee. [moslim]. Referentie: Boek 16, Hadith 12 Arabisch/Engels boekreferentie: Boek 16, Hadith 1419</string>
+
+
+    <string name="name_salawat">Allahumma salli ala sayyidina Muhammadin en ala ali sayyidina Muhammad.</string>
+    <string name="explanation_salawat">O Allah (SWT), stuur uw genade over de Profeet (vzmh) en zijn familie.</string>
+    <string name="body_salawat">De Profeet (vzmh) zei dat degenen die het dichtst bij mij staan ​​degenen zijn die mij de meeste zegeningen sturen. Als je mij zegeningen stuurt, zal Allah (swt) jou zegenen. Breng me salawat. Waar je ook bent, je gebeden reiken altijd naar mij.</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi">subhanallahi wa bihamdihi subhanallahil azeem</string>
+    <string name="explanation_subhanallahi_vebihamdihi">Glorie zij Allah en alle lof is aan hem, glorie zij Allah de Grote.</string>
+    <string name="body_subhanallahi_vebihamdihi">De Boodschapper van Allah () zei tegen mij: "Zal ik je de uitdrukking vertellen die het meest geliefd is bij Allah?" Het is \'Subhan-Allahi wa bihamdihi\' (Allah is vrij van onvolmaaktheid en Hem is de lof)\'.” [Muslim]</string>
+
+
+    <string name="name_lahavle">La Hawla Wala Quwwata Illa Billah</string>
+    <string name="explanation_lahavle">Er is geen macht of kracht behalve Allah</string>
+    <string name="body_lahavle">Hazrat Abu Huraira (RA) heeft overgeleverd dat Profeet Hazrat Mohammad (ﷺ) zei dat La Hawla Wala Quwwata Illa Billah de genezing is van 99 ziekten waarvan de kleinste graad van ziekte angst en verdriet is.</string >
+
+
+    <string name="name_hasbunallahu">Hasbunallahu Wa Ni\'mal Wakeel</string>
+    <string name="explanation_hasbunallahu">Allah is voldoende voor ons, en [Hij is] de beste Beschikker van zaken.</string>
+    <string name="body_hasbunallahu">Abu Sa\'id Al-Khudri Radi ALLAHu \'Anhu heeft overgeleverd:\nBoodschapper van ALLAH ﷺ zei: "Hoe kan ik me op mijn gemak voelen als de Engel van de Trompet (Israfeel) zijn lippen op de bazuin en wacht op het bevel om erop te blazen”. Hij nam waar alsof dit zijn Metgezellen had geschokt, dus hij vertelde hen om troost te zoeken door te reciteren: \'HasbunALLAH Wani\'mal Wakeel [ALLAH (Alleen) is voldoende voor ons, en Hij is de Beste Beschikker van zaken (voor ons) ]”.\nJam\'i At-Tirmidhi | Boek 1, Hadith 409</string>
+
+
+    <string name="name_lailahe">La ilaaha illa Anta, subhaanaka inni kuntu min al-zaalimeen</string>
+    <string name="explanation_lailahe">(O ALLAH!) Er is niemand het waard om aanbeden te worden behalve U. Glorie zij U. Voorwaar, ik ben van de onrechtvaardigen geweest.</string>
+    <string name="body_lailahe">Sayyidatina Aishah r.a heeft overgeleverd:\nWie een brief uit het Boek van Allah reciteert, ontvangt de beloning ervan, en de beloning van tien soortgelijke. Ik zeg niet dat Alif Lam Mim een ​​letter is, maar Alif is een letter, Lam is een letter en Mim is een letter\n(Sunan At-Tirmizi)</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">Geprezen zij Allah, alle lof zij Allah, er is geen god behalve Allah, en Allah is de Grootste</string>
+    <string name="body_subhanallahi_velhamdulillahi">De Profeet (ﷺ) zei: “Als ik zeg: \'SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar (Glorie zij Allah, geprezen zij Allah, er is geen god behalve Allah, en Allah is de Grootste )\', dit is mij meer dierbaar dan alles waarop de zon opkomt.” (Overgeleverd door moslim). Deze woorden zijn de meest geliefde woorden bij Allah, de beste van alle woorden, en ze wegen zwaar in de balans van goede daden, zoals is overgeleverd in de sahih ahadith.</string>
+
+
+    <string name="button_start">Start</string>
+    <string name="sound_off">Geluid uit!</string>
+    <string name="menu_statistics">Statistieken</string>
+    <string name="menu_restart">Dhikr resetten</string>
+    <string name="yes">ja</string>
+    <string name="no">nee</string>
+    <string name="noreset">Dhikr is niet gereset</string>
+    <string name="reset">Dhikr is gereset</string>
+    <string name="reset_header">Reset</string>
+    <string name="reset_question">Weet je zeker dat je het aantal virds wilt resetten?</string>
+    <string name="last_dhikr">\nLaatste Dhikr</string>
+    <string name="this_week_dhikr">Deze week\nDhikr</string>
+    <string name="this_month_dhikr">Deze maand\nDhikr</string>
+    <string name="total_dhikr">"Totaal Dhikr: "</string>
+    <string name="month_dhikr">"Maand Dhikr : "</string>
+
+</resources>

@@ -16,6 +16,11 @@ import com.ademkayaaslan.telaffuzluzikirmatik.R
 import com.ademkayaaslan.telaffuzluzikirmatik.adapter.ViewpagerAdapter
 import com.ademkayaaslan.telaffuzluzikirmatik.model.ViewpagerItem
 import com.ademkayaaslan.telaffuzluzikirmatik.viewmodel.DhikrViewModel
+import com.google.android.gms.ads.AdListener
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.interstitial.InterstitialAd
 import kotlinx.android.synthetic.main.dhikr_fragment.*
 import java.util.*
 import kotlin.collections.ArrayList
@@ -25,6 +30,7 @@ class DhikrFragment : Fragment() {
     companion object {
         fun newInstance() = DhikrFragment()
     }
+
 
 
     var isSoundOn = true
@@ -105,6 +111,12 @@ class DhikrFragment : Fragment() {
         loopButton()
         viewModel.getAllDhikrs()
 
+
+       // adView.loadAd(adRequest)
+
+        MobileAds.initialize(requireContext())
+        val adRequest: AdRequest = AdRequest.Builder().build()
+        adView.loadAd(adRequest)
 
         observeLiveData()
 
@@ -297,48 +309,49 @@ class DhikrFragment : Fragment() {
     fun virdWriter() {
         if (positionInt == 0) {
             textView.text = "vird : " + a0
-            textView_total.text = "Total Dhikr : "+(totala0 + a0)
-            textView_month.text = "Month Dhikr : "+ (montha0 + a0)
+
+            textView_total.text = getString(R.string.total_dhikr)+(totala0 + a0)
+            textView_month.text = getString(R.string.month_dhikr)+ (montha0 + a0)
         } else if (positionInt == 1) {
             textView.text = "vird : " + b1
-            textView_total.text = "Total Dhikr : "+(totalb1 + b1)
-            textView_month.text = "Month Dhikr : "+ (monthb1 + b1)
+            textView_total.text = getString(R.string.total_dhikr)+(totalb1 + b1)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthb1 + b1)
         } else if (positionInt == 2) {
             textView.text = "vird : " + c2
-            textView_total.text = "Total Dhikr : "+(totalc2 + c2)
-            textView_month.text = "Month Dhikr : "+ (monthc2 + c2)
+            textView_total.text = getString(R.string.total_dhikr)+(totalc2 + c2)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthc2 + c2)
         } else if (positionInt == 3) {
             textView.text = "vird : " + d3
-            textView_total.text = "Total Dhikr : "+(totald3 + d3)
-            textView_month.text = "Month Dhikr : "+ (monthd3 + d3)
+            textView_total.text = getString(R.string.total_dhikr)+(totald3 + d3)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthd3 + d3)
         } else if (positionInt == 4) {
             textView.text = "vird : " + e4
-            textView_total.text = "Total Dhikr : "+(totale4 + e4)
-            textView_month.text = "Month Dhikr : "+ (monthe4 + e4)
+            textView_total.text = getString(R.string.total_dhikr)+(totale4 + e4)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthe4 + e4)
         } else if (positionInt == 5) {
             textView.text = "vird : " + f5
-            textView_total.text = "Total Dhikr : "+(totalf5 + f5)
-            textView_month.text = "Month Dhikr : "+ (monthf5 + f5)
+            textView_total.text = getString(R.string.total_dhikr)+(totalf5 + f5)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthf5 + f5)
         } else if (positionInt == 6) {
             textView.text = "vird : " + g6
-            textView_total.text = "Total Dhikr : "+(totalg6 + g6)
-            textView_month.text = "Month Dhikr : "+ (monthg6 + g6)
+            textView_total.text = getString(R.string.total_dhikr)+(totalg6 + g6)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthg6 + g6)
         } else if (positionInt == 7) {
             textView.text = "vird : " + h7
-            textView_total.text = "Total Dhikr : "+(totalh7 + h7)
-            textView_month.text = "Month Dhikr : "+ (monthh7 + h7)
+            textView_total.text = getString(R.string.total_dhikr)+(totalh7 + h7)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthh7 + h7)
         } else if (positionInt == 8) {
             textView.text = "vird : " + i8
-            textView_total.text = "Total Dhikr : "+(totali8 + i8)
-            textView_month.text = "Month Dhikr : "+ (monthi8 + i8)
+            textView_total.text = getString(R.string.total_dhikr)+(totali8 + i8)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthi8 + i8)
         } else if (positionInt == 9) {
             textView.text = "vird : " + j9
-            textView_total.text = "Total Dhikr : "+(totalj9 + j9)
-            textView_month.text = "Month Dhikr : "+ (monthj9 + j9)
+            textView_total.text = getString(R.string.total_dhikr)+(totalj9 + j9)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthj9 + j9)
         } else if (positionInt == 10) {
             textView.text = "vird : " + k10
-            textView_total.text = "Total Dhikr : "+(totalk10 + k10)
-            textView_month.text = "Month Dhikr : "+ (monthk10 + k10)
+            textView_total.text = getString(R.string.total_dhikr)+(totalk10 + k10)
+            textView_month.text = getString(R.string.month_dhikr)+ (monthk10 + k10)
         }
 
 

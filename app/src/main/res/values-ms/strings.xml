@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">Adhkar : Dzikir dan Suara</string>
+    <string name="weeklyNotificationSuffix">Dzikir yang paling bermanfaat ialah zikir biasa.</string>
+    <string name="last_ads_info">Anda telah melihat iklan terakhir. Anda tidak akan melihat sebarang iklan lagi dalam sesi ini.</string>
+
+
+    <string name="name_ya_allah">Allah</string>
+    <string name="explanation_ya_allah">Tuhan Yang Maha Kuasa Segala Alam</string>
+    <string name="body_ya_allah">Allah ialah Al-Ism Al-A\'zam, nama Terbesar yang mengandungi segala sifat ketuhanan dan merupakan tanda kepada zat dan punca segala kewujudan. Allah tidak menyerupai mana-mana ciptaanNya. Allah adalah nama Allah sahaja. Tiada apa-apa lagi yang boleh menggunakan nama ini atau berkongsinya.</string>
+
+
+    <string name="name_lailaheillallah">La Ilaha Illallah</string>
+    <string name="explanation_lailaheillallah">Tiada Tuhan selain Allah.</string>
+    <string name="body_lailaheillallah">Sayyiduna Abu Hurayrah (radiyallahu \'anhu) pernah bertanya kepada Nabi (sallallahu \'alayhi wa sallam), "Siapakah orang yang beruntung mendapat syafaatmu pada hari Qiyamah?" Rasulullah (sallallahu \'alayhi) wa sallam) berkata: “Wahai Abu Hurairah, aku tahu kamu akan menjadi orang pertama yang bertanya kepadaku tentang hal ini kerana keinginanmu terhadap Hadis. Orang yang beruntung yang mendapat syafaatku ialah orang yang mengucapkan ‘La ilaha illallah’ dengan ikhlas dari hatinya.” (Sahih Bukhari, Hadis: 99)</string>
+
+
+    <string name="name_subhanallah">Subhanallah</string>
+    <string name="explanation_subhanallah">Allah bebas daripada ketidaksempurnaan.</string>
+    <string name="body_subhanallah">Menyebut "Subhanallah" memenuhi separuh daripada skala. Mengucap Alhamdulillah memenuhi timbangan. Tidak ada tabir antara orang yang berkata, "Tiada Tuhan yang benar selain Allah, yang ada hanyalah Dia," dan Allah. Sehingga dia bersamanya di syurga…” \n(Tirmidzi, Daavat, 87)"))</string>
+
+
+    <string name="name_alhamdullilah">Alhamdullilah</string>
+    <string name="explanation_alhamdullilah">Segala Puji bagi Allah.</string>
+    <string name="body_alhamdullilah">Anehnya cara seorang mukmin kerana dalam setiap urusannya ada kebaikan dan ini tidak berlaku kepada orang lain kecuali bagi seorang mukmin kerana jika dia mempunyai kesempatan untuk bergembira, dia bersyukur kepada Allah, maka ada kebaikan untuknya, dan jika dia mendapat kesusahan dan menunjukkan pasrah (bersabar), ada kebaikan untuknya. [Sahih Muslim]</string>
+
+
+    <string name="name_allahuekber">Allahu ekber</string>
+    <string name="explanation_allahuekber">Allah Maha Besar.</string>
+    <string name="body_allahuekber">Abu Hurairah (semoga Allah meridhainya) melaporkan: \n Rasulullah bersabda, Sesiapa yang membaca selepas setiap solat: Subhan-Allah (Allah bebas daripada ketidaksempurnaan) tiga puluh tiga kali; Al-hamdu lillah (segala puji bagi Allah) tiga puluh tiga kali; Allahu Akbar (Allah Maha Besar) sebanyak tiga puluh tiga kali; dan menyempurnakan seratus itu dengan: La ilaha illallahu, wahdahu la sharika lahu, lahul-mulku wa lahul-hamdu, wa Huwa \'ala kulli shai\'in Qadir (tiada tuhan yang sebenar melainkan Allah. Dia adalah Esa dan Dia tidak mempunyai bersekutu dengan-Nya, milik-Nya kerajaan dan milik-Nya segala pujian, dan Dia Maha Kuasa), akan diampuni segala dosanya walaupun sebesar buih di permukaan laut. [Muslim]. Rujukan: Buku 16, Hadis 12 Rujukan buku Arab/Inggeris : Buku 16, Hadis 1419</string>
+
+
+    <string name="name_salawat">Allahumma salli ala sayyidina Muhammadin dan ala ali sayyidina Muhammad.</string>
+    <string name="explanation_salawat">Ya Allah (SWT), limpahkan rahmatMu kepada Nabi (SAW) dan keluarganya.</string>
+    <string name="body_salawat">Rasulullah SAW bersabda Orang yang paling dekat denganku ialah orang yang paling banyak berselawat kepadaku. Jika kamu berselawat ke atasku, Allah (swt) akan berselawat ke atas kamu. Bawakan saya selawat. Di mana sahaja anda berada, doa anda sentiasa sampai kepada saya.</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi">subhanallahi wa bihamdihi subhanallahil azeem</string>
+    <string name="explanation_subhanallahi_vebihamdihi">Maha Suci Allah dan segala puji bagi-Nya, Maha Suci Allah Yang Maha Besar.</string>
+    <string name="body_subhanallahi_vebihamdihi">Rasulullah (ﷺ) berkata kepadaku, “Mahukah aku beritahu kamu ungkapan yang paling dicintai oleh Allah?” Ia adalah ‘Subhan-Allahi wa bihamdihi\' (Allah bebas daripada ketidaksempurnaan dan bagi-Nya pujian)\'.”[Muslim]</string>
+
+
+    <string name="name_lahavle">La Hawla Wala Quwwata Illa Billah</string>
+    <string name="explanation_lahavle">Tiada daya dan kekuatan selain Allah</string>
+    <string name="body_lahavle">Hazrat Abu Huraira (RA) meriwayatkan bahawa Nabi Hazrat Mohammad (ﷺ) bersabda La Hawla Wala Quwwata Illa Billah ialah penyembuh 99 penyakit yang paling kecil darjat penyakitnya ialah kesusahan dan kesedihan.</string> >
+
+
+    <string name="name_hasbunallahu">Hasbunallahu Wa Ni’mal Wakeel</string>
+    <string name="explanation_hasbunallahu">Cukuplah Allah bagi kami, dan [Dialah] sebaik-baik Pelindung.</string>
+    <string name="body_hasbunallahu">Abu Sa\'id Al-Khudri Radi ALLAHu \'Anhu meriwayatkan:\nRasulullah ﷺ bersabda, “Bagaimana mungkin aku merasa tenang apabila Malaikat Peniup Sangkakala (Israfil) telah meletakkan bibirnya sangkakala dan sedang menunggu perintah untuk meniupnya”. Baginda ﷺ merasakan seolah-olah ini telah mengejutkan para Sahabatnya, maka baginda ﷺ menyuruh mereka mencari ketenangan dengan membaca: \'HasbunALLAH Wani\'mal Wakil [Cukuplah ALLAH (Sahaja) untuk kami, dan Dia adalah sebaik-baik Pelindung (bagi kami). ]”.\nJam\'i At-Tirmidzi | Buku 1, Hadis 409</string>
+
+
+    <string name="name_lailahe">La ilaaha illa Anta, subhanaka inni kuntu min al-zaalimeen</string>
+    <string name="explanation_lailahe">(Ya ALLAH!) Tiada yang berhak disembah selain Engkau. Maha Suci Engkau. Sesungguhnya aku adalah dari orang-orang yang zalim.</string>
+    <string name="body_lailahe">Sayyidatina Aishah r.a meriwayatkan:\nSesiapa yang membaca satu huruf dari Kitab Allah, maka dia mendapat pahala daripadanya, dan pahala sepuluh sepertinya. Saya tidak mengatakan Alif Lam Mim itu satu huruf, tetapi Alif itu satu huruf, Lam itu satu huruf dan Mim itu satu huruf\n(Sunan At-Tirmizi)</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">Maha Suci Allah, segala puji bagi Allah, tiada Tuhan selain Allah, dan Allah Maha Besar</string>
+    <string name="body_subhanallahi_velhamdulillahi">Rasulullah (ﷺ) bersabda: “Apabila aku mengucapkan \'SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar (Maha Suci Allah, segala puji bagi Allah, tiada Tuhan selain Allah, dan Allah Maha Besar. )\', ini lebih saya cintai daripada semua yang matahari terbit." (Riwayat Muslim). Kata-kata ini adalah perkataan yang paling dicintai oleh Allah, sebaik-baik perkataan, dan ia amat berat dalam timbangan amal soleh, sebagaimana yang diriwayatkan dalam hadits shahih.</string>
+
+
+    <string name="button_start">Mula</string>
+    <string name="sound_off">Bunyi Mati!</string>
+    <string name="menu_statistics">Statistik</string>
+    <string name="menu_restart">Reset Dzikir</string>
+    <string name="yes">ya</string>
+    <string name="no">no</string>
+    <string name="noreset">Dzikir belum ditetapkan semula</string>
+    <string name="reset">Dzikir telah ditetapkan semula</string>
+    <string name="reset_header">Tetapkan semula</string>
+    <string name="reset_question">Adakah anda pasti mahu menetapkan semula kiraan vird?</string>
+    <string name="last_dhikr">\nLast Zikir</string>
+    <string name="this_week_dhikr">Minggu Ini\nBerzikir</string>
+    <string name="this_month_dhikr">Bulan Ini\nDzikr</string>
+    <string name="total_dhikr">"Jumlah Zikir : "</string>
+    <string name="month_dhikr">"Dzikir Bulan : "</string>
+
+</resources>

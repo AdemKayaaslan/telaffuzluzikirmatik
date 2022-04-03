@@ -205,7 +205,7 @@
             android:id="@+id/textView_month"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Month Dhikr : 1263"
+            tools:text="Month Dhikr : 1263"
             android:textSize="12sp"
             android:textColor="@color/black"
             android:textStyle="bold"

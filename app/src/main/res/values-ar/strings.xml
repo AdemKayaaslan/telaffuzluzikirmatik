@@ -1,0 +1,79 @@
+<resources>
+
+    <string name = "app_name">أذكار: نص وصوت</string>
+    <string name = "weeklyNotificationSuffix"> الذكر الأكثر فائدة هو الأذكار العادية. </string>
+    <string name = "last_ads_info"> لقد شاهدت آخر إعلان. لن ترى أي إعلانات أخرى في هذه الجلسة. </string>
+
+    <string name = "name_ya_allah"> الله </string>
+    <string name = "explanation_ya_allah"> رب العالمين القدير </string>
+    <string name = "body_ya_allah"> الله هو الاسم الأعظم الذي يحتوي على جميع الصفات الإلهية وهو علامة جوهر وسبب الوجود كله. لا يشبه الله بأي شكل من الأشكال شيئًا من خلقه. الله هو اسم الله فقط. لا شيء آخر يمكنه تحمل هذا الاسم أو مشاركته. </string>
+
+    <string name = "name_lailaheillallah"> لا إله إلا الله </string>
+    <string name = "explanation_lailaheillallah"> لا إله إلا الله. </string>
+    <string name = "body_lailaheillallah"> سأل سيدنا أبو هريرة (رضي الله عنه) ذات مرة النبي (صلى الله عليه وسلم) ، "من سيكون الشخص المحظوظ الذي ينال شفاعتك يوم قيام؟" قال وسلام): يا أبا هريرة ، علمت أنك ستكون أول من يسألني عن هذا لحرصك على الحديث. المحظوظ الذي ينال شفاعي هو الذي يقول لا إله إلا الله بإخلاص من قلبه. (صحيح البخاري ، الحديث: 99) </string>
+
+    <string name = "name_subhanallah"> سبحان الله </string>
+    <string name = "explanation_subhanallah"> الله خالٍ من النقص. </string>
+    <string name = "body_subhanallah"> قول "سبحان الله" يملأ نصف المقياس. قائلا الحمد لله يملأ الميزان. لا حجاب بين القائل: لا إله إلا الله وحده ، وبين الله. حتى يكون معها في الجنة … "\ n (الترمذي ، دعوات ، 87)")) </string>
+
+
+    <string name = "name_alhamdullilah"> الحمد لله </string>
+    <string name = "explanation_alhamdullilah"> الحمد لله. </string>
+    <string name = "body_alhamdullilah"> غريبة هي طرق المؤمن ، فهناك خير في كل أمر له وليس هذا هو الحال مع أي شخص آخر إلا في حالة المؤمن لأنه إذا كان لديه فرصة للشعور بالبهجة ، يشكر الله فيه فيه خير ، وإن وقع في مشاكل واستسلم: في ذلك خير. [صحيح مسلم] </string>
+
+
+    <string name = "name_allahuekber"> الله اكبر </string>
+    <string name = "explanation_allahuekber"> الله أكبر. </string>
+    <string name = "body_allahuekber"> عن أبي هريرة رضي الله عنه: \ n قال رسول الله ـ صلى الله عليه وسلم ـ من قرأ بعد كل صلاة: سبحان الله ثلاثًا وثلاثين مرة؛ الحمد لله ثلاثاً وثلاثين مرة. الله أكبر ثلاثاً وثلاثين مرة. ويكمل المائة بـ: لا إله إلا الله ، وحده لا شريكة له ، ولله ملك ولهول حمدو ، وهوا على كل شي في قادر (لا إله إلا الله. هو واحد وليس له. شريكه ، له السيادة ، وله الحمد ، وهو القدير) ، سيُعفَّر عن كل ذنوبه حتى لو كانت كبيرة مثل الزبد على سطح البحر. [مسلم]. المرجع: الكتاب 16 ، الحديث 12 ، مرجع الكتاب عربي / إنجليزي: الكتاب 16 ، الحديث 1419 </string>
+
+
+    <string name = "name_salawat"> الله صلى على سيدنا محمدين وعلى سيدنا محمد. </string>
+    <string name = "explanation_salawat"> اللهم صل رحمتك على النبي (صلى الله عليه وسلم) وعلى آله. </string>
+    <string name = "body_salawat"> قال النبي (صلى الله عليه وسلم) إن أقرب الناس إليّ سيكونون أكثر من يصلي عليّ. إذا صليت عليّ ، فسيصلي عليك الله. أحضر لي صلاة. أينما كنت ، تصلني صلواتك دائمًا. </string>
+
+
+    <string name = "name_subhanallahi_vebihamdihi">سبحان الله وبحمده سبحان الله عظيم</string>
+    <string name = "explanation_subhanallahi_vebihamdihi"> سبحان الله وله الحمدلله العظيم. </string>
+    <string name = "body_subhanallahi_vebihamdihi"> قال لي رسول الله (ﷺ): هل أقول لك التعبير الذي يحب الله أكثر؟ إنه سبحان الله وبحمده \'(الله خال من النقص وله الحمد)\'. [مسلم] </string>
+
+
+    <string name = "name_lahavle"> لا حولة ولا قواوات إلا بالله </string>
+    <string name = "explanation_lahavle"> لا حول ولا قوة إلا الله </string>
+    <string name = "body_lahavle"> روى حضرة أبو هريرة (رضي الله عنه) أن النبي حضرة محمد (ﷺ) قال الحولة ولا قوة الله بالله هو علاج لـ 99 مرضًا أصغر درجات المرض منها هو الكرب والحزن. </string>
+
+
+    <string name = "name_hasbunallahu"> حاسبون الله ونعمال وكيل </string>
+    <string name = "explanation_hasbunallahu"> كفى لنا الله و [هو] خيرٌ على الأمور. </string>
+    <string name = "body_hasbunallahu"> قال أبو سعيد الخدري راضي الله آنهو: \ n قال رسول الله "كيف أشعر بالراحة عندما وضع ملاك البوق (إسرافيل) شفتيه على البوق وينتظر الأمر بتفجيره ”. ظن أن هذا قد صدم أصحابه ، فطلب منهم الراحة من خلال التلاوة: حاسبون الله وأنيمل وكيل (كفى علينا) وهو خير على الأمور (لنا). ] ”. \ n جامعي الترمذي | الكتاب الأول الحديث 409 </string>
+
+
+    <string name = "name_lailahe"> لا إله إلا أنتا ، سبحاناكا إن كنتو من الزالمين </string>
+    <string name = "explanation_lailahe"> (اللهم!) لا يوجد ما يستحق العبادة غيرك. لك المجد. حقا لقد كنت من المخطئين. </string>
+    <string name = "body_lailahe"> ذكرت السيدة عائشة ر. أ: \ n من قرأ حرفًا من كتاب الله ، فيأخذ منه أجره ، وأجر عشرة أمثاله. انا مش اقول ان الف لام ميم حرف و لكن الفا حرف و لام حرف و ميم حرف \ n (سنن الترمذي) </string>
+
+
+    <string name = "name_subhanallahi_velhamdulillahi"> سبحان الله والحمد لله ولا إله إلا الله والله أكبر </string>
+    <string name = "explanation_subhanallahi_velhamdulillahi"> سبحان الله الحمد لله لا إله إلا الله والله أكبر </string>
+    <string name = "body_subhanallahi_velhamdulillahi"> قال النبي صلى الله عليه وسلم: "لما أقول سبحان الله والحمد لله ولا إله إلا الله والحمد لله لا إله إلا الله والله أكبر. ) "، هذا أحب إليّ أكثر من كل ما تشرق عليه الشمس". (رواه مسلم). وهذه الكلمات هي أحب أقوال الله ، وخير الأقوال ، ولها وزن كبير في ميزان الحسنات ، كما ورد في الأحاديث الصحيحة. </string>
+
+
+    <string name = "button_start">ابدأ</string>
+    <string name = "sound_off">الصوت مغلق!</string>
+    <string name = "menu_statistics">الإحصائيات</string>
+    <string name = "menu_restart">إعادة تعيين الذكر</string>
+    <string name = "yes"> نعم </string>
+    <string name = "no"> لا </string>
+    <string name = "noreset"> لم تتم إعادة تعيين الذكر </string>
+    <string name = "reset"> تمت إعادة ضبط الذكر </string>
+    <string name = "reset_header"> إعادة تعيين </string>
+    <string name = "reset_question"> هل أنت متأكد أنك تريد إعادة تعيين عدد فيرد؟ </string>
+
+
+    <string name = "last_dhikr">آخر ذكر</string>
+    <string name = "this_week_dhikr"> هذا الأسبوع الذكر </string>
+    <string name = "this_month_dhikr"> هذا الشهر الذكر </string>
+    <string name = "total_dhikr"> "إجمالي الذكر:" </string>
+    <string name = "month_dhikr"> "شهر الذكر:" </string>
+
+
+</resources>

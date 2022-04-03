@@ -1,0 +1,79 @@
+<resources>
+
+    <string name="app_name">Adhkar : Dhikr et Voix</string>
+    <string name="weeklyNotificationSuffix">Le dhikr le plus bénéfique est le régulier.</string>
+    <string name="last_ads_info">Vous avez vu la dernière annonce. Vous ne verrez plus d\'annonces dans cette session.</string>
+
+
+    <string name="name_ya_allah">Allah</string>
+    <string name="explanation_ya_allah">Le Seigneur Tout-Puissant de tous les mondes</string>
+    <string name="body_ya_allah">Allah est Al-Ism Al-A\'zam, le plus grand nom qui contient tous les attributs divins et est le signe de l\'essence et de la cause de toute existence. Allah ne ressemble en aucune façon à aucune de Sa création. Allah n\'est que le nom d\'Allah. Rien d\'autre ne peut prendre ce nom ou le partager.</string>
+
+
+    <string name="name_lailaheillallah">La Ilaha Illallah</string>
+    <string name="explanation_lailaheillallah">Il n\'y a de Dieu qu\'Allah.</string>
+    <string name="body_lailaheillallah">Sayyiduna Abu Hurayrah (radiyallahu \'anhu) a demandé une fois à Nabi (sallallahu \'alayhi wa sallam) : "Qui sera la personne chanceuse pour obtenir votre intercession le jour de Qiyamah ?"Rasulullah (sallallahu \'alayhi wa sallam) a dit : « O Abu Hurayrah, je savais que tu serais le premier à me poser des questions à ce sujet en raison de ton empressement pour le Hadith. La personne chanceuse qui obtiendra mon intercession sera celle qui dit ‘La ilaha illallah\’ sincèrement du fond du cœur. » (Sahih Bukhari, Hadith : 99)</string>
+
+
+    <string name="name_subhanallah">Subhanallah</string>
+    <string name="explanation_subhanallah">Allah est exempt d\'imperfection.</string>
+    <string name="body_subhanallah">Dire "Subhanallah" remplit la moitié de l\'échelle. Dire Alhamdulillah remplit la balance. Il n\'y a pas de voile entre une personne qui dit : « Il n\'y a de vrai dieu qu\'Allah, il n\'y a que Lui » et Allah. Jusqu\'à ce qu\'il soit avec elle au paradis…" \n(Tirmidhi, Daavat, 87)"))</string>
+
+
+    <string name="name_alhamdullilah">Alhamdullilah</string>
+    <string name="explanation_alhamdullilah">Toutes les louanges sont à Allah.</string>
+    <string name="body_alhamdullilah">Étranges sont les voies d\'un croyant car il y a du bon dans chacune de ses affaires et ce n\'est le cas de personne d\'autre sauf dans le cas d\'un croyant car s\'il a l\'occasion de se réjouir, il remercie Allah, donc il y a un bien pour lui en cela, et s\'il a des ennuis et montre de la résignation (endure patiemment), il y a un bien pour lui en cela. [Sahih Musulman]</string>
+
+
+    <string name="name_allahuekber">Allahu ekber</string>
+    <string name="explanation_allahuekber">Allah est le Plus Grand.</string>
+    <string name="body_allahuekber">Abu Hurairah (qu\'Allah soit satisfait de lui) a rapporté : \n Le Messager d\'Allah a dit : Celui qui récite après chaque prière : Subhan-Allah (Allah est exempt d\'imperfection) trente-trois fois ; Al-hamdu lillah (louange à Allah) trente-trois fois ; Allahu Akbar (Allah est le plus grand) trente-trois fois ; et complète la centaine par : La ilaha illallahu, wahdahu la sharika lahu, lahul-mulku wa lahul-hamdu, wa Huwa \'ala kulli shai\'in Qadir (il n\'y a de vrai dieu qu\'Allah. Il est Un et Il n\'a pas partenaire avec Lui. A Lui la souveraineté et à Lui la louange et Il est Tout-Puissant), tous ses péchés seront pardonnés même s\'ils sont aussi gros que l\'écume à la surface de la mer. [Musulman]. Référence : Livre 16, Hadith 12 Référence du livre arabe/anglais : Livre 16, Hadith 1419</string>
+
+
+    <string name="name_salawat">Allahumma salli ala sayyidina Muhammadin et ala ali sayyidina Muhammad.</string>
+    <string name="explanation_salawat">Ô Allah (SWT), envoie ta miséricorde sur le Prophète (PSL) et sa famille.</string>
+    <string name="body_salawat">Le Prophète (PSL) a dit que ceux qui sont les plus proches de moi seront ceux qui m\'enverront le plus de bénédictions. Si vous envoyez des bénédictions sur moi, Allah (swt) enverra des bénédictions sur vous. Apportez-moi salawat. Où que vous soyez, vos prières me parviennent toujours.</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi">subhanallahi wa bihamdihi subhanallahil azeem</string>
+    <string name="explanation_subhanallahi_vebihamdihi">Gloire à Allah et toutes les louanges lui sont dues, gloire à Allah le Grand.</string>
+    <string name="body_subhanallahi_vebihamdihi">Le Messager d\'Allah (ﷺ) m\'a dit : "Dois-je vous dire l\'expression la plus aimée d\'Allah ?" C\'est \'Subhan-Allahi wa bihamdihi\' (Allah est exempt d\'imperfection et à Lui la louange)\'." [Muslim]</string>
+
+
+    <string name="name_lahavle">La Hawla Wala Quwwata Illa Billah</string>
+    <string name="explanation_lahavle">Il n\'y a de puissance ni de force qu\'Allah</string>
+    <string name="body_lahavle">Hazrat Abu Huraira (RA) a rapporté que le Prophète Hazrat Mohammad (ﷺ) a dit que La Hawla Wala Quwwata Illa Billah est le remède de 99 maladies dont le plus petit degré de maladie est la détresse et la tristesse.</string >
+
+
+    <string name="name_hasbunallahu">Hasbunallahu Wa Ni\'mal Wakeel</string>
+    <string name="explanation_hasbunallahu">Allah nous suffit, et [Il est] le meilleur Dispensateur d\'affaires.</string>
+    <string name="body_hasbunallahu">Abu Sa\'id Al-Khudri Radi ALLAHu \'Anhu a rapporté :\nLe Messager d\'ALLAH ﷺ a dit : "Comment puis-je me sentir à l\'aise lorsque l\'Ange de la Trompette (Israfeel) a posé ses lèvres sur la Trompette et attend l\'ordre de la souffler ». Il ﷺ a perçu comme si cela avait choqué ses Compagnons, alors il ﷺ leur a dit de chercher du réconfort en récitant : \'HasbunALLAH Wani\'mal Wakeel [ALLAH (Seul) nous suffit, et Il est le Meilleur Dispensateur des affaires (pour nous) ]".\nJam\'i At-Tirmidhi | Livre 1, Hadith 409</string>
+
+
+    <string name="name_lailahe">La ilaaha illa Anta, subhanaka inni kuntu min al-zaalimeen</string>
+    <string name="explanation_lailahe">(Ô ALLAH !) Il n\'y a personne digne d\'adoration en dehors de Toi. Gloire à Toi. En vérité, j\'ai été du nombre des malfaiteurs.</string>
+    <string name="body_lailahe">Sayyidatina Aishah r.a a rapporté :\nCelui qui récite une lettre du Livre d\'Allah, alors il en reçoit la récompense, et la récompense de dix semblables. Je ne dis pas qu\'Alif Lam Mim est une lettre, mais Alif est une lettre, Lam est une lettre et Mim est une lettre\n(Sunan At-Tirmizi)</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">Gloire à Allah, louange à Allah, il n\'y a de divinité qu\'Allah et Allah est le Plus Grand</string>
+    <string name="body_subhanallahi_velhamdulillahi">Le Prophète (ﷺ) a dit : "Quand je dis \'SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar (Gloire à Allah, louange à Allah, il n\'y a de dieu qu\'Allah et Allah est le Plus Grand )\', cela m\'est plus cher que tout ce sur quoi le soleil se lève. (Rapporté par Mouslim). Ces mots sont les mots les plus aimés d\'Allah, les meilleurs mots, et ils pèsent lourd dans la balance des bonnes actions, comme cela a été rapporté dans les hadiths authentiques.</string>
+
+
+    <string name="button_start">Démarrer</string>
+    <string name="sound_off">Son Off !</string>
+    <string name="menu_statistics">Statistiques</string>
+    <string name="menu_restart">Réinitialiser Dhikr</string>
+    <string name="yes">oui</string>
+    <string name="no">non</string>
+    <string name="noreset">Dhikr n\'a pas été réinitialisé</string>
+    <string name="reset">Dhikr a été réinitialisé</string>
+    <string name="reset_header">Réinitialiser</string>
+    <string name="reset_question">Voulez-vous vraiment réinitialiser le nombre de vird ?</string>
+    <string name="last_dhikr">\nDernier Dhikr</string>
+    <string name="this_week_dhikr">Cette semaine\nDhikr</string>
+    <string name="this_month_dhikr">Ce mois\nDhikr</string>
+    <string name="total_dhikr">"Total Dhikr : "</string>
+    <string name="month_dhikr">"Mois Dhikr : "</string>
+
+</resources>

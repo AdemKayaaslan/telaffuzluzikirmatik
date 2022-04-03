@@ -71,4 +71,10 @@
     <string name="reset_question">Vird sayısını sıfırlamak istediğinizden emin misiniz?</string>
 
 
+    <string name="last_dhikr">\nSon Zikir</string>
+    <string name="this_week_dhikr">Bu Hafta\n Zikir</string>
+    <string name="this_month_dhikr">Bu Ay\n Zikir</string>
+    <string name="total_dhikr">"Toplam Zikir : "</string>
+    <string name="month_dhikr">"Ay Zikir : "</string>
+
 </resources>

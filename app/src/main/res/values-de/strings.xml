@@ -1,0 +1,78 @@
+<resources>
+
+    <string name="app_name">Adhkar: Dhikr und Stimme</string>
+    <string name="weeklyNotificationSuffix">Das vorteilhafteste Dhikr ist das normale.</string>
+    <string name="last_ads_info">Sie haben die letzte Anzeige angesehen. Sie werden in dieser Sitzung keine Werbung mehr sehen.</string>
+
+
+    <string name="name_ya_allah">Allah</string>
+    <string name="explanation_ya_allah">Der Allmächtige Herr aller Welten</string>
+    <string name="body_ya_allah">Allah ist Al-Ism Al-A\'zam, der Größte Name, der alle göttlichen Attribute enthält und das Zeichen der Essenz und Ursache aller Existenz ist. Allah ähnelt in keiner Weise Seiner Schöpfung. Allah ist nur Allahs Name. Nichts anderes kann diesen Namen annehmen oder teilen.</string>
+
+
+    <string name="name_lailaheillallah">La Ilaha Illallah</string>
+    <string name="explanation_lailaheillallah">Es gibt keinen Gott außer Allah.</string>
+    <string name="body_lailaheillallah">Sayyiduna Abu Hurayrah (Radiyallahu \'anhu) fragte einmal Nabi (sallallahu \'alayhi wa sallam): „Wer wird die glückliche Person sein, die deine Fürsprache am Tag der Qiyamah erhält?“ Rasulullah (sallallahu \'alayhi wa sallam) sagte: „Oh Abu Hurayrah, ich wusste, dass du der Erste sein würdest, der mich danach fragen würde, aufgrund deines Eifers für Hadith. Die glückliche Person, die meine Fürbitte erhalten wird, wird diejenige sein, die aufrichtig und von ganzem Herzen ‚La ilaha illallah‘ sagt.“ (Sahih Bukhari, Hadith: 99)</string>
+
+
+    <string name="name_subhanallah">Subhanallah</string>
+    <string name="explanation_subhanallah">Allah ist frei von Unvollkommenheit.</string>
+    <string name="body_subhanallah">Das Sagen von "Subhanallah" füllt die Hälfte der Skala. Alhamdulillah zu sagen, füllt die Waage. Es gibt keinen Schleier zwischen einer Person, die sagt: „Es gibt keinen wahren Gott außer Allah, es gibt nur Ihn“ und Allah. Bis er bei ihr im Himmel ist…“ \n(Tirmidhi, Daavat, 87)“))</string>
+
+
+    <string name="name_alhamdullilah">Alhamdullilah</string>
+    <string name="explanation_alhamdullilah">Alles Lob gebührt Allah.</string>
+    <string name="body_alhamdullilah">Seltsam sind die Wege eines Gläubigen, denn es gibt Gutes in jeder seiner Angelegenheiten und dies ist bei niemand anderem der Fall, außer im Fall eines Gläubigen, denn wenn er eine Gelegenheit hat, Freude zu empfinden, er dankt Allah, daher ist etwas Gutes für ihn darin, und wenn er in Schwierigkeiten gerät und Resignation zeigt (in Geduld ausharrt), ist es gut für ihn. [Sahih Muslim]</string>
+
+
+    <string name="name_allahuekber">Allahu ekber</string>
+    <string name="explanation_allahuekber">Allah ist der Größte.</string>
+    <string name="body_allahuekber">Abu Hurairah (möge Allah mit ihm zufrieden sein) berichtete: \n Der Gesandte Allahs sagte: Derjenige, der nach jedem Gebet rezitiert: Subhan-Allah (Allah ist frei von Unvollkommenheit) dreiunddreißig Mal; Al-hamdu lillah (Gepriesen sei Allah) dreiunddreißig Mal; Allahu Akbar (Allah ist der Größte) dreiunddreißig Mal; und vervollständigt die Hundert mit: La ilaha illallahu, wahdahu la sharika lahu, lahul-mulku wa lahul-hamdu, wa Huwa \'ala kulli shai\'in Qadir (es gibt keinen wahren Gott außer Allah. Er ist Einer und Er hat keinen Partner mit Ihm sein, Sein ist die Souveränität und Sein ist das Lob, und Er ist allmächtig), werden all seine Sünden vergeben werden, selbst wenn sie so groß sein mögen wie der Schaum auf der Oberfläche des Meeres. [Muslim]. Referenz: Buch 16, Hadith 12 Arabisch/Englische Buchreferenz: Buch 16, Hadith 1419</string>
+
+
+    <string name="name_salawat">Allahumma salli ala sayyidina Muhammadin und ala ali sayyidina Muhammad.</string>
+    <string name="explanation_salawat">O\' Allah (SWT), sende dem Propheten (PBUH) und seiner Familie deine Barmherzigkeit.</string>
+    <string name="body_salawat">Der Prophet (PBUH) sagte, dass diejenigen, die mir am nächsten stehen, diejenigen sein werden, die mir den größten Segen senden. Wenn du mich segnest, wird Allah (swt) dich segnen. Bring mir Salawat. Wo immer du auch bist, deine Gebete erreichen mich immer.</string>
+
+
+    <string name="name_subhanallahi_vebihamdihi">subhanallahi wa bihamdihi subhanallahil azeem</string>
+    <string name="explanation_subhanallahi_vebihamdihi">Ehre sei Allah und alles Lob gebührt ihm, Ehre sei Allah dem Großen.</string>
+    <string name="body_subhanallahi_vebihamdihi">Der Gesandte Allahs (ﷺ) sagte zu mir: „Soll ich dir den Ausdruck nennen, der von Allah am meisten geliebt wird?“ Es ist ‚Subhan-Allahi wa bihamdihi\' (Allah ist frei von Unvollkommenheit und Sein ist das Lob)\'.“[Muslim]</string>
+
+
+    <string name="name_lahavle">La Hawla Wala Quwwata Illa Billah</string>
+    <string name="explanation_lahavle">Es gibt weder Macht noch Stärke außer Allah</string>
+    <string name="body_lahavle">Hazrat Abu Huraira (RA) überlieferte, dass der Prophet Hazrat Mohammad (ﷺ) sagte, La Hawla Wala Quwwata Illa Billah sei die Heilung von 99 Krankheiten, von denen der kleinste Grad der Krankheit Kummer und Traurigkeit ist.</string >
+
+
+    <string name="name_hasbunallahu">Hasbunallahu Wa Ni’mal Wakeel</string>
+    <string name="explanation_hasbunallahu">Allah genügt uns, und [Er ist] der beste Erlediger der Angelegenheiten.</string>
+    <string name="body_hasbunallahu">Abu Sa\'id Al-Khudri Radi ALLAHu \'Anhu berichtete:\nDer Gesandte Allahs ﷺ sagte: „Wie kann ich mich wohl fühlen, wenn der Engel der Posaune (Israfeel) seine Lippen aufgesetzt hat die Posaune und wartet auf den Befehl, sie zu blasen“. Er ﷺ nahm wahr, dass dies seine Gefährten schockiert hatte, also sagte er ﷺ ihnen, dass sie Trost suchen sollten, indem sie rezitierten: „HasbunALLAH Wani\'mal Wakeel [ALLAH (allein) ist ausreichend für uns, und Er ist der beste Erlediger der Angelegenheiten (für uns) ]“.\nJam\'i At-Tirmidhi | Buch 1, Hadith 409</string>
+
+
+    <string name="name_lailahe">La ilaaha illa Anta, subhaanaka inni kuntu min al-zaalimeen</string>
+    <string name="explanation_lailahe">(O ALLAH!) Außer Dir gibt es niemanden, der der Anbetung würdig ist. Ehre sei dir. Wahrlich, ich war einer der Übeltäter.</string>
+    <string name="body_lailahe">Sayyidatina Aishah r.a berichtete:\nWer auch immer einen Buchstaben aus Allahs Buch rezitiert, dann erhält er die Belohnung davon und die Belohnung von zehn dergleichen. Ich sage nicht, dass Alif Lam Mim ein Buchstabe ist, aber Alif ist ein Buchstabe, Lam ist ein Buchstabe und Mim ist ein Buchstabe\n(Sunan At-Tirmizi)</string>
+
+
+    <string name="name_subhanallahi_velhamdulillahi">SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar</string>
+    <string name="explanation_subhanallahi_velhamdulillahi">Ehre sei Allah, Lob sei Allah, es gibt keinen Gott außer Allah, und Allah ist der Größte</string>
+    <string name="body_subhanallahi_velhamdulillahi">Der Prophet (ﷺ) sagte: „Wenn ich sage: ‚SubhanAllah Walhamdulillah wala Ilaha Illallah Wallaahu Akbar (Ehre sei Allah, Lob sei Allah, es gibt keinen Gott außer Allah, und Allah ist der Größte )‘, das ist mir lieber als alles, worüber die Sonne aufgeht.“ (Überliefert von Muslim). Diese Worte sind die am meisten geliebten Worte an Allah, die besten Worte, und sie wiegen schwer in der Bilanz guter Taten, wie in den sahih Ahadith überliefert wurde.</string>
+
+
+    <string name="button_start">Start</string>
+    <string name="sound_off">Ton aus!</string>
+    <string name="menu_statistics">Statistiken</string>
+    <string name="menu_restart">Dhikr zurücksetzen</string>
+    <string name="yes">ja</string>
+    <string name="no">nein</string>
+    <string name="noreset">Dhikr wurde nicht zurückgesetzt</string>
+    <string name="reset">Dhikr wurde zurückgesetzt</string>
+    <string name="reset_header">Zurücksetzen</string>
+    <string name="reset_question">Möchtest du den Vird-Zähler wirklich zurücksetzen?</string>
+    <string name="last_dhikr">\nLetztes Dhikr</string>
+    <string name="this_week_dhikr">Diese Woche\nDhikr</string>
+    <string name="this_month_dhikr">Diesen Monat\nDhikr</string>
+    <string name="total_dhikr">"Gesamt-Dhikr: "</string>
+    <string name="month_dhikr">"Monat Dhikr : "</string>
+</resources>

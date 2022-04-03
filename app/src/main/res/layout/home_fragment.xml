@@ -68,7 +68,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="4dp"
                     android:gravity="center"
-                    android:text="\nSon Zikir"
+                    android:text="@string/last_dhikr"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -110,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="2dp"
                     android:gravity="center"
-                    android:text="Bu Haftaki Zİkir"
+                    android:text="@string/this_week_dhikr"
                     android:textColor="@color/black"
                     android:textStyle="bold" />
 
@@ -152,7 +152,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="2dp"
                     android:gravity="center"
-                    android:text="Bu Ayki\nZİkir"
+                    android:text="@string/this_month_dhikr"
                     android:textColor="@color/black"
                     android:textStyle="bold"  />
 
@@ -176,7 +176,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:gravity="center"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

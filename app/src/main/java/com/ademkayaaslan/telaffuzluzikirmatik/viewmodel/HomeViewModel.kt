@@ -13,18 +13,23 @@ class HomeViewModel(application: Application) :BaseViewModel(application) {
     val lastWeekDhikrs = MutableLiveData<List<Dhikr>>()
     val lastMonthDhikrs = MutableLiveData<List<Dhikr>>()
 
-    fun getDhikrs (timestamp: Long, dhikrId:Int,liveDataId:Int) {
+    fun getMonthDhikrs (timestamp: Long, dhikrId:Int) {
+        launch {
+            val dao = DhikrDatabase(getApplication()).DhikrDao()
+            val dhikrList = dao.getDhikrsBydhikrIdAndTimeStamp(timestamp,dhikrId)
+
+            lastMonthDhikrs.value = dhikrList
+
+        }
+    }
+
+    fun getWeekDhikrs (timestamp: Long, dhikrId:Int) {
 
         launch {
             val dao = DhikrDatabase(getApplication()).DhikrDao()
             val dhikrList = dao.getDhikrsBydhikrIdAndTimeStamp(timestamp,dhikrId)
 
-
-            when(liveDataId) {
-                1 -> lastWeekDhikrs.value = dhikrList
-                2 -> lastMonthDhikrs.value = dhikrList
-            }
-
+              lastWeekDhikrs.value = dhikrList
 
         }
 
