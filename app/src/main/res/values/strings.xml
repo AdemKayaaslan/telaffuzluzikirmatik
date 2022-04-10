@@ -96,6 +96,7 @@
     <string name="this_month_dhikr">This Month\nDhikr</string>
     <string name="total_dhikr">"Total Dhikr  :  "</string>
     <string name="month_dhikr">"Month Dhikr  :  "</string>
+    <string name="all_dhikrs">All Dhikrs</string>
 
 
 </resources>
